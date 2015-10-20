@@ -1,4 +1,4 @@
-# InternetOfThingsSensors
+# InternetOfThings Sensors
 Internet of Things Sensors
 
 
