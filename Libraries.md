@@ -199,9 +199,9 @@ The 9 Degrees of Freedom Block for the Intel® Edison uses the LSM9DS0 9DOF IMU 
 Now we know that the block is using the LSM9DS0 chip, so that's the header we are going to need in order to control it. UPM has bindings to other languages like java, python and Node.js, and links to those can be found at the end of this document; as we are programming with c++, the API doc can be found here: http://iotdk.intel.com/docs/master/upm/
 
 
-Alright!, let's compile some code!,  first login into your edison(link to Edison tutorial that shows the basics, like creating a terminal or ssh connection to the board), create a file with vi or nano named lsm9ds0.cpp then copy/paste the code from https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx inside the file you just created, save it and exit the editor.
+Alright!, let's compile some code!,  first login into your edison(link to Edison tutorial that shows the basics, like creating a terminal or ssh connection to the board), create a file with vi or nano named lsm9ds0.cpp then copy/paste the code from https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx inside the file you just created, save it and exit the editor (instructions  showing how to do it with nano or vi should be presented?).
 
-
+Now ot compile it,  we need to know the name of the library of sensor we need to link against to. To do that the easiest way is to take a look to the names in the documentation, remeber the link of the documentation o mentioned before?, go a open that link if you already haven't and in th upper menu bar click on "UPM libraries"
 
 LSM9DS0 data sheet:
 http://www.st.com/web/catalog/sense_power/FM89/SC1448/PF258556
