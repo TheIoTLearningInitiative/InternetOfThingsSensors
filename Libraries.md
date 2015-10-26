@@ -205,7 +205,7 @@ Now to compile it,  we need to know the name of the library for the sensor we ne
 
 
 ######Image 1 
-![](Screenshot from 2015-10-26 13:23:08.png)
+![](UPM_Libraries.png)
 
 
 
