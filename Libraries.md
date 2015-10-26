@@ -5,7 +5,8 @@
 
 Where are the UPM includes in Edison?
 
-here: <font color="green">/usr/include/upm</font>, if you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which list all the headers, in this case the following header are the ones supported in **Version: 0.3.2**:
+here: <font color="green">/usr/include/upm</font>, if you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, in this case the following header are the ones supported in **Version: 0.3.2**:
+
 
 ```
 -rw-r--r--    1 root     root          3192 Aug 13 00:23 a110x.h
