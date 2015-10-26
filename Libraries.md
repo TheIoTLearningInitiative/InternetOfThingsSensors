@@ -199,6 +199,8 @@ The 9 Degrees of Freedom Block for the Intel® Edison uses the LSM9DS0 9DOF IMU 
 Now we know that the block is using the LSM9DS0 chip, so that's the header we are going to need in order to control it. UPM has bindings to other languages like java, python and Node.js, and links to those can be found at the end of this document; as we are programming with c++, the API doc can be found here: http://iotdk.intel.com/docs/master/upm/
 
 
+Alright!, let's compile some code!,  first login into your edison(link to Edison tutorial that shows the basics, like creating a terminal or ssh connection to the board), create a file with vi or nano named lsm9ds0.cpp then copy/paste the code from https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx inside the file you just created, save it and exit the editor.
+
 
 
 LSM9DS0 data sheet:
