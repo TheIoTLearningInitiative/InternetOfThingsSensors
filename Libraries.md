@@ -1,11 +1,19 @@
 # Libraries: using mraa / UPM
 
 
-##UPM
+##UPM (Useful Packages & Modules) Sensor/Actuator repository for MRAA
+
+UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
+
+The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
+
+Typically an update() function will be called in order to get new data from the sensor in order to reduce load when doing multiple reads to sensor data.
+
+
 
 Where are the UPM includes in Edison?
 
-here: <font color="green">/usr/include/upm</font>, if you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, in this case the following header are the ones supported in **Version: 0.3.2**:
+If installed them though OPKG, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, in this case the following header are the ones supported in **Version: 0.3.2**:
 
 
 ```
@@ -140,6 +148,9 @@ here: <font color="green">/usr/include/upm</font>, if you want to see the full l
 
 
 
+
+
 Compiling a UPM  gyroscope example from command line
 
     g++ -lmraa -lupm-lsm9ds0 -I/usr/include/upm/ lsm9ds0.cpp -o upmTest
+    
