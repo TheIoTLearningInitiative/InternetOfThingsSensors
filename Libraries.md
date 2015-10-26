@@ -13,7 +13,7 @@ Typically an update() function will be called in order to get new data from the 
 
 Where are the UPM includes in Edison?
 
-If installed them though OPKG, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, in this case the following header are the ones supported in **Version: 0.3.2**:
+If installed them though **OPKG**, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, in this case the following header are the ones supported in **Version: 0.3.2**:
 
 
 ```
