@@ -2,9 +2,9 @@
 Internet of Things Sensors
 
 
-* Sensors
-* Actuators
-* Libraries
+
+* Introduction
+* Libraries to interface with sensors
     * mraa
     * upm
 * Supporting own Sensors
