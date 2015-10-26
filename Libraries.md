@@ -211,17 +211,31 @@ Now to compile it,  we need to know the name of the library for the sensor we ne
 
 So the command line we're going to use to compile is  as simple as this:
 
-    g++ -lmraa -lupm-lsm9ds0 -I/usr/include/upm/ lsm9ds0.cpp -o upmTest
+    g++ -lmraa -lupm-lsm9ds0 -I/usr/include/upm/ lsm9ds0.cpp -o imuTest
 
 * -lmraa <-- links against the mraa library in your system
 * -lupm-lsm9ds0 <-- links against the libupm-lsm9ds0 library we saw in the documentation
 * -I/usr/include/upm/ <--points to where the UPM headers are installed
 
-LSM9DS0 data sheet:
-http://www.st.com/web/catalog/sense_power/FM89/SC1448/PF258556
+
+
+As i told you, you can also interface with the sensor without using UPM, and completely rely on MRAA, and example of this can be found here: https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library
 
 
 
+
+##LINKS
+
+* [SparkFun_9DOF_Block_for_Edison_CPP_Library](https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library)
+* [Sparkfun 9DOF block Hookup guide](https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---9-degrees-of-freedom-block- )
+* [LSM9DS0 data sheet](http://www.st.com/web/catalog/sense_power/FM89/SC1448/PF258556)
+* [IoT Devkit Samples](https://github.com/intel-iot-devkit/iot-devkit-samples/tree/master/mraa)
+* [lsm9ds0 upm library](https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx)
+* [UPM libraries grouped by category](http://iotdk.intel.com/docs/master/upm/modules.html)
+* [UPM c++ documentation](http://iotdk.intel.com/docs/master/upm/)
+* [UPM java documentation](http://iotdk.intel.com/docs/master/upm/java/)
+* [UPM python documentation](http://iotdk.intel.com/docs/master/upm/python/)
+* [UPM Node.JS documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
 
 
 
