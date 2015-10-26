@@ -201,7 +201,21 @@ Now we know that the block is using the LSM9DS0 chip, so that's the header we ar
 
 Alright!, let's compile some code!,  first login into your edison(link to Edison tutorial that shows the basics, like creating a terminal or ssh connection to the board), create a file with vi or nano named lsm9ds0.cpp then copy/paste the code from https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx inside the file you just created, save it and exit the editor (instructions  showing how to do it with nano or vi should be presented?).
 
-Now ot compile it,  we need to know the name of the library of sensor we need to link against to. To do that the easiest way is to take a look to the names in the documentation, remeber the link of the documentation o mentioned before?, go a open that link if you already haven't and in th upper menu bar click on "UPM libraries"
+Now to compile it,  we need to know the name of the library for the sensor we need to link against to. To do that the easiest way is to take a look to the names in the documentation, remember the link of the documentation i mentioned before?, go and open that link if you already haven't and in the upper menu bar click on "UPM libraries", the page that link points to, is a section where you can browse for libraries grouped by Sensors, Connections type, Displays, etc. We are looking for the LSM9DS0 header, so it should be  inside the "Compass/Gyro/Magnenometer" as we can see in Image 1. Notice the way the library name is spelled, since that's is the name we are going to use when compiling with g++.
+
+
+######Image 1 
+![](Screenshot from 2015-10-26 13:23:08.png)
+
+
+
+So the command line we're going to use to compile is  as simple as this:
+
+    g++ -lmraa -lupm-lsm9ds0 -I/usr/include/upm/ lsm9ds0.cpp -o upmTest
+
+* -lmraa <-- links against the mraa library in your system
+* -lupm-lsm9ds0 <-- links against the libupm-lsm9ds0 library we saw in the documentation
+* -I/usr/include/upm/ <--points to where the UPM headers are installed
 
 LSM9DS0 data sheet:
 http://www.st.com/web/catalog/sense_power/FM89/SC1448/PF258556
@@ -211,7 +225,4 @@ http://www.st.com/web/catalog/sense_power/FM89/SC1448/PF258556
 
 
 
-Compiling a UPM  gyroscope example from command line
-
-    g++ -lmraa -lupm-lsm9ds0 -I/usr/include/upm/ lsm9ds0.cpp -o upmTest
     
