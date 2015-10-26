@@ -184,14 +184,31 @@ If installed them though **OPKG**, then they should be here: <font color="green"
 -rw-r--r--    1 root     root          2163 Aug 13 00:23 waterlevel.h
 -rw-r--r--    1 root     root          9438 Aug 13 00:23 wt5001.h
 -rw-r--r--    1 root     root          2343 Aug 13 00:23 yg1006.h
--rw-r--r--    1 root     root         11332 Aug 13 00:23 zfm20.h```
+-rw-r--r--    1 root     root         11332 Aug 13 00:23 zfm20.h
+```
+
+
+###HowTo: Using Edison - 9 Degrees of Freedom Block from sparkfun
+
+As stated before the use of UPM is to make easier the use sensors or blocks from third party companies like sparkfun, so if you don't require it or you find that the UPM implementation is limited somehow, you can use mraa alone and from there start to write your own code, this example, will show you how to compile the lsm9ds0 example from the UPM examples available here: https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx
+
+first lets take a quick look to the 9DOF block:
+
+The 9 Degrees of Freedom Block for the Intel® Edison uses the LSM9DS0 9DOF IMU for full-range motion sensing. This chip combines a 3-axis accelerometer, a 3-axis gyroscope, and a 3-axis magnetometer. By default, the IMU is connected to the Edison through the I2C bus. Each sensor in the LSM9DS0 supports a wide range of, well, ranges: the accelerometer’s scale can be set to ± 2, 4, 6, 8, or 16 g, the gyroscope supports ± 245, 500, and 2000 °/s, and the magnetometer has full-scale ranges of ± 2, 4, 8, or 12 gauss. Additionally, the LSM9DS0 includes an I2C serial bus interface supporting standard and fast mode (100 kHz and 400 kHz) and an SPI serial standard interface.
+
+Now we know that the block is using the LSM9DS0 chip, so that's the header we are going to need in order to control it. UPM has bindings to other languages like java, python and Node.js, and links to those can be found at the end of this document; as we are programming with c++, the API doc can be found here: http://iotdk.intel.com/docs/master/upm/
 
 
 
 
-###UPM example: Using Edison - 9 Degrees of Freedom Block from sparkfun
+LSM9DS0 data sheet:
+http://www.st.com/web/catalog/sense_power/FM89/SC1448/PF258556
 
-As stated before the use of UPM is to make easier the use sensors or blocks from third party companies like sparkfun, so if you don't require it or you find that the UPM implementation is limited somehow, you can use mraa alone and from there start to write your own code
+
+
+
+
+
 Compiling a UPM  gyroscope example from command line
 
     g++ -lmraa -lupm-lsm9ds0 -I/usr/include/upm/ lsm9ds0.cpp -o upmTest
