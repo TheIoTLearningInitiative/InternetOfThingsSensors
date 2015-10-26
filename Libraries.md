@@ -11,9 +11,49 @@ Typically an update() function will be called in order to get new data from the 
 
 
 
-Where are the UPM includes in Edison?
+####Example
 
-If installed them though **OPKG**, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, in this case the following header are the ones supported in **Version: 0.3.2**:
+A sensor/actuator is expected to work as such (here is the MMA7660 accelerometer API):
+```
+ // Instantiate an MMA7660 on I2C bus 0
+  upm::MMA7660 *accel = new upm::MMA7660(MMA7660_I2C_BUS,
+                                         MMA7660_DEFAULT_I2C_ADDR);
+
+  // place device in standby mode so we can write registers
+  accel->setModeStandby();
+
+  // enable 64 samples per second
+  accel->setSampleRate(upm::MMA7660::AUTOSLEEP_64);
+
+  // place device into active mode
+  accel->setModeActive();
+
+  while (shouldRun)
+    {
+      int x, y, z;
+
+      accel->getRawValues(&x, &y, &z);
+      cout << "Raw values: x = " << x 
+           << " y = " << y
+           << " z = " << z
+           << endl;
+
+      float ax, ay, az;
+
+      accel->getAcceleration(&ax, &ay, &az);
+      cout << "Acceleration: x = " << ax 
+           << "g y = " << ay
+           << "g z = " << az
+           << "g" << endl;
+
+      usleep(500000);
+    }
+```
+
+
+####Where are the UPM includes in Edison?
+
+If installed them though **OPKG**, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, i.e the following header are the ones supported in **Version: 0.3.2**:
 
 
 ```
@@ -149,7 +189,9 @@ If installed them though **OPKG**, then they should be here: <font color="green"
 
 
 
+###UPM example: Using Edison - 9 Degrees of Freedom Block from sparkfun
 
+As stated before the use of UPM is to make easier the use sensors or blocks from third party companies like sparkfun, so if you don't require it or you find that the UPM implementation is limited somehow, you can use mraa alone and from there start to write your own code
 Compiling a UPM  gyroscope example from command line
 
     g++ -lmraa -lupm-lsm9ds0 -I/usr/include/upm/ lsm9ds0.cpp -o upmTest
