@@ -224,7 +224,7 @@ As i told you, you can also interface with the sensor without using UPM, and com
 
 
 
-##LINKS
+####LINKS
 
 * [SparkFun_9DOF_Block_for_Edison_CPP_Library](https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library)
 * [Sparkfun 9DOF block Hookup guide](https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---9-degrees-of-freedom-block- )
@@ -239,4 +239,11 @@ As i told you, you can also interface with the sensor without using UPM, and com
 
 
 
-    
+##libmraa - Low Level Skeleton Library for Communication on GNU/Linux platforms
+
+Libmraa is a C/C++ library with bindings to javascript & python to interface with the IO on Galileo, Edison & other platforms, with a structured and sane API where port names/numbering matches the board that you are on. Use of libmraa does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms.
+
+The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
+
+
+
