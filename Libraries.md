@@ -252,9 +252,71 @@ Libmraa is a C/C++ library with bindings to javascript & python to interface wit
 
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
-Note: using mraa and UPM requires to be aware of the versions installed, since there is a version dependency between both. i.e typing:
+Note: using mraa and UPM requires to be aware of the versions installed, since there is a version dependency of UPM over MRAA. 
+
+To find out know the mraa version that needs to be installed in order to use UPM, type the following in your edison terminal:
 
     opkg info upm
 
-in the edison terminal will show the following
+Something like this is printed in the screen:
 
+    Package: upm
+    Version: 0.3.2
+    Depends: libmraa0 (>= 0.6.2)
+    Provides: upm-dev, upm-dbg, upm-doc
+    Replaces: upm-dev, upm-dbg, upm-doc
+    Conflicts: upm-dev, upm-dbg, upm-doc
+    Status: install user installed
+    Section: libs
+    Architecture: i586
+    Maintainer: Intel IoT-Devkit
+    MD5Sum: 7cdf6f1fbe1f19131c5b6715cdb62c5f
+    Size: 6700570
+    Filename: upm_0.3.2_i586.ipk
+    Source: https://github.com/intel-iot-devkit/upm
+    Description: upm built using CMake
+    Installed-Time: 1445619290
+
+from there you can see that we need installed at least the version 0.6.2 of mraa. In the same fashion you can check the version of the installed libmraa0 library (if you want to upgrade the UPM/mraa libraries take a look to this link<--- should put a link to the Edison 101, OPKG section ? )
+
+
+mraa documentation can be found here: http://iotdk.intel.com/docs/master/mraa/index.html
+
+
+simple mraa example, can be used to verify it is correctly installed and found by the compiler
+
+```
+#include "mraa.h"
+int
+main(int argc, char** argv)
+{
+    char* board_name = mraa_get_platform_name();
+    int i2c_bus, i, i2c_adapter;
+    fprintf(stdout, "hello mraa\n Version: %s\n Running on %s\n", mraa_get_version(), board_name);
+    mraa_deinit();
+    return MRAA_SUCCESS;
+}
+```
+
+
+how to compile?..let's say you sabe the code above in a file named HelloMRAA.cpp, inside your edison, now from the Edison terminal type:
+
+    g++ -lmraa HelloMRAA.cpp -o HelloMRAA
+    
+now if you run the program typing:
+
+    ./HelloMRAA
+
+you will see something like this:
+
+```
+hello mraa
+ Version: v0.7.3
+ Running on Intel Edison
+
+```
+
+
+####LINKS
+
+* [MRAA Documentation](http://iotdk.intel.com/docs/master/mraa/index.html)
