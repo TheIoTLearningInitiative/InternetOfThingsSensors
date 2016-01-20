@@ -7,4 +7,5 @@ Internet of Things Sensors
 * Libraries to interface with sensors
     * mraa
     * upm
-* Supporting own Sensors
+* Detecting the I2C address of a device
+
