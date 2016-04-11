@@ -192,7 +192,7 @@ If installed them though **OPKG**, then they should be here: <font color="green"
 
 As stated before the use of UPM is to make easier the use sensors or blocks from third party companies like sparkfun, so if you don't require it or you find that the UPM implementation is limited somehow, you can use mraa alone and from there start to write your own code, this example, will show you how to compile the lsm9ds0 example from the UPM examples available here: https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx
 
-First lets take a quick look to the 9DOF block:
+First lets take a quick look at the 9DOF block:
 
 The 9 Degrees of Freedom Block for the Intel® Edison uses the LSM9DS0 9DOF IMU for full-range motion sensing. This chip combines a 3-axis accelerometer, a 3-axis gyroscope, and a 3-axis magnetometer. By default, the IMU is connected to the Edison through the I2C bus. Each sensor in the LSM9DS0 supports several ranges: the accelerometer’s scale can be set to ± 2, 4, 6, 8, or 16 g, the gyroscope supports ± 245, 500, and 2000 °/s, and the magnetometer has full-scale ranges of ± 2, 4, 8, or 12 gauss. Additionally, the LSM9DS0 includes an I2C serial bus interface supporting standard and fast mode (100 kHz and 400 kHz) and an SPI serial standard interface.
 
