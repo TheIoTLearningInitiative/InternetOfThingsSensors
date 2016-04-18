@@ -6,6 +6,7 @@ As you get deeper into the realm of interactivity, it’s worth considering the 
 
 ----------
 Sensors surround you in daily life. The world is full of them: from passive infrared sensors in motion detectors, to CO2 detectors in air conditioning systems, and even tiny accelerometers, GPS modules, and cameras inside your smartphone and tablet—sensors are everywhere! The variety of sensor applications is remarkable.
+
 It’s safe to assume that if an electronic device is considered “smart,” it’s full of sensors (Figure 1-1). In fact, thanks to the proliferation of smart devices, especially phones, the price of sensors has been driven to affordability. Not only is it economically viable to add advanced sensors to your projects, but they vastly expand the kinds of projects you can make.
 You’ll learn about sensors in this book by making small projects and reflecting on the experience. It’s more fun to build first and discuss later, but both are equally important. It’s best to avoid the temptation to only build projects and skip the conceptual sections.
 Getting started with sensors is easy, and only the sky is the limit. Electronics challenge some of the best brains daily and produce new innovations and dissertations. On the other hand, even a child can get started with some guidance.
