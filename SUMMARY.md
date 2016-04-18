@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Libraries](Libraries.md)
 * [I2C Addresses](I2C_OF_DEVICE.md)
-* Sensor Protocols
+* [Sensor Protocols](sensor_protocols.md)
 
