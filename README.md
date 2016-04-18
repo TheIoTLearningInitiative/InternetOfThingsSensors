@@ -10,13 +10,9 @@ Simply stated, a sensor is an electronic component that measures some aspect of 
 
 ----------
 
-
-
-
-
-
 * Introduction
 * Talking to Sensors
+  * Protocols
   * Libraries to interface with sensors
      * mraa
      * upm
