@@ -16,5 +16,6 @@ Simply stated, a sensor is an electronic component that measures some aspect of 
   * Libraries to interface with sensors
      * mraa
      * upm
-* Detecting the I2C address of a device
+  * Debugging techniques 
+    * Detecting the I2C address of a device
 
