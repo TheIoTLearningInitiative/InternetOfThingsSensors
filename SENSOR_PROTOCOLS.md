@@ -2,9 +2,9 @@
 
 
 
-A protocol defines how a sensor talks to the microcontroller board, such as Arduino or Raspberry Pi. The protocol defines how the wires should be connected and how your code should ask for measurements.
-Even though there is a staggering amount of different sensors, there is a limited number of popular protocols. You’ll learn each of the protocols as you work through experiments and projects, but here’s an overview of what you’ll be seeing.
-You can get an overview of common sensor protocols in Table P-1.
+A protocol defines how a sensor talks to the microcontroller board, such as Arduino, Raspberry Pi, Edison or Galileo (just to name few). The protocol defines how the wires should be connected and how your code should ask for measurements.
+Even though there is a staggering amount of different sensors, there is a limited number of popular protocols. Some of them are listed in Table P-1.
+
 Digital resistance
 Some sensors work like a button and have two states, on or off. These sensors are easy to read. The on state is represented when a voltage referred to as HIGH is applied to the microcontroller input pin. This is usually either 3.3 volts or 5 volts depending on the microcontroller board you’re using.
 Analog resistance
