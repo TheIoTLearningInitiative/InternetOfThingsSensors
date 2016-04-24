@@ -4,12 +4,9 @@
 
 
 > A protocol defines how a sensor talks to the microcontroller board, such as Arduino, Raspberry Pi, Edison or Galileo (just to name few). The protocol defines how the wires should be connected and how your code should ask for measurements.
-Even though there is a staggering amount of different sensors, there is a limited number of popular protocols.
+Even though there is a staggering amount of different sensors, there is a limited number of popular protocols. [1]
 
 
-[^somesamplefootnote]: Here is the text of the footnote itself.
-
-Here we have the most common ones:
 
 #### SPI
 Serial Peripheral Interface (SPI) is an interface bus commonly used to send data between microcontrollers and small peripherals such as shift registers, sensors, and SD cards. It uses separate clock and data lines, along with a select line to choose the device you wish to talk to.  [Learn about SPI](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi)
