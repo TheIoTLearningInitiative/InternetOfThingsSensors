@@ -10,47 +10,6 @@ The constructor is expected to initialise the sensor and parameters may be used 
 Typically an update() function will be called in order to get new data from the sensor in order to reduce load when doing multiple reads to sensor data.
 
 
-
-####Example
-
-A sensor/actuator is expected to work as such (here is the MMA7660 accelerometer API):
-```
- // Instantiate an MMA7660 on I2C bus 0
-  upm::MMA7660 *accel = new upm::MMA7660(MMA7660_I2C_BUS,
-                                         MMA7660_DEFAULT_I2C_ADDR);
-
-  // place device in standby mode so we can write registers
-  accel->setModeStandby();
-
-  // enable 64 samples per second
-  accel->setSampleRate(upm::MMA7660::AUTOSLEEP_64);
-
-  // place device into active mode
-  accel->setModeActive();
-
-  while (shouldRun)
-    {
-      int x, y, z;
-
-      accel->getRawValues(&x, &y, &z);
-      cout << "Raw values: x = " << x 
-           << " y = " << y
-           << " z = " << z
-           << endl;
-
-      float ax, ay, az;
-
-      accel->getAcceleration(&ax, &ay, &az);
-      cout << "Acceleration: x = " << ax 
-           << "g y = " << ay
-           << "g z = " << az
-           << "g" << endl;
-
-      usleep(500000);
-    }
-```
-
-
 ####Where are the UPM includes in Edison?
 
 If installed them though **OPKG**, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, i.e the following header are the ones supported in **Version: 0.3.2**:
@@ -188,49 +147,8 @@ If installed them though **OPKG**, then they should be here: <font color="green"
 ```
 
 
-###HowTo: Using Edison - 9 Degrees of Freedom Block from sparkfun
-
-As stated before the use of UPM is to make easier the use sensors or blocks from third party companies like sparkfun, so if you don't require it or you find that the UPM implementation is limited somehow, you can use mraa alone and from there start to write your own code, this example, will show you how to compile the lsm9ds0 example from the UPM examples available here: https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx
-
-First lets take a quick look at the 9DOF block:
-
-The 9 Degrees of Freedom Block for the Intel® Edison uses the LSM9DS0 9DOF IMU for full-range motion sensing. This chip combines a 3-axis accelerometer, a 3-axis gyroscope, and a 3-axis magnetometer. By default, the IMU is connected to the Edison through the I2C bus. Each sensor in the LSM9DS0 supports several ranges: the accelerometer’s scale can be set to ± 2, 4, 6, 8, or 16 g, the gyroscope supports ± 245, 500, and 2000 °/s, and the magnetometer has full-scale ranges of ± 2, 4, 8, or 12 gauss. Additionally, the LSM9DS0 includes an I2C serial bus interface supporting standard and fast mode (100 kHz and 400 kHz) and an SPI serial standard interface.
-
-Now we know that the block is using the LSM9DS0 chip, so that's the header we are going to need in order to control it. UPM has bindings to other languages like java, python and Node.js, and links to those can be found at the end of this document; as we are programming with c++, the API doc can be found here: http://iotdk.intel.com/docs/master/upm/
-
-
-Alright!, let's compile some code!,  first login into your edison(link to Edison tutorial that shows the basics, like creating a terminal or ssh connection to the board), create a file with vi or nano named lsm9ds0.cpp then copy/paste the code from https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx inside the file you just created, save it and exit the editor (instructions  showing how to do it with nano or vi should be presented?).
-
-Now to compile it,  we need to know the name of the library for the sensor we need to link against to. To do that, the easiest way is to take a look at the names in the documentation, remember the link of the documentation I mentioned before?, go and open that link if you haven't already and in the upper menu bar click on "UPM libraries", the page that link points to, is a section where you can browse for libraries grouped by Sensors, Connections type, Displays, etc. We are looking for the LSM9DS0 header, so it should be  inside the "Compass/Gyro/Magnenometer" as we can see in Image 1. Notice the way the library name is spelled, since that's is the name we are going to use when compiling with g++.
-
-
-######Image 1 
-![](UPM_Libraries.png)
-
-
-
-So the command line we're going to use to compile is  as simple as this:
-
-    g++ -lmraa -lupm-lsm9ds0 -I/usr/include/upm/ lsm9ds0.cpp -o imuTest
-
-* -lmraa <-- links against the mraa library in your system
-* -lupm-lsm9ds0 <-- links against the libupm-lsm9ds0 library we saw in the documentation
-* -I/usr/include/upm/ <--points to where the UPM headers are installed
-
-
-
-As I told you, you can also interface with the sensor without using UPM, and completely rely on MRAA, and example of this can be found here: https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library
-
-
-
-
 ####LINKS
 
-* [SparkFun_9DOF_Block_for_Edison_CPP_Library](https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library)
-* [Sparkfun 9DOF block Hookup guide](https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---9-degrees-of-freedom-block- )
-* [LSM9DS0 data sheet](http://www.st.com/web/catalog/sense_power/FM89/SC1448/PF258556)
-* [IoT Devkit Samples](https://github.com/intel-iot-devkit/iot-devkit-samples/tree/master/mraa)
-* [lsm9ds0 upm library](https://github.com/intel-iot-devkit/upm/blob/master/examples/c%2B%2B/lsm9ds0.cxx)
 * [UPM libraries grouped by category](http://iotdk.intel.com/docs/master/upm/modules.html)
 * [UPM c++ documentation](http://iotdk.intel.com/docs/master/upm/)
 * [UPM java documentation](http://iotdk.intel.com/docs/master/upm/java/)
@@ -277,11 +195,7 @@ Something like this is printed in the screen:
     Description: upm built using CMake
     Installed-Time: 1445619290
 
-from there you can see that we need to installed at least version 0.6.2 of mraa. In the same fashion you can check the version of the installed libmraa0 library (if you want to upgrade the UPM/mraa libraries take a look to this link<--- should put a link to the Edison 101, OPKG section ? )
-
-
-mraa documentation can be found here: http://iotdk.intel.com/docs/master/mraa/index.html
-
+from there you can see that we need to installed at least version 0.6.2 of mraa. In the same fashion you can check the version of the installed libmraa0 library.
 
 simple mraa example, can be used to verify it is correctly installed and found by the compiler
 
