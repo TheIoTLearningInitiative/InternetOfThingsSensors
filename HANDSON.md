@@ -6,7 +6,7 @@ We will start with baby steps to later throw away UPM & MRAA:
 
 * <font color="blue">Using libraries (UPM & MRAA)</font>
   * Shows how kids and not so hardcore nerds communicate with sensors
-* <font color="blue">Look Mama! without Handles! (writing our own sensor code in user space)</font>
+* <font color="blue">Look Ma! without Handles! (writing our own sensor code in user space)</font>
   * Teach you how to use user space i2C  libraries to communicate directly with your device.
 * <font color="blue">I'm a Pro! (turning our sensor code into a module)</font>
   * We have gone way beyond from the comfort zone, lets get into the Kernel
@@ -19,10 +19,18 @@ Do not misunderstand me , UPM and MRAA are great libraries, they really make thi
 So first let's recap. MRAA is used to communicate to the device through I2C, PWM,SPI, etc.. on top of that UPM is used so at the end you just have to instantiate an object of the class of your device or sensor. lets see how we can do that:
 
 ####1. Check if the sensors are supported by MRAA
-At the beginning we stated that we are going use the LCD RGB  Backlight Display and the Barometric sensor, please go to http://iotdk.intel.com/docs/master/upm/modules.html and find out either using the search on the top right corner or manually browse the sensor list to see if our sensors are supported by MRAA.
+At the beginning we stated that we are going use the LCD RGB  Backlight Display and the Barometric sensor, please go to http://iotdk.intel.com/docs/master/upm/modules.html and find out either using the search on the top right corner or manually browse the sensor list to see if our sensors are supported by MRAA. 
+
+So far you should have found the following info about our sensor and display:
+
+* Barometric Sensor: MPL3115A2
+  * http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_p_l3115_a2.html
+* LCD Display: Jhd1313m2
+  * http://iotdk.intel.com/docs/master/upm/classupm_1_1_jhd1313m1.html
 
 
 
-####Look Mama! without Handles! 
+
+####Look Ma! without Handles! 
 
 ####I'm a Pro!
