@@ -114,13 +114,37 @@ Using UPM/MRAA wasn't hard ins't it?, and it speed-up things if your sensor is a
 ####Look Ma! without Handles! 
 In the earlier section we saw how to communicate with the sensors using high level libraries, but imagine we are in the scenario where we are creating our own hardware, during the earlier stages of fine tuning our hardware it is very useful and easier to communicate using the linux low level tools and libraries :), libraries that even MRAA and almost all linux drivers relies on. 
 
-* I2C Tools
-  * i2cdetect
-  * i2cdump
-  * 12cset
-  * i2cget
+You will need to get acquainted with a set of tools called I2C Tools, for our purpouses the most most common tools we are going to use are:
 
+* **i2cdetect** : will help us list the i2c buses we have in our system and also show the addresses of the slaves connected to certain bus. Now go to your Edison and type <font color='blue'>i2cdetect -l</font> , you should get an output similar to this:
 
+```
+root@edison:~# i2cdetect -l
+i2c-1	i2c       	i2c-designware-1                	I2C adapter
+i2c-2	i2c       	i2c-designware-2                	I2C adapter
+i2c-3	i2c       	i2c-designware-3                	I2C adapter
+i2c-4	i2c       	i2c-designware-4                	I2C adapter
+i2c-5	i2c       	i2c-designware-5                	I2C adapter
+i2c-6	i2c       	i2c-designware-6                	I2C adapter
+i2c-7	i2c       	i2c-designware-7                	I2C adapter
+
+```
+On the first Column we can see the **i2c-1** the leading number  indicates the number of the bus, in this case the bus is 1; Remember **Edison uses bus 0 and 6 if you are using the Edison Arduino Breakout Board**,  but if you are using Edison  Breakout board or the **Sparkfun Base Block the Bus 0 will be 1** and here comes the tricky part, because when using Edison in the Arduino Breakout Board a module will be loaded,preventing us to see the slaves addresses in the bus, for example run this command: <font color='blue'>i2cdetect -y -r 1</font>  we will get:
+
+**Edison using Arduino Breakout Board**
+```
+root@edison:~# i2cdetect -y -r 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+20: UU UU UU UU -- -- -- -- -- -- -- -- -- -- -- -- 
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+70: -- -- -- -- -- -- -- --  
+```
+**Edison using the Sparkfun Base Block**
 ```
 root@edison:~# i2cdetect -y -r 1
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
@@ -133,6 +157,14 @@ root@edison:~# i2cdetect -y -r 1
 60: -- -- 62 -- -- -- -- -- -- -- -- -- -- -- -- -- 
 70: 70 -- -- -- -- -- -- -- 
 ```
+
+ 
+* **i2cdump**: <font color='blue'></font>
+* **12cset**: <font color='blue'></font>
+* **i2cget**: <font color='blue'></font>
+
+
+
 ```
 i2cset -y 1 0x62 0x00 0x00
 i2cset -y 1 0x62 0x08 0xFF
