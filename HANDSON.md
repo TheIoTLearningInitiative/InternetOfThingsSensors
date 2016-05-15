@@ -28,6 +28,85 @@ So far you should have found the following info about our sensor and display:
 * LCD Display: Jhd1313m2
   * http://iotdk.intel.com/docs/master/upm/classupm_1_1_jhd1313m1.html
 
+####2. Writing some code with UPM/MRAA
+Lets write a program that reads the temperature from the Barometric sensor and display it in our RGB LCD.
+
+Go to your Edison's command-line and use **nano** or **vim** to create a file called <font color="blue">lcd_temp.cpp</font> and add the following code:
+
+```
+#include <unistd.h>
+#include <iostream>
+#include <signal.h>
+#include <string>
+#include <sstream>
+#include "jhd1313m1.h"
+#include "mpl3115a2.h"
+
+volatile int doWork = 0;
+void sig_handler(int signo)
+{
+    if (signo == SIGINT) {
+        printf("\nCtrl-C received.\n");
+        doWork = 1;
+    }
+}
+int main(int argc, char **argv)
+{
+	signal(SIGINT, sig_handler);
+	float pressure    = 0.0;
+	float temperature = 0.0;
+	float altitude    = 0.0;
+	float sealevel    = 0.0;	
+	 
+ 	upm::Jhd1313m1 *lcd = new upm::Jhd1313m1(0, 0x3E, 0x62);
+ 	upm::MPL3115A2 *barometer = new upm::MPL3115A2(0, MPL3115A2_I2C_ADDRESS);
+	lcd->setCursor(0,0);
+	lcd->setColor(127, 255, 127);
+	lcd->write("Temperature:");
+	std::stringstream ss;
+    while (!doWork) 
+    {
+
+        temperature = barometer->getTemperature(true);
+        pressure    = barometer->getPressure(false);
+        altitude    = barometer->getAltitude();
+        sealevel    = barometer->getSealevelPressure();
+        ss.str(std::string());
+        ss<<temperature;
+        lcd->setCursor(1,2);
+    	lcd->write(ss.str());
+        usleep (500000);
+    }
+
+    delete lcd;
+    delete barometer;
+    return 0;     
+}
+```
+now lets create a <font color="blue">Makefile</font> with **vim/nano** to compile easily compile the program every time we do a change.
+
+Quick question!, can you identify the upm libs needed to compile our program?
+
+```
+Answer: lupm-i2clcd and lupm-mpl3115a2
+   the name of the lib needed can be infered visually from the upm  page of the sensor (URLS at the beginning of this capter), take a look in the upper left corner ;)
+```
+
+Our Makefile should look like this:
+
+```
+
+all: lcd_temp
+
+lcd_temp:
+	g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
+clean:
+	rm lcd_temp *.*~ .*~
+```
+
+now you can type **make**, to trigger the compilation of our program
+
+
 
 
 
