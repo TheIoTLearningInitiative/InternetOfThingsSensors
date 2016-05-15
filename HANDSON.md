@@ -112,7 +112,7 @@ want to learn more about the [Makefile](https://www3.ntu.edu.sg/home/ehchua/prog
 Using UPM/MRAA wasn't hard ins't it?, and it speed-up things if your sensor is already supported, but if not, you can write your own code and share it with he community, later  we will explore  how to add our not supported sensor to UPM.
 
 ####Look Ma! without Handles! 
-In the earlier section we saw how to communicate witht he sensors using high level libraries, but imagine we are in the scenario where we are creating our own hardware and during the earlier stages of fine tuning our hardware it is very useful and easier to communicate using the linux low level tools and libraries :)  
+In the earlier section we saw how to communicate with the sensors using high level libraries, but imagine we are in the scenario where we are creating our own hardware, during the earlier stages of fine tuning our hardware it is very useful and easier to communicate using the linux low level tools and libraries :), libraries that even MRAA and almost all linux drivers relies on. 
 
 * I2C Tools
   * i2cdetect
