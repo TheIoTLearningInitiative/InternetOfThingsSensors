@@ -109,6 +109,37 @@ now you can type **make**, to trigger the compilation of our program, after that
 If you do some changes you can recompile using **make**, sometimes when you do some changes and recompile, it will tell you that there are no changes, on those occassions you can do **make clean** and then **make**  that will erase the tempfiles created by vim when editing as well as the executable binary.
 want to learn more about the [Makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html) system? click [here](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
+Using UPM/MRAA wasn't hard ins't it?, and it speed-up things if your sensor is already supported, but if not, you can write your own code and share it with he community, later  we will explore  how to add our not supported sensor to UPM.
+
 ####Look Ma! without Handles! 
+In the earlier section we saw how to communicate witht he sensors using high level libraries, but imagine we are in the scenario where we are creating our own hardware and during the earlier stages of fine tuning our hardware it is very useful and easier to communicate using the linux low level tools and libraries :)  
+
+* I2C Tools
+  * i2cdetect
+  * i2cdump
+  * 12cset
+  * i2cget
+
+
+```
+root@edison:~# i2cdetect -y -r 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+40: -- -- -- -- -- -- -- -- 48 -- -- -- -- -- -- -- 
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+60: -- -- 62 -- -- -- -- -- -- -- -- -- -- -- -- -- 
+70: 70 -- -- -- -- -- -- -- 
+```
+```
+i2cset -y 1 0x62 0x00 0x00
+i2cset -y 1 0x62 0x08 0xFF
+i2cset -y 1 0x62 0x01 0x20
+i2cset -y 1 0x62 0x04 0xFF
+i2cset -y 1 0x62 0x03 0xFF
+i2cset -y 1 0x62 0x02 0xFF
+```
 
 ####I'm a Pro!
