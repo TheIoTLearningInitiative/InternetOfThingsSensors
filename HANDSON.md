@@ -397,8 +397,8 @@ typedef struct
     int adapter_nr; //the bus number of the device
     char filename[20]; //the name of the device
 }I2CCONTEXT;
-I2CCONTEXT lcd;
-I2CCONTEXT rgb;
+I2CCONTEXT lcd; //will store the lcd controller context
+I2CCONTEXT rgb; //will store the rgb controller context
 ```
 
 Now lets create a function where we are going to create the context, this function will receive the reference to an **I2CCONTEXT** variable, the **address** of the device and the **bus** where it is laying. as a return value we can send the errno value:
@@ -520,8 +520,8 @@ typedef struct
     char filename[20]; //the name of the device
 }I2CCONTEXT;
 
-I2CCONTEXT lcd;
-I2CCONTEXT rgb;
+I2CCONTEXT lcd; //will store the lcd controller context
+I2CCONTEXT rgb; //will store the rgb controller context
 
 int initContext(I2CCONTEXT *ctx, int addr_,int bus)
 {
@@ -603,4 +603,31 @@ clean:
 ```
 run **make** and when the compilation succesfully finishes run **./lcdtest**
 
+Once your code is working lets add a method to init our RGB controller, also we will need a method to set the color of the Display :
+
+```
+void setRGBColor(I2CCONTEXT *rgb, int r, int g, int b)
+{
+    	writeByteRegister(rgb->file, REG_RED, r);
+        writeByteRegister(rgb->file, REG_GREEN, g);
+    	writeByteRegister(rgb->file, REG_BLUE, b);            
+}
+void initRGB(I2CCONTEXT *rgb)
+{
+    	// backlight init
+    	writeByteRegister(rgb->file, REG_MODE1, 0);
+    	// set LEDs controllable by both PWM and GRPPWM registers
+    	writeByteRegister(rgb->file, REG_OUTPUT, 0xFF);
+    	// set MODE2 values
+        writeByteRegister(rgb->file, REG_MODE2, 0x20);
+        // set the baklight Color to white :)
+        setRGBColor(rgb, 0xFF, 0xFF, 0xFF);	
+}
+```
+now lets call init RGB from our main() by passing the reference to our RGB context:
+```
+initRGB(&rgb);
+```
+
+run **make clean** then **make** and run by typing **./lcdtest**
 ####I'm a Pro!
