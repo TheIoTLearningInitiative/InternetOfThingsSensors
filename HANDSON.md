@@ -195,7 +195,7 @@ Please from the above dump, can you determinate what is the value of register 0x
 ---
 
 
-**Answer:** the value for those 3 register is 0x00, to read the the dump we use the numbers from the left and the top like if they were coordinates, the sum of hose value is equal to the register you want to read. i.e, taking the blue cirles we have  <font color='blue'>0x00</font> + <font color='blue'>0x04</font> = <font color='red'>0x04</font>,  so the register 0x04 has the value 0x00 (as you can see in the red circle).
+**Answer:** the value for those 3 register is 0x00, to read the the dump we use the numbers from the left and the top like if they were coordinates, the sum of hose value is equal to the register you want to read. i.e, taking the blue cirles we have  <font color='blue'>0x00</font> + <font color='blue'>0x04</font> = 0x04,  so the register 0x04 has the value <font color='red'>0x00</font> (red circle).
 
 ![](images/dump.png)
 
