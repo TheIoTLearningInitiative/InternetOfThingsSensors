@@ -300,6 +300,14 @@ Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
 
 Talking to our I2C devices using I2CTools is cool, and makes you look interesting, but lets face it  it is not practical enough, and option can be put everything in a shell script but we want to get further than that like writing our own module and for that  lets start creating our grown-ups c program and for that i really reccommend reading the [I2C Documentation in linux](https://www.kernel.org/doc/Documentation/i2c/) and about [i2c-dev library](http://lxr.free-electrons.com/source/drivers/i2c/i2c-dev.c) we will be using to develope our C program.
 
+First lets equip our Edison with the necessary libraries and since the i2c-dev libraries are not available by default use **vim/nano** to review **/etc/opkg/base-feeds.conf** where you should have something like this:
+
+```
+src/gz all http://repo.opkg.net/edison/repo/all
+src/gz edison http://repo.opkg.net/edison/repo/edison
+src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
+```
+if you don't have it please add those lines to your file, for further help or instructions visit [AlexT's Galileo & Edison pages](http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html)
 
 
 
