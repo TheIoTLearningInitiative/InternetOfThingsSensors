@@ -640,9 +640,5 @@ sleep(5);
 turnOffRGB(&rgb);
 ```
 
-
-
-
-
 run **make clean** then **make** and run by typing **./lcdtest**
 ####I'm a Pro!
