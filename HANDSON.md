@@ -191,11 +191,11 @@ f0: f1 01 00 00 00 00 ff 00 00 e2 e4 e8 e0 XX XX XX    ??.......????XXX
 
 Please from the above dump, can you determinate what is the value of register 0x04, 0x03, 0x02?, do you know to what those registers correspond to?, check the datasheet for the RGB controller.
 
-**Answer:** the value for those 3 register is 0x00, to read the the dump we use the numbers from the left and the top like if they were coordinates, the sum of hose value is equal to the register you want.
+**Answer:** the value for those 3 register is 0x00, to read the the dump we use the numbers from the left and the top like if they were coordinates, the sum of hose value is equal to the register you want to read. i.e, take the blue cirles we have  0x00 + 0x4 = 0x04,  so the register 0x04 has the value 0x00.
 
-WE NEED TO ADD A IMAGE HERE....to explain it better!
+![](images/dump.png)
 
-now these register represents the value of R,G,B to represent the color the LCD will have :) 
+now for the question about what these registers represent, if you read datasheet you will find that they are PWM registers 0 to 3, PWMx — Individual brightness control registers these registers, and here it involves another protocol PWM which stands for  represents the value of R,G,B to represent the color the LCD will have :) 
 
 WE NEED TO ADD REFERENCE TO THE  DATA SHEET
 
@@ -222,7 +222,7 @@ You should see this:
 root@edison:~# i2cget -y 1 0x62 0x04
 0xff
 ```
-So, 0xFF (or 255 in decimal) is just the value we set using i2cset :) you cal also check that by dumping the RGB controller and you should see something like this:
+So, 0xFF (or 255 in decimal) is just the value we set using i2cset :) you can also check that by dumping the RGB controller and you should see something like this:
 
 ```
 root@edison:~# i2cdump -y  1 0x62 b
@@ -245,7 +245,7 @@ e0: e0 20 ff ff ff 00 ff 00 ff e2 e4 e8 e0 XX XX XX    ? .......????XXX
 f0: e0 20 ff ff ff 00 ff 00 ff e2 e4 e8 e0 XX XX XX    ? .......????XXX
 
 ```
-See?, 0x04, 0x03, 0x02 no have 0xFF as their values, try setting the color to only **Green **
+See?, 0x04, 0x03, 0x02 no have 0xFF as their values, try setting the color toonly **Green **
 
 **Answer**: you don't need to re initiate th RGB controller, just set the RGB registers to the correct values, to set the color to Green, we need R=0, G=255, B=0. so we only need to do:
 
