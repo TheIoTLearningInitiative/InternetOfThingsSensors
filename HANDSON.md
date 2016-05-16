@@ -191,13 +191,13 @@ f0: f1 01 00 00 00 00 ff 00 00 e2 e4 e8 e0 XX XX XX    ??.......????XXX
 
 Please from the above dump, can you determinate what is the value of register 0x04, 0x03, 0x02?, do you know to what those registers correspond to?, check the datasheet for the RGB controller.
 
-**Answer:** the value for those 3 register is 0x00, to read the the dump we use the numbers from the left and the top like if they were coordinates, the sum of hose value is equal to the register you want to read. i.e, taking the blue cirles we have  0x00 + 0x04 = 0x04,  so the register 0x04 has the value 0x00 (as you can see in the red circle).
+**Answer:** the value for those 3 register is 0x00, to read the the dump we use the numbers from the left and the top like if they were coordinates, the sum of hose value is equal to the register you want to read. i.e, taking the blue cirles we have  <font color='blue'>0x00</font> + <font color='blue'>0x04</font> = <font color='red'>0x04</font>,  so the register 0x04 has the value 0x00 (as you can see in the red circle).
 
 ![](images/dump.png)
 
 now for the question about what these registers represent, if you read datasheet you will find that they are PWM registers 0 to 3, PWMx — Individual brightness control registers these registers, and here it involves another protocol PWM which stands for Pulse width modulation (go check the protocols section). As color is a mix of Red, Green and Blue we can mix light by adjusting its brightnes and this registers do just that the control bright in a scale of 0 to 255 :) 
 
-To see the other available registers take a look to page 11 of the [PC9633](documentation/PCA9633.pdf)
+To see the other available registers take a look to page 11 of the [PC9633](documentation/PCA9633.pdf) RGB controller that has the Grove display.
 
 
 **12cset & i2cget**: these guys are used to set or retrieve the value of a specific register in our i2c device, so lets go and initiate the RGB controller of our Display and set the color to white :), you already know to what registers we should write (you found them in your datasheet) to set the color.
