@@ -432,6 +432,63 @@ int initContext(I2CCONTEXT *ctx, int addr_,int bus)
 }
 ```
 
+now lets add some  methods to do the reading and writing of the i2c registers, basically there are two flavors, one is using smbus or pure i2c methods, we will use smbus  since it is supported in Edison, and is a bit easier since there are already  methods that handle register lenghts of byte and word, otherwise we will have to create a buffer and fill it according hte i2c protocol,  it is left as an excercise for the reader to use i2c pure methods.
+
+Alright! so if you inspect the datasheets ( go figure! :P) you will notice that the length of the registers is 1 byte (8 bits) so from the i2c-dev methods  there one that seems to be just what we need to write byte data: 
+
+```
+i2c_smbus_write_byte_data(int file, __u8 command, __u8 value);
+```
+and to read a register we can use:
+
+```
+i2c_smbus_read_word_data(int file, __u8 register, __u8 value);
+```
+lets create two methods so we can handle any errors and return the error code in case something goes wrong.
+
+```
+__s32 writeByteRegister(int file, __u8 register, __u8 value)
+{
+	__s32 res = -1;
+	res = i2c_smbus_write_byte_data(file, register, value);
+	if (res < 0)
+	{
+		/* ERROR HANDLING: i2c transaction failed */
+		printf("Error writing byte, (errno:%d),%s",errno,
+				strerror(errno));
+	}
+}
+
+__s32 readRegister(int register, int file)
+{
+	__u8 reg = register;
+	__s32 res = -1;
+	char buf[10];  
+	res = i2c_smbus_read_word_data(file, reg);
+	if (res < 0)
+	{
+	    /* ERROR HANDLING: i2c transaction failed */
+		printf("Error reading reg: 0x%x, (errno:%d),%s",
+				reg,errno,strerror(errno));
+	}
+	return res;
+}
+```
+Now lets  test if we can get the I2C context of our RGB controller for that, add this to the  main():
+
+```
+/*
+we pass a reference to the rgb context variable
+the i2c address of the rgb controller
+and the BUS which should be 1
+*/
+initContext(&rgb, RGB_SLAVE , BUS);
+printf("\nDONE!\n");
+```
+
+
+
+
 
 
 ####I'm a Pro!
