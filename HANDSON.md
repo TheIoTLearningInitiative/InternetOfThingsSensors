@@ -392,13 +392,13 @@ According to the linux documentation we have to open a device file in order to c
 ```
 typedef struct
 {
-	int addr; //i2c address of device
-	int file; //reprsents a place to do the i2c read & write
-	int adapter_nr; //the bus number of the device
-	char filename[20]; //the name of the device
-}I2CCONTEXT lcd,rgb;//lets take advantage we are defining the type and declare two vars
-
-
+    int addr; //i2c address of device
+    int file; //reprsents a place to do the i2c read & write
+    int adapter_nr; //the bus number of the device
+    char filename[20]; //the name of the device
+}I2CCONTEXT;
+I2CCONTEXT lcd;
+I2CCONTEXT rgb;
 ```
 
 Now lets create a function where we are going to create the context, this function will receive the reference to an **I2CCONTEXT** variable, the **address** of the device and the **bus** where it is laying. as a return value we can send the errno value:
@@ -447,10 +447,10 @@ i2c_smbus_read_word_data(int file, __u8 register, __u8 value);
 lets create two methods so we can handle any errors and return the error code in case something goes wrong.
 
 ```
-__s32 writeByteRegister(int file, __u8 register, __u8 value)
+__s32 writeByteRegister(int file, __u8 register_, __u8 value)
 {
 	__s32 res = -1;
-	res = i2c_smbus_write_byte_data(file, register, value);
+	res = i2c_smbus_write_byte_data(file, register_, value);
 	if (res < 0)
 	{
 		/* ERROR HANDLING: i2c transaction failed */
@@ -459,9 +459,9 @@ __s32 writeByteRegister(int file, __u8 register, __u8 value)
 	}
 }
 
-__s32 readRegister(int register, int file)
+__s32 readRegister(int register_, int file)
 {
-	__u8 reg = register;
+	__u8 reg = register_;
 	__s32 res = -1;
 	char buf[10];  
 	res = i2c_smbus_read_word_data(file, reg);
@@ -487,8 +487,120 @@ printf("\nDONE!\n");
 ```
 
 
+so far your **lcd.c** sourcecode should look like this:
 
+```
+#include <errno.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <linux/i2c-dev-user.h>
+#include <sys/ioctl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdbool.h>
 
+#define RGB_SLAVE       0x62
+#define LCD_SLAVE       0x3E
+#define BUS             0x01
+#define REG_RED         0x04        // pwm2
+#define REG_GREEN       0x03        // pwm1
+#define REG_BLUE        0x02        // pwm0
+#define REG_MODE1       0x00
+#define REG_MODE2       0x01
+#define REG_OUTPUT      0x08
 
+typedef struct
+{
+    int addr; //i2c address of device
+    int file; //reprsents a place to do the i2c read & write
+    int adapter_nr; //the bus number of the device
+    char filename[20]; //the name of the device
+}I2CCONTEXT;
+
+I2CCONTEXT lcd;
+I2CCONTEXT rgb;
+
+int initContext(I2CCONTEXT *ctx, int addr_,int bus)
+{
+    ctx->addr = addr_;
+    ctx->adapter_nr = bus;
+    snprintf(ctx->filename, 19, "/dev/i2c-%d", ctx->adapter_nr);
+    ctx->file = open(ctx->filename, O_RDWR);
+
+    if (ctx->file < 0) 
+    {
+       /* ERROR HANDLING; you can check errno 2 c what went wrong */
+        printf("Error ocurred @ opening BUS: (errno:%d) %s\n",
+                errno,
+                strerror(errno));
+        return -errno;    
+
+    }
+
+    if (ioctl(ctx->file, I2C_SLAVE, ctx->addr) < 0)
+    {
+        /* ERROR HANDLING; you can check errno 2 c what went wrong */
+        printf("Error ocurred @ accessing slave: (errno:%d) %s\n",
+                    errno,
+                    strerror(errno));
+        return -errno;
+    }
+
+}
+
+__s32 writeByteRegister(int file, __u8 register_, __u8 value)
+{
+    __s32 res = -1;
+    res = i2c_smbus_write_byte_data(file, register_, value);
+    if (res < 0)
+    {
+        /* ERROR HANDLING: i2c transaction failed */
+        printf("Error writing byte, (errno:%d),%s",errno,
+                strerror(errno));
+    }
+}
+
+__s32 readRegister(int register_, int file)
+{
+    __u8 reg = register_;
+    __s32 res = -1;
+    char buf[10];  
+    res = i2c_smbus_read_word_data(file, reg);
+    if (res < 0)
+    {
+        /* ERROR HANDLING: i2c transaction failed */
+        printf("Error reading reg: 0x%x, (errno:%d),%s",
+                reg,errno,strerror(errno));
+    }
+    return res;
+}
+
+int main()
+{
+
+    /*
+	we pass a reference to the rgb context variable
+	the i2c address of the rgb controller
+	and the BUS which should be 1
+    */
+    initContext(&rgb, RGB_SLAVE , BUS);
+    printf("\nDONE!\n");
+    return 0;
+}
+```
+now lets create a **Makefile**  with the following content:
+
+```
+all:lcdtest
+
+lcdtest:lcd.c
+		gcc -O lcd.c -o lcdtest
+clean:
+		@rm lcdtest *~ .*~
+```
+run **make** and when the compilation succesfully finishes run **./lcdtest**
 
 ####I'm a Pro!
