@@ -269,19 +269,27 @@ i2cset -y 1 0x62 0x02 0x00
 
 and BUM!... Yoda green it is!...
 
-
 ---
 
 
+Remember i told you it is not quite impossible to do this on the Edison + Arduino Breakout Board?; well before i tell youhow we can do a workaround  lets remember.. what are the lines needed by a device so I2C protocol can do its job?
 
+* Vdd (power)
+* GND (ground)
+* SDA (Data line)
+* SCL (Clock line) 
 
-Edison Arduino :
-5v->vdd
-gnd->gnd
-A4->SDA
-A5->SCL
- 
+Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
+](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005583.html) page 7, we know that the Arduino SDA and SCL pins are connected to bus 1, and whne you connect a device it doesn't show when you try to do an i2cdetect so what are alternatives do we have?
 
+**Answer**: There are other pins that offer the SDA and SCL and those correspond to Bus 6  and these pins are the Arduino's A4 and A5 in our Arduino Break-out Board!.. so basically we can connect the cables from the LCD like this:
+
+| Arduino Pin | LCD I2C pin|
+| -- | -- |
+|5v | Vdd |
+|GND | GND |
+|A4 | SDA |
+|A5 | SCL |
 
 
 
