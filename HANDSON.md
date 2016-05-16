@@ -351,6 +351,7 @@ Now lets start by creating a file called **lcd.c**  and start  adding the header
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdbool.h>
+#include <inttypes.h>
 
 
 int main()
@@ -641,4 +642,9 @@ turnOffRGB(&rgb);
 ```
 
 run **make clean** then **make** and run by typing **./lcdtest**
+
+
+
+
+
 ####I'm a Pro!
