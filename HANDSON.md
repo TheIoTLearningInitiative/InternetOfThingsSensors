@@ -300,16 +300,41 @@ Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
 
 Talking to our I2C devices using I2CTools is cool, and makes you look interesting, but lets face it  it is not practical enough, and option can be put everything in a shell script but we want to get further than that like writing our own module and for that  lets start creating our grown-ups c program and for that i really reccommend reading the [I2C Documentation in linux](https://www.kernel.org/doc/Documentation/i2c/) and about [i2c-dev library](http://lxr.free-electrons.com/source/drivers/i2c/i2c-dev.c) we will be using to develope our C program.
 
-First lets equip our Edison with the necessary libraries and since the i2c-dev libraries are not available by default use **vim/nano** to review **/etc/opkg/base-feeds.conf** where you should have something like this:
+First lets see if we have what we need in our Edison and equip it  if not. So type <font color="blue">opkg list|grep i2c</font> and lets findout if you have something similar to this:
+
+```
+root@edison:~# opkg list |grep i2c
+i2c-tools - 3.1.1-r0 - Set of i2c tools for linux  Set of i2c tools for linux.
+i2c-tools-dbg - 3.1.1-r0 - Set of i2c tools for linux - Debugging files  Set of i2c tools for linux.
+i2c-tools-dev - 3.1.1-r0 - Set of i2c tools for linux - Development files  Set of i2c tools for
+i2c-tools-doc - 3.1.1-r0 - Set of i2c tools for linux - Documentation files  Set of i2c tools for
+i2c-tools-misc - 3.1.1-r0 - Set of i2c tools for linux  Set of i2c tools for linux.
+python-smbus - 3.1.1-r0 - Set of i2c tools for linux - Python module  Set of i2c tools for linux -
+python-smbus-dbg - 3.1.1-r0 - Set of i2c tools for linux - Python module - Debugging files  Set of i2c
+python-smbus-dev - 3.1.1-r0 - Set of i2c tools for linux - Python module - Development files  Set of
+ i2c tools for linux - Python module.  This package contains   symbolic
+
+```
+
+Now from the list in my Edison i cna see i have the option to install **i2c-tools-dev - 3.1.1-r0** if it doesn't show in your Edison then you will have to confgure some repositories to have access to them since the i2c-dev libraries are not available by default, so use **vim/nano** to review **/etc/opkg/base-feeds.conf** where you should have something like this:
 
 ```
 src/gz all http://repo.opkg.net/edison/repo/all
 src/gz edison http://repo.opkg.net/edison/repo/edison
 src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
 ```
-if you don't have it please add those lines to your file, for further help or instructions visit [AlexT's Galileo & Edison pages](http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html)
+if you don't have it please add those lines to your file, for further help or instructions you can visit [AlexT's Galileo & Edison pages](http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html)
 
+Once you have done editing, save and close the file and run **opkg update** to start downloading the list of available packages from those repos. After that  check again with <font color="blue">opkg list | grep i2c</font> and verify you have the option to install **i2c-tools-dev - 3.1.1-r0**
 
+For those that already added the repo and want to check if it is already installed you can type <font color="blue">opkg list-installed | grep i2c</font> and should see something like this:
+```
+root@edison:~# opkg list-installed | grep i2c
+i2c-tools - 3.1.1-r0
+i2c-tools-dev - 3.1.1-r0
+i2c-tools-misc - 3.1.1-r0
+```
+if not, to install it do <font color="blue">opkg install i2c-tools-dev </font> and we are done!
 
 
 
