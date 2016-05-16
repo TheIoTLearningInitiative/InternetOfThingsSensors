@@ -282,6 +282,10 @@ Remember i told you it is not quite impossible to do this on the Edison + Arduin
 Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
 ](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005583.html) page 7, we know that the Arduino SDA and SCL pins are connected to bus 1, and whne you connect a device it doesn't show when you try to do an i2cdetect so what are alternatives do we have?
 
+
+---
+
+
 **Answer**: There are other pins that offer the SDA and SCL and those correspond to Bus 6  and these pins are the Arduino's A4 and A5 in our Arduino Break-out Board!.. so basically we can connect the cables from the LCD like this:
 
 | Arduino Pin | LCD I2C pin|
@@ -291,6 +295,10 @@ Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
 |A4 | SDA |
 |A5 | SCL |
 
+
+---
+
+Talking to our I2C devices using I2CTools is cool, and makes you look interesting, but lets face it  it is not practical enough, and option can be put everything in a shell script but we want to get further than that like writing our own module and for that  lets start creating our grown-ups c program and for that i really reccommend reading the [I2C Documentation in linux](https://www.kernel.org/doc/Documentation/i2c/) and about [i2c-dev library](http://lxr.free-electrons.com/source/drivers/i2c/i2c-dev.c) we will be using to develope our C program.
 
 
 
