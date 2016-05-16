@@ -337,6 +337,71 @@ i2c-tools-misc - 3.1.1-r0
 if not, to install it run <font color="blue">opkg install i2c-tools-dev </font> and we are done!
 
 
+Now lets start by creating a file called **lcd.c**  and start  adding the headers we're going to need and the body of the program:
+
+```
+#include <errno.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <linux/i2c-dev-user.h>
+#include <sys/ioctl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdbool.h>
+
+
+int main()
+{
+
+	return 0;
+}
+```
+
+
+now lets do some defines so we can have the registers we need at hand, lets start with those registers needed by the RGB controller of our Display.
+
+```
+#define RGB_SLAVE       0x62
+#define LCD_SLAVE	   0x3E
+#define BUS		     0x01
+#define REG_RED         0x04        // pwm2
+#define REG_GREEN       0x03        // pwm1
+#define REG_BLUE        0x02        // pwm0
+#define REG_MODE1       0x00
+#define REG_MODE2       0x01
+#define REG_OUTPUT      0x08
+```
+
+As a practice, please go to the datasheet and determinate what we are doing with those values, are those values addresses or are they configuration settings?
+
+
+
+---
+**Answer**: they are register addresses, as depicted in page 11 of the PCA9633 Datasheet (that's our RGB Display controller). It is a good idea to try understand how this registers work together.
+
+---
+
+
+
+
+According to the linux documentation we have to open a device file in order to communicate with our device so this can act as a i2c context for any future communication so lets create a struct that can store all that information named I2CCONTEXT.
+
+```
+typedef struct
+{
+	int addr; //i2c address of device
+	int file; //reprsents a place to do the i2c read & write
+	int adapter_nr; //the bus number of the device
+	char filename[20]; //the name of the device
+}I2CCONTEXT lcd,rgb;//lets take advantage we are defining the type and declare two vars
+
+
+```
+
+
 
 
 ####I'm a Pro!
