@@ -375,7 +375,7 @@ now lets do some defines so we can have the registers we need at hand, lets star
 #define REG_OUTPUT      0x08
 ```
 
-As a practice, please go to the datasheet and determinate what we are doing with those values, are those values addresses or are they configuration settings?
+As an practice excercise, please go to the datasheet and determinate what we are doing with those values, are those values addresses or are they configuration settings?
 
 
 
@@ -401,6 +401,36 @@ typedef struct
 
 ```
 
+Now lets create a function where we are going to create the context, this function will receive the reference to an **I2CCONTEXT** variable, the **address** of the device and the **bus** where it is laying. as a return value we can send the errno value:
+```
+int initContext(I2CCONTEXT *ctx, int addr_,int bus)
+{
+	ctx->addr = addr_;
+	ctx->adapter_nr = bus;
+	snprintf(ctx->filename, 19, "/dev/i2c-%d", ctx->adapter_nr);
+	ctx->file = open(ctx->filename, O_RDWR);
+    
+	if (ctx->file < 0) 
+	{
+	   /* ERROR HANDLING; you can check errno 2 c what went wrong */
+		printf("Error ocurred @ opening BUS: (errno:%d) %s\n",
+				errno,
+				strerror(errno));
+		return -errno;	
+
+	}
+	
+	if (ioctl(ctx->file, I2C_SLAVE, ctx->addr) < 0)
+	{
+        /* ERROR HANDLING; you can check errno 2 c what went wrong */
+		printf("Error ocurred @ accessing slave: (errno:%d) %s\n",
+					errno,
+					strerror(errno));
+		return -errno;
+	}
+
+}
+```
 
 
 
