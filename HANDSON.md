@@ -101,7 +101,7 @@ all: lcd_temp
 lcd_temp:
 	g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
 clean:
-	rm lcd_temp *.*~ .*~
+	rm lcd_temp
 ```
 
 now you can type **make**, to trigger the compilation of our program, after that type **./lcd_temp** to run the program, to stop it just press **CTRL+c** 
@@ -599,7 +599,7 @@ all:lcdtest
 lcdtest:lcd.c
 		gcc -O lcd.c -o lcdtest
 clean:
-		@rm lcdtest *~ .*~
+		@rm lcdtest
 ```
 run **make** and when the compilation succesfully finishes run **./lcdtest**
 
