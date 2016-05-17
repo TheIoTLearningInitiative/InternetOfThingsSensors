@@ -633,7 +633,7 @@ void turnOffRGB(I2CCONTEXT *rgb)
 	setRGBColor(rgb, 0x00, 0x00, 0x00);	
 }
 ```
-now lets call init RGB from our main() by passing the reference to our RGB context waith about 5 seconds and then exit turning off the color leds:
+now lets call init RGB from our main() by passing the reference to our RGB context wait about 5 seconds and then exit turning off the color leds:
 ```
 /*sleep for 5 secs before turning off*/
 sleep(5);
@@ -641,7 +641,7 @@ sleep(5);
 turnOffRGB(&rgb);
 ```
 
-run **make clean** then **make** and run by typing **./lcdtest**
+run **make clean** then **make** and execute by typing **./lcdtest**
 
 
 
