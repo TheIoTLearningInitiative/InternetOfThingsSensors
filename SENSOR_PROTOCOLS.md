@@ -1,8 +1,5 @@
 # Sensor Protocols
 
-
-
-
 > A protocol defines how a sensor talks to the microcontroller board, such as Arduino, Raspberry Pi, Edison or Galileo (just to name few). The protocol defines how the wires should be connected and how your code should ask for measurements.
 Even though there is a staggering amount of different sensors, there is a limited number of popular protocols. [[1]](REFERENCES.md)
 
