@@ -1,12 +1,12 @@
 # Sensor Protocols
 
-> A protocol defines how a sensor talks to the microcontroller board, such as Arduino, Raspberry Pi, Edison or Galileo (just to name few). The protocol defines how the wires should be connected and how your code should ask for measurements.
-Even though there is a staggering amount of different sensors, there is a limited number of popular protocols. [[1]](REFERENCES.md)
+> A protocol defines how a sensor talks to the microcontroller board, such as Arduino, Raspberry Pi, Edison or Galileo (just to name few). The protocol defines how the wires should be connected and how your code should ask for measurements. Even though there is a staggering amount of different sensors, there is a limited number of popular protocols. [[1]](REFERENCES.md)
 
 Here we show the most common ones:
 
-#### SPI
-Serial Peripheral Interface (SPI) is an interface bus commonly used to send data between microcontrollers and small peripherals such as shift registers, sensors, and SD cards. It uses separate clock and data lines, along with a select line to choose the device you wish to talk to.  [Learn about SPI](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi)
+## SPI
+
+> Serial Peripheral Interface (SPI) is an interface bus commonly used to send data between microcontrollers and small peripherals such as shift registers, sensors, and SD cards. It uses separate clock and data lines, along with a select line to choose the device you wish to talk to.  [Learn about SPI](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi)
 
 ####I2C
 The Inter-integrated Circuit (I2C) Protocol is a protocol intended to allow multiple “slave” digital integrated circuits (“chips”) to communicate with one or more “master” chips. Like the Serial Peripheral Interface (SPI), it is only intended for short distance communications within a single device. Like Asynchronous Serial Interfaces (such as RS-232 or UARTs), it only requires two signal wires to exchange information. [Learn about I2C](https://learn.sparkfun.com/tutorials/i2c)
