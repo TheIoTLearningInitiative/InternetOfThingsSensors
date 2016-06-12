@@ -27,5 +27,5 @@
   * Hands-ON
     * Using libraries (UPM & MRAA)
     * Look Mama! without Handles! (writing our own sensor code in user space)
-    * I'm a pro! (turning our sensor code into a module)
+    * 
 
