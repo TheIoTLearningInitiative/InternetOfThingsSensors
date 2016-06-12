@@ -27,5 +27,4 @@
   * Hands-ON
     * Using libraries (UPM & MRAA)
     * Look Mama! without Handles! (writing our own sensor code in user space)
-    * 
 
