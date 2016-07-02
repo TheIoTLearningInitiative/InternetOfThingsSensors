@@ -76,7 +76,7 @@ Package mraa (1.0.0-r0) installed in root is up to date.
 root@edison:~# 
 ```
 
-##libmraa - Low Level Skeleton Library for Communication on GNU/Linux platforms
+## libmraa - Low Level Skeleton Library for Communication on GNU/Linux platforms
 
 Libmraa is a C/C++ library with bindings to javascript & python to interface with the IO on Galileo, Edison & other platforms, with a structured and sane API where port names/numbering matches the board that you are on. Use of libmraa does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms.
 
