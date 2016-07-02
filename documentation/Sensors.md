@@ -2,7 +2,7 @@
 
 > A sensor is a transducer whose purpose is to sense (that is, to detect) some characteristic of its environments... *From Wikipedia, the free encyclopedia*
 
-### Intel® Edison Ecosystem
+# Intel® Ecosystem
 
 > Sensors Bring IoT Projects to Life. Sensors are the eyes and ears, and temperature and vibration and rotation and...you get it. Without sensors, there's no IoT.
 
