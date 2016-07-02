@@ -63,7 +63,7 @@ int main(int argc, char **argv)
 }
 ```
 
-## 3. Writing some code with UPM/MRAA, LCD
+## 3. Compiling our code with UPM/MRAA, LCD
 
 Now lets create a <font color="blue">Makefile</font> with **vim/nano** to compile easily compile the program every time we do a change.
 
