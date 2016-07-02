@@ -13,7 +13,7 @@
 
 - [MRAA Github](https://github.com/intel-iot-devkit/mraa)
 
-# Manual Installation, Latest Github
+# Manual Installation, Latest Github Code Version
 
 ## Yocto
 
