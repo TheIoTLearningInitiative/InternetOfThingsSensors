@@ -3,14 +3,21 @@
 
 # UPM (Useful Packages & Modules) Sensor/Actuator repository for MRAA
 
+> Sensor/Actuator repository for libmraa
+
+> High-level repository for sensors and actuators that use libmraa. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time. 
+
 > UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
 
 
-* [UPM Libraries Grouped By Category](http://iotdk.intel.com/docs/master/upm/modules.html)
-* [UPM C++ Documentation](http://iotdk.intel.com/docs/master/upm/)
-* [UPM Java Documentation](http://iotdk.intel.com/docs/master/upm/java/)
-* [UPM Python Documentation](http://iotdk.intel.com/docs/master/upm/python/)
-* [UPM Node.js Documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
+- [UPM Documentation](http://iotdk.intel.com/docs/master/upm/index.html)
+- [UPM Sensor Categories](http://iotdk.intel.com/docs/master/upm/modules.html)
+- [UPM Github](https://github.com/intel-iot-devkit/upm)
+- [UPM Libraries Grouped By Category](http://iotdk.intel.com/docs/master/upm/modules.html)
+- [UPM C++ Documentation](http://iotdk.intel.com/docs/master/upm/)
+- [UPM Java Documentation](http://iotdk.intel.com/docs/master/upm/java/)
+- [UPM Python Documentation](http://iotdk.intel.com/docs/master/upm/python/)
+- [UPM Node.js Documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
 
 The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
 
