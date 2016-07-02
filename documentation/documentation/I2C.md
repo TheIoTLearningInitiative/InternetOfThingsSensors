@@ -128,6 +128,7 @@ These guys are used to set or retrieve the value of a specific register in our i
 <font color='blue'></font>
 
 Well in your Edison's command-line type each command and hit enter :)
+
 ```
 i2cset -y 1 0x62 0x00 0x00
 i2cset -y 1 0x62 0x08 0xFF
