@@ -5,6 +5,13 @@
 
 > UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
 
+
+* [UPM Libraries Grouped By Category](http://iotdk.intel.com/docs/master/upm/modules.html)
+* [UPM C++ Documentation](http://iotdk.intel.com/docs/master/upm/)
+* [UPM Java Documentation](http://iotdk.intel.com/docs/master/upm/java/)
+* [UPM Python Documentation](http://iotdk.intel.com/docs/master/upm/python/)
+* [UPM Node.js Documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
+
 The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
 
 Typically an update() function will be called in order to get new data from the sensor in order to reduce load when doing multiple reads to sensor data.
@@ -145,15 +152,6 @@ root@edison:~# ls -l /usr/include/upm
 -rw-r--r--    1 root     root          2343 Aug 13 00:23 yg1006.h
 -rw-r--r--    1 root     root         11332 Aug 13 00:23 zfm20.h
 ```
-
-
-####LINKS
-
-* [UPM Libraries Grouped By Category](http://iotdk.intel.com/docs/master/upm/modules.html)
-* [UPM C++ Documentation](http://iotdk.intel.com/docs/master/upm/)
-* [UPM Java Documentation](http://iotdk.intel.com/docs/master/upm/java/)
-* [UPM Python Documentation](http://iotdk.intel.com/docs/master/upm/python/)
-* [UPM Node.js Documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
 
 ---
 
