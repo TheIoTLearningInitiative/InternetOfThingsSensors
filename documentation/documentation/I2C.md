@@ -200,8 +200,13 @@ root@edison:~#
 ### For Edison using the Sparkfun Base Block
 
 ```sh
-root@edison:~# i2cget -y 1 0x62 0x04
-0xff
+root@edison:~# i2cget -y 1 0x62 0x04                                                       
+0xff                                                                                       
+root@edison:~# i2cget -y 1 0x62 0x03                                                       
+0xff                                                                                       
+root@edison:~# i2cget -y 1 0x62 0x02                                                       
+0xff                                                                                       
+root@edison:~# 
 ```
 
 So, 0xFF (or 255 in decimal) is just the value we set using i2cset :) you can also check that by dumping the RGB controller and you should see something like this:
