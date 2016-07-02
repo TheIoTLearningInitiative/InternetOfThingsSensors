@@ -13,6 +13,7 @@ We will start with baby steps to later throw away UPM & MRAA:
 
 <br>
 <br>
+
 ###Using libraries (UPM & MRAA)
 Do not misunderstand me , UPM and MRAA are great libraries, they really make things easier, specially when you are starting and you would like to get a prototype up and running fast, instead of struggling in how to get the values from your sensors and devices.
 
