@@ -28,7 +28,48 @@ Typically an update() function will be called in order to get new data from the 
 - ZWave—USB Controllers
 - ISM (Industrial, Scientific & Medical) Frequency Shift Keying (FSK) at 434 and 915 MHz
 
-## Where are the UPM includes in Edison?
+# Manual Installation, Latest Github
+
+## Ubilinux
+
+### Cmake
+
+    root@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
+    root@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
+    root@ubilinux:~$ cd cmake-3.2.2
+    root@ubilinux:~$ ./bootstrap
+    root@ubilinux:~$ make
+    root@ubilinux:~# make install
+
+### Upm
+
+    root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
+    root@ubilinux:~$ cd upm
+    root@ubilinux:~$ mkdir build
+    root@ubilinux:~$ cd build
+    root@ubilinux:~$ cmake ..
+    root@ubilinux:~$ make
+    root@ubilinux:~# make install
+    root@ubilinux:~$ nano ~/.bashrc
+    export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+
+# Upgrade, Opkg
+
+Check if UPM Library is installed
+
+```sh
+root@edison:~# opkg list-installed | grep upm
+upm - 0.7.0-r0
+upm-dev - 0.7.0-r0
+```
+
+```sh
+root@edison:~# opkg install upm                                                 
+Package upm (0.7.0-r0) installed in root is up to date.                         
+root@edison:~# 
+```
+
+# Where are the UPM includes in Edison?
 
 If installed them though **OPKG**, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, i.e the following header are the ones supported in **Version: 0.3.2**:
 
