@@ -277,7 +277,7 @@ int main()
 Now lets create a **Makefile**  with the following content:
 
 ```
-all:lcdtest
+all: lcdtest
 
 lcdtest:lcd.c
 		gcc -O lcd.c -o lcdtest
