@@ -62,3 +62,10 @@ make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-ediso
 make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
+
+```sh
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls  
+JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
+JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
+```
