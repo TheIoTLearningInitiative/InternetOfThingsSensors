@@ -17,6 +17,7 @@ So far you should have found the following info about our sensor and display:
 * LCD Display: Jhd1313m2
   * http://iotdk.intel.com/docs/master/upm/classupm_1_1_jhd1313m1.html
 
+## 3. Writing some code with UPM/MRAA, LCD
 
 ```c
 #include <unistd.h>                                                             
@@ -60,7 +61,7 @@ int main(int argc, char **argv)
 }
 ```
 
-## 2. Writing some code with UPM/MRAA
+## 3. Writing some code with UPM/MRAA
 
 Lets write a program that reads the temperature from the Barometric sensor and display it in our RGB LCD.
 
