@@ -15,7 +15,7 @@ So far you should have found the following info about our sensor and display:
 * LCD Display: Jhd1313m2
   * http://iotdk.intel.com/docs/master/upm/classupm_1_1_jhd1313m1.html
 
-####2. Writing some code with UPM/MRAA
+## 2. Writing some code with UPM/MRAA
 Lets write a program that reads the temperature from the Barometric sensor and display it in our RGB LCD.
 
 Go to your Edison's command-line and use **nano** or **vim** to create a file called <font color="blue">lcd_temp.cpp</font> and add the following code:
