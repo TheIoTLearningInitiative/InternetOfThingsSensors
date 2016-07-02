@@ -8,12 +8,6 @@ Here we show the most common ones:
 
 > Serial Peripheral Interface (SPI) is an interface bus commonly used to send data between microcontrollers and small peripherals such as shift registers, sensors, and SD cards. It uses separate clock and data lines, along with a select line to choose the device you wish to talk to.  [Sparkfun Learn about Serial Peripheral Interface (SPI)](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi)
 
-# I2C
-
-> The Inter-integrated Circuit (I2C) Protocol is a protocol intended to allow multiple “slave” digital integrated circuits (“chips”) to communicate with one or more “master” chips. Like the Serial Peripheral Interface (SPI), it is only intended for short distance communications within a single device. Like Asynchronous Serial Interfaces (such as RS-232 or UARTs), it only requires two signal wires to exchange information. [Sparkfun Learn about I2C](https://learn.sparkfun.com/tutorials/i2c)
-
-> Creating, debugging and operating a custom I2C peripheral... [I2C Hacking Demystified](http://events.linuxfoundation.org/sites/events/files/slides/ELC%202016%20-%20I2C%20hacking%20demystified_0.pdf)
-
 # Serial Communication / Universal Asynchronous Receiver/Transmitter
 
 > A universal asynchronous receiver/transmitter, abbreviated UART, is a computer hardware device that translates data between characters (usually bytes) in a computer and an asynchronous serial communication format that encapsulates those characters between start bits and stop bits. UARTs are commonly used in conjunction with communication standards such as TIA (formerly EIA) RS-232, RS-422 or RS-485. [Wikipedia](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter)
