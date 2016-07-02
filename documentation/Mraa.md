@@ -125,8 +125,8 @@ This basic mraa example, can be used to verify it is correctly installed and fou
 
 ```c
 #include "mraa.h"
-int
-main(int argc, char** argv)
+
+int main(int argc, char** argv)
 {
     char* board_name = mraa_get_platform_name();
     int i2c_bus, i, i2c_adapter;
