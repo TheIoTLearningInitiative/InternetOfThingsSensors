@@ -16,7 +16,7 @@
    * [Labs](documentation/LibrariesLabs.md)
    * [Contributions](documentation/LibrariesContributions.md)
 * [I2C Dev Libraries](I2CDevLibraries.md)
-* Linux Kernel Module
+* [Linux Kernel Module](LinuxKernelModule.md)
 * [Hands-On](HANDSON.md)
 * [References](documentation/REFERENCES.md)
 * [Sandbox](documentation/Sandbox.md)
