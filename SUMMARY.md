@@ -19,6 +19,7 @@
    * [LCD RGB Color Display](documentation/DisplayColor.md)
    * [LCD RGB Text](documentation/Text.md)
    * [LCD Off](documentation/LcdOff.md)
+   * Temperature
 * [Linux Kernel Module](documentation/LinuxKernelModule.md)
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
