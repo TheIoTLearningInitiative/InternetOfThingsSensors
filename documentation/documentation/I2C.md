@@ -270,7 +270,11 @@ python-smbus-dev - 3.1.1-r0 - Set of i2c tools for linux - Python module - Devel
 
 Now from the list in my Edison I can see i have the option to install **i2c-tools-dev - 3.1.1-r0** if it doesn't show in your Edison then you will have to configure some repositories to have access to them since the i2c-dev libraries are not available by default, so use **vim/nano** to review **/etc/opkg/base-feeds.conf** where you should have something like this:
 
+```sh
+root@edison:~# nano /etc/opkg/base-feeds.conf
 ```
+
+```sh
 src/gz all http://repo.opkg.net/edison/repo/all
 src/gz edison http://repo.opkg.net/edison/repo/edison
 src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
