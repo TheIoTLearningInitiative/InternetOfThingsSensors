@@ -44,3 +44,4 @@
 - [Relayr Wunderbar](http://www.dragoninnovation.com/projects/35-wunderbar-by-relayr)
 - [AllThingsTalk Shop](http://shop.smartliving.io/)
 - [Top DIY Electroni-cs Stores Suppliers](http://www.instructables.com/id/Top-DIY-Electronics-Stores-Suppliers/)
+- [Audio Block for Intel Edison](http://www.malinov.com/Home/sergeys-projects/audio-block-for-intel-edison)
