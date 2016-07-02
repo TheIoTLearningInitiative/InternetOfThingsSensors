@@ -5,7 +5,6 @@
 * [Introduction](documentation/Introduction.md)
 * Hardware
    * [Protocols](documentation/Protocols.md)
-   * Tbd
 * [Libraries](Libraries.md)
 * [References](documentation/REFERENCES.md)
 * [Hands-On](HANDSON.md)
