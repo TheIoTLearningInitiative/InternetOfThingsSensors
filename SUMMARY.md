@@ -10,6 +10,7 @@
    * [I2C](documentation/documentation/I2C.md)
 * [Sensors](documentation/Sensors.md)
    * [Customization](documentation/Customization.md)
+* IoT Developer Kit Libraries
 * [Libraries](Libraries.md)
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
@@ -18,5 +19,4 @@
 * [Hands-On](HANDSON.md)
 * [References](documentation/REFERENCES.md)
 * [Sandbox](documentation/Sandbox.md)
-* IoT Developer Kit Libraries
 
