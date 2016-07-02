@@ -295,6 +295,18 @@ clean:
 
 Run **make** and when the compilation succesfully finishes run **./lcdtest**
 
+```sh
+root@edison:~/.../I2CDL# make
+gcc -O lcd.c -o lcdtest
+```
+
+```sh
+root@edison:~/.../I2CDL# 
+                                                                                           
+DONE! 
+```
+
+
 Once your code is working lets add a method to init our RGB controller, also we will need a method to set the color of the Display :
 
 ```
