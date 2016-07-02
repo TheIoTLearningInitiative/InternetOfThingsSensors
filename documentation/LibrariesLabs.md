@@ -206,6 +206,8 @@ clean:
 Now compile
 
 ```sh
+root@edison:~/.../IoTDKL# make clean
+
 root@edison:~/.../IoTDKL# make
 g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd.cpp -o lcd
 g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
