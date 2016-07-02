@@ -13,7 +13,6 @@
 - PWM Modules using a PWM capable GPIO pin
 - UART Modules using a serial connection (RX/TX)
 
-
 # Manual Installation, Latest Github Code Version
 
 ## Yocto
