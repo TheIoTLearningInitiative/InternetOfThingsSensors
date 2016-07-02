@@ -20,9 +20,6 @@ Here we show the most common ones:
 
 > Embedded electronics is all about interlinking circuits (processors or other integrated circuits) to create a symbiotic system. In order for those individual circuits to swap their information, they must share a common communication protocol. Hundreds of communication protocols have been defined to achieve this data exchange, and, in general, each can be separated into one of two categories: parallel or serial. [Sparkfun Learn about Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication) 
 
-# 
-
-
 # IR
 
 > IR, or infrared, communication is a common, inexpensive, and easy to use wireless communication technology. IR light is very similar to visible light, except that it has a slightlty longer wavelength. This means IR is undetectable to the human eye - perfect for wireless communication. For example, when you hit a button on your TV remote, an IR LED repeatedly turns on and off, 38,000 time a second, to transmit information (like volume or channel control) to an IR photo sensor on your TV.[Learn about IR](https://learn.sparkfun.com/tutorials/ir-communication)
