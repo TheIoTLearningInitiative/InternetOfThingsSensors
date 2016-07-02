@@ -29,6 +29,12 @@ root@edison:~/TheIoTLearningInitiative/Sensors#
 ```
 
 ```sh
+root@edison:~/TheIoTLearningInitiative/Sensors# mkdir IoTDKL
+root@edison:~/TheIoTLearningInitiative/Sensors# cd IoTDKL/
+root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# 
+```
+
+```sh
 root@edison:~/TheIoTLearningInitiative/Sensors# nano lcd.cpp
 ```
 
