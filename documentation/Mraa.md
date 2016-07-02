@@ -76,8 +76,6 @@ root@edison:~#
 
 # MRAA Labs
 
-
-
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
 Note: using mraa and UPM requires to be aware of the versions installed, since there is a version dependency of UPM over MRAA. 
