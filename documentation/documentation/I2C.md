@@ -285,6 +285,10 @@ if you don't have it please add those lines to your file, for further help or in
 Once you have done editing, save and close the file and run **opkg update** to start downloading the list of available packages from those repos. After that  check again with <font color="blue">opkg list | grep i2c</font> and verify you have the option to install **i2c-tools-dev - 3.1.1-r0**
 
 ```sh
+root@edison:~# opkg update
+```
+
+```sh
 root@edison:~# opkg install i2c-tools-dev                                                  
 Installing i2c-tools-dev (3.1.1-r0) on root.                                               
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/i2c-tools-dev_3.1.1-r0_.
