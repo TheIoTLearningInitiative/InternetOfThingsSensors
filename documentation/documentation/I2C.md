@@ -184,6 +184,22 @@ Well in your Edison's command-line type each command and hit Enter :)
 
 ### For Edison using Arduino Breakout Board
 
+```sh
+root@edison:~# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/setup_i2c6.sh
+--2016-07-02 15:42:44--  https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/setup_i2c6.sh
+Resolving raw.githubusercontent.com... 151.101.40.133
+Connecting to raw.githubusercontent.com|151.101.40.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 945 [text/plain]
+Saving to: 'setup_i2c6.sh'
+
+100%[======================================>] 945         --.-K/s   in 0s      
+
+2016-07-02 15:42:46 (3.96 MB/s) - 'setup_i2c6.sh' saved [945/945]
+
+root@edison:~# 
+```
+
 ```
 root@edison:~# i2cset -y 6 0x62 0x00 0x00
 root@edison:~# i2cset -y 6 0x62 0x08 0xFF
