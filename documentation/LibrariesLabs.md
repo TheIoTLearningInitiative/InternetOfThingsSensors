@@ -93,6 +93,9 @@ now you can type **make**, to trigger the compilation of our program, after that
 
 If you do some changes you can recompile using **make**, sometimes when you do some changes and recompile, it will tell you that there are no changes, on those occassions you can do **make clean** and then **make**  that will erase the tempfiles created by vim when editing as well as the executable binary.
 
+```sh
+root@edison:~# make clean
+```
 
 ## 3. Writing some code with UPM/MRAA, Temperature
 
