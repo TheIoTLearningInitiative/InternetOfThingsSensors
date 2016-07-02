@@ -261,7 +261,7 @@ and BUM!... Yoda green it is!...
 
 Talking to our I2C devices using I2CTools is cool, and makes you look interesting, but lets face it, this is not practical enough, and option could be to put everything in a shell script but we want to get further than that like writing our own module and for that, during this tranining, we will create our grown-ups c program, we really recommend reading the [I2C Documentation in linux](https://www.kernel.org/doc/Documentation/i2c/) (we'll be taking base code snippet from there) and about [i2c-dev library](http://lxr.free-electrons.com/source/drivers/i2c/i2c-dev.c) we will be using it to develop our C program.
 
-First let's see if we have what we need in our Edison and equip it if not. So type <font color="blue">opkg list | grep i2c</font> and lets find out if you have something similar to this:
+First let's see if we have what we need in our Edison and install it if not. So type <font color="blue">opkg list | grep i2c</font> and lets find out if you have something similar to this:
 
 ```sh
 root@edison:~# opkg list |grep i2c
