@@ -201,6 +201,9 @@ root@edison:~# reboot
 ...
 ...
 ...
+Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2
+
+edison login: root
 root@edison:~# sh setup_i2c6.sh
 ```
 
