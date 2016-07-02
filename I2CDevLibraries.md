@@ -21,7 +21,7 @@ root@edison:~/TheIoTLearningInitiative/Sensors/I2CDL#
 root@edison:~/.../I2CDL# nano lcd.c
 ```
 
-```
+```c
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
@@ -45,7 +45,7 @@ int main()
 
 Now lets do some defines so we can have the registers we need at hand, lets start with those registers needed by the RGB controller of our Display.
 
-```
+```c
 #define RGB_SLAVE       0x62
 #define LCD_SLAVE       0x3E
 #define BUS             0x01
@@ -67,7 +67,7 @@ As an practice excercise, please go to the [PC9633 RGB Controller](https://githu
 
 According to the linux documentation we have to open a device file in order to communicate with our device so this can act as a i2c context for any future communication so lets create a struct that can store all that information named I2CCONTEXT.
 
-```
+```c
 typedef struct
 {
     int addr; //i2c address of device
@@ -81,7 +81,7 @@ I2CCONTEXT rgb; //will store the rgb controller context
 
 Now lets create a function where we are going to create the context, this function will receive the reference to an **I2CCONTEXT** variable, the **address** of the device and the **bus** where it is laying. as a return value we can send the errno value:ç
 
-```
+```c
 int initContext(I2CCONTEXT *ctx, int addr_,int bus)
 {
 	ctx->addr = addr_;
@@ -115,19 +115,19 @@ Now lets add some  methods to do the reading and writing of the i2c registers, b
 
 Alright! so if you inspect the datasheets ( go figure! :P) you will notice that the length of the registers is 1 byte (8 bits) so from the i2c-dev methods  there one that seems to be just what we need to write byte data: 
 
-```
+```c
 i2c_smbus_write_byte_data(int file, __u8 command, __u8 value);
 ```
 
 and to read a register we can use:
 
-```
+```c
 i2c_smbus_read_word_data(int file, __u8 register, __u8 value);
 ```
 
 lets create two methods so we can handle any errors and return the error code in case something goes wrong.
 
-```
+```c
 __s32 writeByteRegister(int file, __u8 register_, __u8 value)
 {
 	__s32 res = -1;
@@ -158,7 +158,7 @@ __s32 readRegister(int register_, int file)
 
 Now lets  test if we can get the I2C context of our RGB controller for that, add this to the  main():
 
-```
+```c
 /*
 we pass a reference to the rgb context variable
 the i2c address of the rgb controller
@@ -175,7 +175,7 @@ so far your **lcd.c** sourcecode should look like this:
 root@edison:~/.../I2CDL# nano lcd.c
 ```
 
-```
+```c
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
@@ -309,7 +309,7 @@ DONE!
 
 Once your code is working lets add a method to init our RGB controller, also we will need a method to set the color of the Display :
 
-```
+```c
 void setRGBColor(I2CCONTEXT *rgb, int r, int g, int b)
 {
     	writeByteRegister(rgb->file, REG_RED, r);
@@ -328,9 +328,10 @@ void initRGB(I2CCONTEXT *rgb)
         setRGBColor(rgb, 0xFF, 0xFF, 0xFF);	
 }
 ```
-add another method to turn off the light upon program exit:
 
-```
+Add another method to turn off the light upon program exit:
+
+```c
 void turnOffRGB(I2CCONTEXT *rgb)
 {
 	setRGBColor(rgb, 0x00, 0x00, 0x00);	
