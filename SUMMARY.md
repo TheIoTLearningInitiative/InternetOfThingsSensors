@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Cover](README.md)
 * Introduction
 * [Libraries](Libraries.md)
 * [Sensor Protocols](documentation/Protocols.md)
