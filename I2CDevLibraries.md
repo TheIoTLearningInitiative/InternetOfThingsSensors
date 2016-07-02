@@ -60,6 +60,7 @@ Now lets do some defines so we can have the registers we need at hand, lets star
 As an practice excercise, please go to the [PC9633 RGB Controller](https://github.com/TheIoTLearningInitiative/InternetOfThingsSensors/blob/master/documentation/PCA9633.pdf) and determinate what we are doing with those values, are those values addresses or are they configuration settings?
 
 ---
+
 **Answer**: they are register addresses, as depicted in page 11 of the [PC9633 RGB Controller](https://github.com/TheIoTLearningInitiative/InternetOfThingsSensors/blob/master/documentation/PCA9633.pdf) (that's our RGB Display controller). It is a good idea to try understand how this registers work together.
 
 ---
