@@ -88,7 +88,7 @@ In the case of the Edison+ Sparkfun Base block we are able to see the i2c addres
 It will show us the content of a specific register in our device, the syntax is:<font color='blue'>i2cdump -y BUS ADDRESS b</font> so go to your Edison and try to dump the registers from the RGB device of the Display. the command should be <font color='blue'>i2cdump -y 1 0x62 b</font>  and the result should look something like this:
 
 ```
-root@edison:~# i2cdump -y  1 0x62 b
+root@edison:~# i2cdump -y 1 0x62 b
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f    0123456789abcdef
 00: 11 01 00 00 00 00 ff 00 00 e2 e4 e8 e0 XX XX XX    ??.......????XXX
 10: 11 01 00 00 00 00 ff 00 00 e2 e4 e8 e0 XX XX XX    ??.......????XXX
