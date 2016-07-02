@@ -60,15 +60,10 @@ now lets do some defines so we can have the registers we need at hand, lets star
 
 As an practice excercise, please go to the datasheet and determinate what we are doing with those values, are those values addresses or are they configuration settings?
 
-
-
 ---
 **Answer**: they are register addresses, as depicted in page 11 of the PCA9633 Datasheet (that's our RGB Display controller). It is a good idea to try understand how this registers work together.
 
 ---
-
-
-
 
 According to the linux documentation we have to open a device file in order to communicate with our device so this can act as a i2c context for any future communication so lets create a struct that can store all that information named I2CCONTEXT.
 
