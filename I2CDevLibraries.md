@@ -47,8 +47,8 @@ Now lets do some defines so we can have the registers we need at hand, lets star
 
 ```
 #define RGB_SLAVE       0x62
-#define LCD_SLAVE	   0x3E
-#define BUS		     0x01
+#define LCD_SLAVE       0x3E
+#define BUS             0x01
 #define REG_RED         0x04        // pwm2
 #define REG_GREEN       0x03        // pwm1
 #define REG_BLUE        0x02        // pwm0
