@@ -136,7 +136,6 @@ int main(int argc, char** argv)
 }
 ```
 
-
 How to compile?..let's say you have the code above in a file named HelloMRAA.cpp, inside your edison, now from the Edison terminal type:
 
     g++ -lmraa HelloMRAA.cpp -o HelloMRAA
