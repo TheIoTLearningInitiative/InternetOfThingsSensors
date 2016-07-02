@@ -13,6 +13,7 @@ Make file:
 https://github.com/SourceCodeCat/IoTCodeExamples/blob/master/I2C/Makefile
 
 ```sh
+root@edison:~# cd
 root@edison:~# cd TheIoTLearningInitiative/Sensors
 root@edison:~/TheIoTLearningInitiative/Sensors# 
 ```
