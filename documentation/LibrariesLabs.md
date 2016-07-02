@@ -220,7 +220,7 @@ root@edison:~/.../IoTDKL#
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# cd
+root@edison:~/.../IoTDKL# cd
 root@edison:~# 
 ```
 
