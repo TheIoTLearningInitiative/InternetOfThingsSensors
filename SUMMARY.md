@@ -13,6 +13,7 @@
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
    * [Labs](documentation/LibrariesLabs.md)
+   * Contributions
 * [Hands-On](HANDSON.md)
 * [References](documentation/REFERENCES.md)
 * [Sandbox](documentation/Sandbox.md)
