@@ -123,6 +123,9 @@ from there you can see that we need to installed at least version 0.7.0 of mraa.
 
 This basic mraa example, can be used to verify it is correctly installed and found by the compiler
 
+```sh
+```
+
 ```c
 #include "mraa.h"
 
