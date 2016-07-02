@@ -5,7 +5,4 @@
 * <font color="blue">Look Ma! without Handles! (writing our own sensor code in user space)</font>
   * Then we will throw away UPM & MRAA libraries to teach you how to use user space i2C  libraries to communicate directly with your device
 * <font color="blue">I'm a Pro! (turning our sensor code into a module)</font>
-  * We have gone way beyond from the comfort zone, lets get into the Kerne
-
-<br>
-<br>
+  * We have gone way beyond from the comfort zone, lets get into the Kernel
