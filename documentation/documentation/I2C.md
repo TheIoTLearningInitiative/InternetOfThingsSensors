@@ -8,10 +8,10 @@
 
 You will need to get acquainted with a set of tools called I2C Tools, for our purposes the most common tools we are going to use are:
 
-1. i2cdetect
-2. i2cdump
-3. i2cget
-4. i2cset
+1. __i2cdetect__
+2. __i2cdump__
+3. __i2cget__
+4. __i2cset__
 
 **i2cdetect** : will help us list the i2c buses we have in our system and also show the addresses of the slaves connected to certain bus. Now go to your Edison and type <font color='blue'>i2cdetect -l</font> , you should get an output similar to this:
 
