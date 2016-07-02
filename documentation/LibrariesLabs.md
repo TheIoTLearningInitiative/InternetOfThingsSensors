@@ -99,7 +99,7 @@ rm lcd_temp
 root@edison:~# 
 ```
 
-## 3. Writing some code with UPM/MRAA, Temperature
+## 4. Writing some code with UPM/MRAA, Temperature
 
 Now lets read the temperature from the Barometric sensor and display it in our RGB LCD.
 
