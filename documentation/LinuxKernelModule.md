@@ -75,7 +75,7 @@ root@edison:~/TheIoTLearningInitiative/Sensors/LKM# sudo insmod JHD1313M2.ko
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# dmesg
+root@edison:~/.../LKM# dmesg
 [ 1363.707731] JHD1313M2_init: Obtaining adapter from bus 6                                
 [ 1363.707760] JHD1313M2_init: creating new device...                                      
 [ 1363.708163] JHD1313M2_init: trying to add the device driver...                          
