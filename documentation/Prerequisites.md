@@ -11,7 +11,6 @@ Requirements
 - Internet Connection
 - Intel Edison
 - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
-  - Here we are going to experiment  how to communicate with  
   - [Grove - Barometer Sensor (I2C Communication Protocol Device)](http://www.seeedstudio.com/wiki/Grove_-_Barometer_Sensor)
  
  ![](http://www.seeedstudio.com/wiki/images/thumb/e/e7/Grove-Barometer.jpg/300px-Grove-Barometer.jpg)
