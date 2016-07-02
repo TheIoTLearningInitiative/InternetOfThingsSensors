@@ -8,11 +8,15 @@
 
 # Hardware
 
-## Sparkfun
+## SparkFun Block for Intel® Edison - I2C
 
 > This I2C Block simply breaks out an I2C bus on the Intel® Edison while level shifting it from 1.8V to your sensors voltage. This a simple board that can snap into your Edison and be used right away. [SparkFun Block for Intel® Edison - I2C](https://www.sparkfun.com/products/13034)
 
+![](https://cdn.sparkfun.com//assets/parts/1/0/0/3/5/13034-01_1.jpg)
+
 ## Intel® Edison kit for Arduino expansion board.
+
+![](http://shop-media.intel.com/api/v2/helperservice/getimage?url=http://images.icecat.biz/img/gallery/25435695_7315.jpg&height=550&width=550)
 
 You will need to get acquainted with a set of tools called I2C Tools, for our purposes the most common tools we are going to use are:
 
