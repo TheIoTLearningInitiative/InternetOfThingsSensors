@@ -17,7 +17,7 @@ So far you should have found the following info about our sensor and display:
 * LCD Display: Jhd1313m2
   * http://iotdk.intel.com/docs/master/upm/classupm_1_1_jhd1313m1.html
 
-## 3. Writing some code with UPM/MRAA, LCD
+## 2. Writing some code with UPM/MRAA, LCD
 
 ```c
 #include <unistd.h>                                                             
