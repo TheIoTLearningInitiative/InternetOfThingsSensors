@@ -14,9 +14,9 @@
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
    * [Labs](documentation/LibrariesLabs.md)
+   * [Contributions](documentation/LibrariesContributions.md)
    * Tbd
 * [Libraries](Libraries.md)
-   * [Contributions](documentation/LibrariesContributions.md)
 * [Hands-On](HANDSON.md)
 * [References](documentation/REFERENCES.md)
 * [Sandbox](documentation/Sandbox.md)
