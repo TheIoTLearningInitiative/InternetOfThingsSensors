@@ -57,7 +57,7 @@ int main(int argc, char **argv)
 
 ## 3. Writing some code with UPM/MRAA, Temperature
 
-Lets write a program that reads the temperature from the Barometric sensor and display it in our RGB LCD.
+Now lets read the temperature from the Barometric sensor and display it in our RGB LCD.
 
 Go to your Edison's command-line and use **nano** or **vim** to create a file called <font color="blue">lcd_temp.cpp</font> and add the following code:
 
