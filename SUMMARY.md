@@ -17,7 +17,7 @@
    * [Contributions](documentation/LibrariesContributions.md)
 * [I2C Dev Libraries](documentation/I2CDevLibraries.md)
    * [LCD RGB Color Display](documentation/DisplayColor.md)
-   * [Text](documentation/Text.md)
+   * [LCD RGB Text](documentation/Text.md)
    * [LCD Off](documentation/LcdOff.md)
 * [Linux Kernel Module](documentation/LinuxKernelModule.md)
 * [References](documentation/References.md)
