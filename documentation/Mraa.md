@@ -148,13 +148,15 @@ root@edison:~# g++ -lmraa HelloMRAA.cpp -o HelloMRAA
 
 now if you run the program typing:
 
-    ./HelloMRAA
+```sh
+root@edison:~# ./HelloMRAA 
+```
 
 you will see something like this:
 
-```
-hello mraa
- Version: v0.7.3
- Running on Intel Edison
-
+```sh
+hello mraa                                                                      
+ Version: v1.0.0                                                                
+ Running on Intel Edison                                                        
+root@edison:~# 
 ```
