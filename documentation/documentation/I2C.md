@@ -197,9 +197,11 @@ Saving to: 'setup_i2c6.sh'
 
 2016-07-02 15:42:46 (3.96 MB/s) - 'setup_i2c6.sh' saved [945/945]
 
-root@edison:~# reboot
+root@edison:~# poweroff
 ...
-...
+
+[Remove Power Source]
+
 ...
 Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2
 
