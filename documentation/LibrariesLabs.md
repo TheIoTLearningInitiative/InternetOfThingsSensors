@@ -97,24 +97,24 @@ clean:
 now you can type **make**, to trigger the compilation of our program, after that type **./lcd_temp** to run the program, to stop it just press **CTRL+c** 
 
 ```sh
-root@edison:~# make
+root@edison:~/TheIoTLearningInitiative/Sensors# make
 g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
-root@edison:~# 
+root@edison:~/TheIoTLearningInitiative/Sensors#  
 ```
 
 ```sh
-root@edison:~# ./lcd_temp 
+root@edison:~/TheIoTLearningInitiative/Sensors# ./lcd_temp 
 ^C
 Ctrl-C received.
-root@edison:~# 
+root@edison:~/TheIoTLearningInitiative/Sensors#  
 ```
 
 If you do some changes you can recompile using **make**, sometimes when you do some changes and recompile, it will tell you that there are no changes, on those occassions you can do **make clean** and then **make**  that will erase the tempfiles created by vim when editing as well as the executable binary.
 
 ```sh
-root@edison:~# make clean
+root@edison:~/TheIoTLearningInitiative/Sensors# make clean
 rm lcd_temp                                                                     
-root@edison:~# 
+root@edison:~/TheIoTLearningInitiative/Sensors#  
 ```
 
 ## 4. Writing some code with UPM/MRAA, Temperature
@@ -124,7 +124,7 @@ Now lets read the temperature from the Barometric sensor and display it in our R
 Go to your Edison's command-line and use **nano** or **vim** to create a file called <font color="blue">lcd_temp.cpp</font> and add the following code:
 
 ```sh
-root@edison:~# nano lcd_temp.cpp
+root@edison:~/TheIoTLearningInitiative/Sensors# nano lcd_temp.cpp
 ```
 
 ```c
@@ -181,16 +181,16 @@ int main(int argc, char **argv)
 ```
 
 ```sh
-root@edison:~# make
+root@edison:~/TheIoTLearningInitiative/Sensors# make
 g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
-root@edison:~# 
+root@edison:~/TheIoTLearningInitiative/Sensors#  
 ```
 
 ```sh
-root@edison:~# ./lcd_temp 
+root@edison:~/TheIoTLearningInitiative/Sensors# ./lcd_temp 
 ^C
 Ctrl-C received.
-root@edison:~# 
+root@edison:~/TheIoTLearningInitiative/Sensors#  
 ```
 
 Want to learn more about the [Makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html) system? click [Here: GCC and Make
