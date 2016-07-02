@@ -130,7 +130,7 @@ Now lets read the temperature from the Barometric sensor and display it in our R
 Go to your Edison's command-line and use **nano** or **vim** to create a file called <font color="blue">lcd_temp.cpp</font> and add the following code:
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# nano lcd_temp.cpp
+root@edison:~/.../IoTDKL# nano lcd_temp.cpp
 ```
 
 ```c
@@ -193,10 +193,10 @@ root@edison:~/.../IoTDKL#
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# ./lcd_temp 
+root@edison:~/.../IoTDKL# ./lcd_temp 
 ^C
 Ctrl-C received.
-root@edison:~/TheIoTLearningInitiative/Sensors#  
+root@edison:~/.../IoTDKL#   
 ```
 
 ```sh
