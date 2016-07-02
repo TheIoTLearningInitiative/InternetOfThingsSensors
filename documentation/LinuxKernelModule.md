@@ -1,4 +1,3 @@
-
 # Linux Kernel Module
 
 # I'm a Pro!
@@ -86,6 +85,6 @@ root@edison:~/.../LKM# dmesg
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls /sys/kernel/JHD1313M2/
-lcd_text  rgb_b  rgb_g  rgb_r                                                              
+lcd_text  rgb_b  rgb_g  rgb_r
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
