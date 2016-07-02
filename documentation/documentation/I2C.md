@@ -160,12 +160,16 @@ You should see this:
 ### For Edison using Arduino Breakout Board
 
 ```sh
-root@edison:~# i2cget -y 1 0x62 0x04
+root@edison:~# i2cget -y 6 0x62 0x04
 0xff
 ```
 
 ### For Edison using the Sparkfun Base Block
 
+```sh
+root@edison:~# i2cget -y 1 0x62 0x04
+0xff
+```
 
 So, 0xFF (or 255 in decimal) is just the value we set using i2cset :) you can also check that by dumping the RGB controller and you should see something like this:
 
