@@ -159,7 +159,7 @@ You should see this:
 
 ### For Edison using the Sparkfun Base Block
 
-```
+```sh
 root@edison:~# i2cget -y 1 0x62 0x04
 0xff
 ```
