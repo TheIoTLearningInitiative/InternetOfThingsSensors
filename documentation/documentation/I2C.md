@@ -129,10 +129,10 @@ These guys are used to set or retrieve the value of a specific register in our i
 
 Remember i told you it is not quite impossible to do this on the Edison + Arduino Breakout Board?; well before I tell you how we can do a workaround let's remember... what are the lines needed by a device so I2C protocol can do its job?
 
-* Vdd (power)
-* GND (ground)
-* SDA (Data line)
-* SCL (Clock line) 
+* Vdd (Power)
+* GND (Ground)
+* SDA (Data Line)
+* SCL (Clock Line) 
 
 Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
 ](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005583.html) page 7, we know that the Arduino SDA and SCL pins are connected to bus 1, and whne you connect a device it doesn't show when you try to do an i2cdetect so what are alternatives do we have?
