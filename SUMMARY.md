@@ -9,6 +9,5 @@
 * [Libraries](Libraries.md)
 * [References](documentation/REFERENCES.md)
 * [Hands-On](HANDSON.md)
-* Customization
 * [Sandbox](documentation/Sandbox.md)
 
