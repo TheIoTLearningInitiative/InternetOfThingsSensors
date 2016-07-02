@@ -1,10 +1,5 @@
 # Prerequisites
 
-
-Time
-
-- 90 minutes
-
 # Pre-Work
 
 ```sh
