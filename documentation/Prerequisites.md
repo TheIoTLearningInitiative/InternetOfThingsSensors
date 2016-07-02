@@ -56,9 +56,6 @@ Under your linux host...
 Under Intel Edison
 
 ```sh
-    root@edison:~# scp user@host:/home/user/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb .
-```
-```sh
     root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 ```
 
