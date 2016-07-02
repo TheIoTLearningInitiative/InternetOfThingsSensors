@@ -14,4 +14,4 @@
 
 ## Contributions
 
->  [Contributing a module](https://github.com/intel-iot-devkit/upm/blob/master/docs/contributions.md)
+> Here are the rules of contribution... [Contributing a module](https://github.com/intel-iot-devkit/upm/blob/master/docs/contributions.md)
