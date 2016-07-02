@@ -15,7 +15,7 @@ Typically an update() function will be called in order to get new data from the 
 If installed them though **OPKG**, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, i.e the following header are the ones supported in **Version: 0.3.2**:
 
 
-```
+```sh
 -rw-r--r--    1 root     root          3192 Aug 13 00:23 a110x.h
 -rw-r--r--    1 root     root          2933 May 19 16:28 aci_queue.h
 -rw-r--r--    1 root     root          2157 May 19 16:28 aci_setup.h
