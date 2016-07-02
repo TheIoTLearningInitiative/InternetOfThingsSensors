@@ -23,6 +23,10 @@ Let's write a program to display a string in our RGB LCD.
 
 Go to your Edison's command-line and use **nano** or **vim** to create a file called <font color="blue">lcd_temp.cpp</font> and add the following code:
 
+```sh
+root@edison:~# nano lcd_temp.cpp
+```
+
 ```c
 #include <unistd.h>                                                             
 #include <iostream>                                                             
