@@ -34,7 +34,14 @@ root@edison:~#
 
 # Intel Edison Boot Up
 
+## Bootup Linux Login
 
+```sh
+    Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
+    
+    edison login: root
+    root@edison:~# 
+```
 
 # Kernel Development Environment: Module Native Compilation
 
