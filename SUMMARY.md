@@ -9,4 +9,5 @@
 * [References](documentation/REFERENCES.md)
 * [Hands-On](HANDSON.md)
 * [Sandbox](documentation/Sandbox.md)
+* Sensors
 
