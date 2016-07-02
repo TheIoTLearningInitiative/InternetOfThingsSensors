@@ -15,6 +15,7 @@ If installed them though **OPKG**, then they should be here: <font color="green"
 
 
 ```sh
+root@edison:~# ls -l /usr/include/upm
 -rw-r--r--    1 root     root          3192 Aug 13 00:23 a110x.h
 -rw-r--r--    1 root     root          2933 May 19 16:28 aci_queue.h
 -rw-r--r--    1 root     root          2157 May 19 16:28 aci_setup.h
