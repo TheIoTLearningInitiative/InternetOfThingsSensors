@@ -19,7 +19,7 @@ So far you should have found the following info about our sensor and display:
 
 ## 2. Writing some code with UPM/MRAA, LCD
 
-Let's write a program to read the temperature from the Barometric sensor and display it in our RGB LCD.
+Let's write a program to display a string in our RGB LCD.
 
 ```c
 #include <unistd.h>                                                             
