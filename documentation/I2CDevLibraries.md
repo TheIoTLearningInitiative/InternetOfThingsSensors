@@ -305,7 +305,6 @@ root@edison:~/.../I2CDL# ./lcdtest
 DONE! 
 ```
 
-
 Once your code is working lets add a method to init our RGB controller, also we will need a method to set the color of the Display :
 
 ```c
