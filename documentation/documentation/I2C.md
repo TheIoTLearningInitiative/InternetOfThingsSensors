@@ -121,7 +121,7 @@ Now for the question about what these registers represent, if you read datasheet
 
 To see the other available registers take a look to page 11 of the [PC9633 RGB controller](https://github.com/TheIoTLearningInitiative/InternetOfThingsSensors/blob/master/documentation/PCA9633.pdf) that has the Grove display.
 
-## 12cset & i2cget
+## i2cset & i2cget
 
 These guys are used to set or retrieve the value of a specific register in our i2c device, so lets go and initiate the RGB controller of our Display and set the color to white :), you already know to what registers we should write (you found them in your datasheet) to set the color.
 
@@ -174,7 +174,7 @@ See?, 0x04, 0x03, 0x02 now have 0xFF as their value, try setting the color to a 
 ---
 
 
-**Answer**: you don't need to re initiate th RGB controller, just set the RGB registers to the correct values, to set the color to Green, we need R=0, G=255, B=0. so we only need to do:
+**Answer**: you don't need to re initiate the RGB controller, just set the RGB registers to the correct values, to set the color to Green, we need R=0, G=255, B=0. so we only need to do:
 
 ```
 i2cset -y 1 0x62 0x04 0x00
