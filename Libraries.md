@@ -9,7 +9,7 @@ The constructor is expected to initialise the sensor and parameters may be used 
 
 Typically an update() function will be called in order to get new data from the sensor in order to reduce load when doing multiple reads to sensor data.
 
-####Where are the UPM includes in Edison?
+## Where are the UPM includes in Edison?
 
 If installed them though **OPKG**, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, i.e the following header are the ones supported in **Version: 0.3.2**:
 
