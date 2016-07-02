@@ -118,9 +118,9 @@ root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL#
 If you do some changes you can recompile using **make**, sometimes when you do some changes and recompile, it will tell you that there are no changes, on those occassions you can do **make clean** and then **make**  that will erase the tempfiles created by vim when editing as well as the executable binary.
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# make clean
-rm lcd_temp                                                                     
-root@edison:~/TheIoTLearningInitiative/Sensors#  
+root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# make clean
+rm lcd                                                                
+root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL#  
 ```
 
 ## 4. Writing some code with UPM/MRAA, Temperature
