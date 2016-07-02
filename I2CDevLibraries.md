@@ -848,7 +848,7 @@ The final challenge, so you choose to accept it, is to integrate the code that g
 #define MPL3115A2_CTRL_REG5	0x2A	//Control Register 5 || Interrupt output pin assignment
 #define MPL3115A2_STATUS	0x00	//Sensor Status Register 
 #define MPL3115A2_OFF_T		0x2C	//Temperature Data Offset Register
-#define MPL3115A2_BUS		0x01	//I2C bus where the device is connected
+#define MPL3115A2_BUS		0x06	//I2C bus where the device is connected
 #define MPL3115A2_SLAVE		0x60	//I2C slave address of the device
 #define MPL3115A2_OUT_T_MSB	0x04
 #define MPL3115A2_OUT_T_LSB	0x05
