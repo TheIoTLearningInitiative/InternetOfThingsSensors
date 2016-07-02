@@ -165,3 +165,8 @@ hello mraa
  Running on Intel Edison                                                        
 root@edison:~# 
 ```
+
+```sh
+root@edison:~/TheIoTLearningInitiative/Sensors# cd
+root@edison:~# cd
+```
