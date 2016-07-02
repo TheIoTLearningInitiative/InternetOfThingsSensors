@@ -17,6 +17,7 @@
    * [Contributions](documentation/LibrariesContributions.md)
 * [I2C Dev Libraries](documentation/I2CDevLibraries.md)
    * [Display Color](documentation/DisplayColor.md)
+   * Text
 * [Linux Kernel Module](documentation/LinuxKernelModule.md)
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
