@@ -18,7 +18,7 @@
 * [I2C Dev Libraries](documentation/I2CDevLibraries.md)
    * [LCD RGB Color Display](documentation/DisplayColor.md)
    * [LCD RGB Text](documentation/Text.md)
-   * [LCD RGBLCD Off](documentation/LcdOff.md)
+   * [LCD RGB Display Off](documentation/LcdOff.md)
    * [Temperature](documentation/Temperature.md)
 * [Linux Kernel Module](documentation/LinuxKernelModule.md)
 * [References](documentation/References.md)
