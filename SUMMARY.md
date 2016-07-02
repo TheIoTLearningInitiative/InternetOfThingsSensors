@@ -7,7 +7,7 @@
 * [Sensors](documentation/Sensors.md)
    * [Customization](documentation/Customization.md)
 * [Libraries](Libraries.md)
-* [References](documentation/REFERENCES.md)
 * [Hands-On](HANDSON.md)
+* [References](documentation/REFERENCES.md)
 * [Sandbox](documentation/Sandbox.md)
 
