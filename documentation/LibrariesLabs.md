@@ -33,8 +33,8 @@ root@edison:~# nano lcd_temp.cpp
 #include <signal.h>
 #include <string>
 #include <sstream>
-#include "jhd1313m1.h"
-#include "mpl3115a2.h"
+#include "jhd1313m1.hpp"
+#include "mpl3115a2.hpp"
 
 volatile int doWork = 0;
 void sig_handler(int signo)
