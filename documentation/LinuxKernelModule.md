@@ -90,6 +90,6 @@ root@edison:~/TheIoTLearningInitiative/Sensors/LKM#
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo "fron here now" > /sys/kernel/JHD1313M2/lcd_text
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo "from here now" > /sys/kernel/JHD1313M2/lcd_text
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
