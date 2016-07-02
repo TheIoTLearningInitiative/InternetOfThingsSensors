@@ -89,7 +89,7 @@ root@edison:~/.../LKM# dmesg
 [ 1363.808522] JHD1313M2_init: creating sysfs access...
 ```
 
-
+## SysFs
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls /sys/kernel/JHD1313M2/
