@@ -76,11 +76,11 @@ root@edison:~#
 
 # MRAA Labs
 
-The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
+The intent of MRAA is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
 Note: using mraa and UPM requires to be aware of the versions installed, since there is a version dependency of UPM over MRAA. 
 
-To find out know the mraa version that needs to be installed in order to use UPM, type the following in your edison terminal:
+To find out know the MRAA version that needs to be installed in order to use UPM, type the following in your edison terminal:
 
 ```sh
 root@edison:~# opkg info upm
@@ -119,9 +119,9 @@ Installed-Time: 1465260692
 root@edison:~# 
 ```
 
-From there you can see that we need to installed at least version 0.7.0 of mraa. In the same fashion you can check the version of the installed libmraa0 library.
+From there you can see that we need to installed at least version 0.7.0 of MRAA. In the same fashion you can check the version of the installed MRAA library.
 
-This basic mraa example, can be used to verify it is correctly installed and found by the compiler
+This basic MRAA example, can be used to verify it is correctly installed and found by the compiler
 
 ```sh
 root@edison:~# nano HelloMRAA.cpp
