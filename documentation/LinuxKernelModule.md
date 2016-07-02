@@ -88,3 +88,8 @@ root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls /sys/kernel/JHD1313M2/
 lcd_text  rgb_b  rgb_g  rgb_r
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
+
+```sh
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo "fron here now" > /sys/kernel/JHD1313M2/lcd_text
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
+```
