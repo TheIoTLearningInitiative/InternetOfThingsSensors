@@ -147,14 +147,12 @@ Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
 
 **Answer**: There are other pins that offer the SDA and SCL and those correspond to Bus 6  and these pins are the Arduino's A4 and A5 in our Arduino Break-out Board!.. so basically we can connect the cables from the LCD like this:
 
-```
 | Arduino Pin | LCD I2C pin|
 | -- | -- |
 |5v | Vdd |
 |GND | GND |
 |A4 | SDA |
 |A5 | SCL |
-```
 
 Well in your Edison's command-line type each command and hit enter :)
 
