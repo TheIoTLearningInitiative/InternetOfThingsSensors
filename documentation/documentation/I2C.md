@@ -114,8 +114,7 @@ Please from the above dump, can you determinate what is the value of register 0x
 
 ![](https://raw.githubusercontent.com/TheIoTLearningInitiative/InternetOfThingsSensors/master/images/dump.png)
 
-
-now for the question about what these registers represent, if you read datasheet you will find that they are PWM registers 0 to 3, PWMx — Individual brightness control registers these registers, and here it involves another protocol PWM which stands for Pulse width modulation (go check the protocols section). As color is a mix of Red, Green and Blue we can mix light by adjusting its brightnes and this registers do just that the control bright in a scale of 0 to 255 :) 
+Now for the question about what these registers represent, if you read datasheet you will find that they are PWM registers 0 to 3, PWMx — Individual brightness control registers these registers, and here it involves another protocol PWM which stands for Pulse width modulation (go check the protocols section). As color is a mix of Red, Green and Blue we can mix light by adjusting its brightnes and this registers do just that the control bright in a scale of 0 to 255 :) 
 
 To see the other available registers take a look to page 11 of the [PC9633](documentation/PCA9633.pdf) RGB controller that has the Grove display.
 
