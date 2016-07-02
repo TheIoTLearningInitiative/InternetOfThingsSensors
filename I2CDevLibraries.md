@@ -18,7 +18,7 @@ root@edison:~/TheIoTLearningInitiative/Sensors/I2CDL#
 ```
 
 ```sh
-root@edison:~/.../IoTDKL# nano lcd.cpp
+root@edison:~/.../I2CDL# nano lcd.c
 ```
 
 ```
