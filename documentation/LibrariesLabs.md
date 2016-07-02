@@ -23,7 +23,11 @@ Lets write a program that reads the temperature from the Barometric sensor and d
 
 Go to your Edison's command-line and use **nano** or **vim** to create a file called <font color="blue">lcd_temp.cpp</font> and add the following code:
 
+```sh
+lcd_temp.cpp
 ```
+
+```c
 #include <unistd.h>
 #include <iostream>
 #include <signal.h>
