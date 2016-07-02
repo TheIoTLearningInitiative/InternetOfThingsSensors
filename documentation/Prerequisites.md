@@ -25,8 +25,7 @@ root@edison:~#
 - Laptop
 - Internet Connection
 - Intel Edison
-- [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
- 
+- [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427) 
   - [Grove - LCD RGB Backlight (I2C Communication Protocol Device)](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
     ![](http://www.seeedstudio.com/wiki/images/thumb/0/03/Serial_LEC_RGB_Backlight_Lcd.jpg/500px-Serial_LEC_RGB_Backlight_Lcd.jpg)
   - [Grove - Barometer Sensor (I2C Communication Protocol Device)](http://www.seeedstudio.com/wiki/Grove_-_Barometer_Sensor)
