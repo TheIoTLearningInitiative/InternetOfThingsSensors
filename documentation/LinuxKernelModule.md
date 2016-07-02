@@ -69,3 +69,8 @@ JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
 JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
+
+```sh
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# sudo insmod JHD1313M2.ko
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# dmesg
+```
