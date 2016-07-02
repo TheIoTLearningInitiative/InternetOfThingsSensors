@@ -24,5 +24,5 @@ root@edison:~/TheIoTLearningInitiative/Sensors/LKM#
 ```
 
 ```sh
-root@edison:~/.../I2CDL# nano lcd.c
+root@edison:~/.../LKM# nano lcd.c
 ```
