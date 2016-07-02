@@ -273,7 +273,8 @@ int main()
     return 0;
 }
 ```
-now lets create a **Makefile**  with the following content:
+
+Now lets create a **Makefile**  with the following content:
 
 ```
 all:lcdtest
