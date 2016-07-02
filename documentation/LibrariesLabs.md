@@ -24,13 +24,7 @@ Let's write a program to display a string in our RGB LCD.
 Go to your Edison's command-line and use **nano** or **vim** to create a file called <font color="blue">lcd_temp.cpp</font> and add the following code:
 
 ```sh
-root@edison:~# cd TheIoTLearningInitiative/Sensors
-root@edison:~/TheIoTLearningInitiative/Sensors# 
-```
-
-```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# mkdir IoTDKL
-root@edison:~/TheIoTLearningInitiative/Sensors# cd IoTDKL/
+root@edison:~# cd TheIoTLearningInitiative/Sensors/IoTDKL
 root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# 
 ```
 
