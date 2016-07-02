@@ -365,7 +365,7 @@ Now lets write some methods to drive the LCD controller, first of all the JHD131
 
 So lets start adding some defines we will need:
 
-```
+```c
 // commands
 #define LCD_CLEARDISPLAY	0x01
 #define LCD_RETURNHOME	  0x02
@@ -410,7 +410,7 @@ uint8_t lines = 2;
 
 Now add an init method to setup our LCD:
 
-```
+```c
 void initLCD(I2CCONTEXT *lcd)
 {
 
@@ -438,7 +438,7 @@ void initLCD(I2CCONTEXT *lcd)
 
 Of course we need a function we can pass a c string to it , then iterate it  and pass each letter to the LCD. for that lets add the following method:
 
-```
+```c
 void writeToLCD(I2CCONTEXT *lcd, char *c)
 {
 
@@ -459,7 +459,7 @@ void writeToLCD(I2CCONTEXT *lcd, char *c)
 
 Alright! now what we have left is to update our main method:
 
-```
+```c
     //Grove LCD has two devices one that drives LCD
 	//and a second that drives RGB
 	initContext(&rgb, RGB_SLAVE , BUS);
@@ -486,15 +486,18 @@ when the programs exits, notice that the LCD still display the blinking cursor a
 ---
 
 **Answer:**
-```
+
+```c
 void turnOffLCD(I2CCONTEXT *lcd)
 {	
 	writeByteRegister(lcd->file, 0x00, LCD_DISPLAYCONTROL );
 	writeByteRegister(lcd->file, 0x00, LCD_CLEARDISPLAY );
 }
 ```
-by now the whole code should look like this...
-```
+
+By now the whole code should look like this...
+
+```c
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
