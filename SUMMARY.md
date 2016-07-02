@@ -15,7 +15,6 @@
    * [UPM](documentation/Upm.md)
    * [Labs](documentation/LibrariesLabs.md)
    * [Contributions](documentation/LibrariesContributions.md)
-* [Libraries](Libraries.md)
 * [Hands-On](HANDSON.md)
 * [References](documentation/REFERENCES.md)
 * [Sandbox](documentation/Sandbox.md)
