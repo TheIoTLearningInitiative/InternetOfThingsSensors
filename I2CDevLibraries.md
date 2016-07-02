@@ -292,7 +292,8 @@ lcdtest:lcd.c
 clean:
 		@rm lcdtest
 ```
-run **make** and when the compilation succesfully finishes run **./lcdtest**
+
+Run **make** and when the compilation succesfully finishes run **./lcdtest**
 
 Once your code is working lets add a method to init our RGB controller, also we will need a method to set the color of the Display :
 
