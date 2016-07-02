@@ -1091,9 +1091,6 @@ int main()
 		sleep(1);
 		
 	}
-	
-	    
-    
 
     /*turn off RGB LEDS*/
     turnOffRGB(&rgb);
@@ -1102,7 +1099,4 @@ int main()
     	
     return 0;
 }
-
 ```
-
----
