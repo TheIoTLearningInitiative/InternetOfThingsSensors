@@ -29,7 +29,7 @@ root@edison:~/TheIoTLearningInitiative/Sensors#
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# nano lcd_temp.cpp
+root@edison:~/TheIoTLearningInitiative/Sensors# nano lcd.cpp
 ```
 
 ```c
