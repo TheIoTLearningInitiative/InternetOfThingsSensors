@@ -768,7 +768,7 @@ int main()
 
 ---
 
-There are things missing like, specify the column and row where we want to start writing text so it will be left to you to investigicate how to add that functionality.
+There are things missing like, specify the column and row where we want to start writing text so it will be left to you to investigate how to add that functionality.
 
 The final challenge, so you choose to accept it, is to integrate the code that gets the temperature using the i2c barometric sensor.. are you up to the challenge?
 
