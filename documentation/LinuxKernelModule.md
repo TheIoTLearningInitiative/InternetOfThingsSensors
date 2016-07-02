@@ -83,3 +83,9 @@ root@edison:~/.../LKM# dmesg
 [ 1363.719955] JHD1313M2_LCD_probe: trying to probe the device (JHD1313M2_LCD)...          
 [ 1363.808522] JHD1313M2_init: creating sysfs access...
 ```
+
+```sh
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls /sys/kernel/JHD1313M2/              
+lcd_text  rgb_b  rgb_g  rgb_r                                                              
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
+```
