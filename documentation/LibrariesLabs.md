@@ -186,6 +186,23 @@ int main(int argc, char **argv)
 }
 ```
 
+Our Makefile should look like this:
+
+```sh
+root@edison:~/.../IoTDKL# nano Makefile
+```
+
+```c
+all: lcd
+
+lcd:
+	g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd.cpp -o lcd
+clean:
+	rm lcd
+```
+
+Now compile
+
 ```sh
 root@edison:~/.../IoTDKL# make
 g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
