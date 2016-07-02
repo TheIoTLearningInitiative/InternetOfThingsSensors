@@ -21,7 +21,6 @@ Time
 ```sh
     root@edison:~# cd TheIoTLearningInitiative/
     root@edison:~# mkdir Sensors
-    root@edison:~# 
 ```
 
 # Equipment
