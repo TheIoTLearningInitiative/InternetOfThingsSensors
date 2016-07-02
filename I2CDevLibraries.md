@@ -6,6 +6,21 @@ In the earlier section we saw how to communicate with the sensors using high lev
 
 Now lets start by creating a file called **lcd.c**  and start  adding the headers we're going to need and the body of the program:
 
+```sh
+root@edison:~# cd TheIoTLearningInitiative/Sensors
+root@edison:~/TheIoTLearningInitiative/Sensors# 
+```
+
+```sh
+root@edison:~/TheIoTLearningInitiative/Sensors# mkdir I2CDL
+root@edison:~/TheIoTLearningInitiative/Sensors# cd I2CDL/
+root@edison:~/TheIoTLearningInitiative/Sensors/I2CDL# 
+```
+
+```sh
+root@edison:~/.../IoTDKL# nano lcd.cpp
+```
+
 ```
 #include <errno.h>
 #include <string.h>
