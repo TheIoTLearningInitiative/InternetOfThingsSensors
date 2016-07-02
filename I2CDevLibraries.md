@@ -171,6 +171,10 @@ printf("\nDONE!\n");
 
 so far your **lcd.c** sourcecode should look like this:
 
+```sh
+root@edison:~/.../I2CDL# nano lcd.c
+```
+
 ```
 #include <errno.h>
 #include <string.h>
