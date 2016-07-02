@@ -29,7 +29,7 @@ root@edison:~/TheIoTLearningInitiative/Sensors#
 ```
 
 ```sh
-root@edison:~# nano lcd_temp.cpp
+root@edison:~/TheIoTLearningInitiative/Sensors# nano lcd_temp.cpp
 ```
 
 ```c
@@ -82,7 +82,7 @@ Answer: lupm-i2clcd and lupm-mpl3115a2
 Our Makefile should look like this:
 
 ```sh
-root@edison:~# nano Makefile
+root@edison:~/TheIoTLearningInitiative/Sensors# nano Makefile
 ```
 
 ```c
