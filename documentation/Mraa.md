@@ -124,6 +124,11 @@ From there you can see that we need to installed at least version 0.7.0 of MRAA.
 This basic MRAA example, can be used to verify it is correctly installed and found by the compiler
 
 ```sh
+root@edison:~# cd TheIoTLearningInitiative/sensors
+root@edison:~/TheIoTLearningInitiative/sensors# 
+```
+
+```sh
 root@edison:~# nano HelloMRAA.cpp
 ```
 
