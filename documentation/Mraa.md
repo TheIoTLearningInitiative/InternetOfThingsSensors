@@ -74,7 +74,7 @@ Package mraa (1.0.0-r0) installed in root is up to date.
 root@edison:~# 
 ```
 
-# MRAA Labs
+# Hello MRAA
 
 The intent of MRAA is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
