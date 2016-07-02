@@ -300,7 +300,7 @@ gcc -O lcd.c -o lcdtest
 ```
 
 ```sh
-root@edison:~/.../I2CDL# 
+root@edison:~/.../I2CDL# ./lcdtest
                                                                                            
 DONE! 
 ```
@@ -361,7 +361,7 @@ gcc -O lcd.c -o lcdtest
 ```
 
 ```sh
-root@edison:~/.../I2CDL# 
+root@edison:~/.../I2CDL# ./lcdtest
                                                                                            
 DONE! 
 ```
