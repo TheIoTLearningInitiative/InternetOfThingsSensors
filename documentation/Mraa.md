@@ -121,9 +121,9 @@ root@edison:~#
 
 from there you can see that we need to installed at least version 0.7.0 of mraa. In the same fashion you can check the version of the installed libmraa0 library.
 
-This simple mraa example, can be used to verify it is correctly installed and found by the compiler
+This basic mraa example, can be used to verify it is correctly installed and found by the compiler
 
-```
+```c
 #include "mraa.h"
 int
 main(int argc, char** argv)
