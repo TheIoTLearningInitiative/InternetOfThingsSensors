@@ -127,7 +127,7 @@ These guys are used to set or retrieve the value of a specific register in our i
 
 <font color='blue'></font>
 
-Remember i told you it is not quite impossible to do this on the Edison + Arduino Breakout Board?; well before i tell youhow we can do a workaround  lets remember.. what are the lines needed by a device so I2C protocol can do its job?
+Remember i told you it is not quite impossible to do this on the Edison + Arduino Breakout Board?; well before i tell you how we can do a workaround  lets remember.. what are the lines needed by a device so I2C protocol can do its job?
 
 * Vdd (power)
 * GND (ground)
