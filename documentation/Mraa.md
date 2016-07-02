@@ -119,7 +119,7 @@ Installed-Time: 1465260692
 root@edison:~# 
 ```
 
-from there you can see that we need to installed at least version 0.7.0 of mraa. In the same fashion you can check the version of the installed libmraa0 library.
+From there you can see that we need to installed at least version 0.7.0 of mraa. In the same fashion you can check the version of the installed libmraa0 library.
 
 This basic mraa example, can be used to verify it is correctly installed and found by the compiler
 
