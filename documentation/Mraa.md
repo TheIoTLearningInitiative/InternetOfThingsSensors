@@ -132,11 +132,11 @@ root@edison:~/TheIoTLearningInitiative/Sensors#
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors# mkdir IoTDKL
 root@edison:~/TheIoTLearningInitiative/Sensors# cd IoTDKL/
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# 
+root@edison:~/.../IoTDKL# 
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# nano HelloMRAA.cpp
+root@edison:~/.../IoTDKL# nano HelloMRAA.cpp
 ```
 
 ```c
@@ -155,13 +155,13 @@ int main(int argc, char** argv)
 How to compile?..let's say you have the code above in a file named HelloMRAA.cpp, inside your edison, now from the Edison terminal type:
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# g++ -lmraa HelloMRAA.cpp -o HelloMRAA
+root@edison:~/.../IoTDKL# g++ -lmraa HelloMRAA.cpp -o HelloMRAA
 ```
 
 now if you run the program typing:
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# ./HelloMRAA 
+root@edison:~/.../IoTDKL# ./HelloMRAA 
 ```
 
 you will see something like this:
@@ -174,6 +174,6 @@ root@edison:~#
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# cd
+root@edison:~/.../IoTDKL# cd
 root@edison:~# 
 ```
