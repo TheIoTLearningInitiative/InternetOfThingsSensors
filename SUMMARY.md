@@ -12,9 +12,9 @@
    * [Customization](documentation/Customization.md)
 * IoT Developer Kit Libraries
    * [MRAA](documentation/Mraa.md)
+   * [UPM](documentation/Upm.md)
    * Tbd
 * [Libraries](Libraries.md)
-   * [UPM](documentation/Upm.md)
    * [Labs](documentation/LibrariesLabs.md)
    * [Contributions](documentation/LibrariesContributions.md)
 * [Hands-On](HANDSON.md)
