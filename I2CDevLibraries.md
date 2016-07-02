@@ -49,9 +49,9 @@ Now lets do some defines so we can have the registers we need at hand, lets star
 #define RGB_SLAVE       0x62
 #define LCD_SLAVE       0x3E
 #define BUS             0x01
-#define REG_RED         0x04        // pwm2
-#define REG_GREEN       0x03        // pwm1
-#define REG_BLUE        0x02        // pwm0
+#define REG_RED         0x04        // PWM2
+#define REG_GREEN       0x03        // PWM1
+#define REG_BLUE        0x02        // PWM0
 #define REG_MODE1       0x00
 #define REG_MODE2       0x01
 #define REG_OUTPUT      0x08
