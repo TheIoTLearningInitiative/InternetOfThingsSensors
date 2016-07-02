@@ -334,8 +334,16 @@ turnOffRGB(&rgb);
 
 run **make clean** then **make** and execute by typing **./lcdtest**
 
+```sh
+root@edison:~/.../I2CDL# make
+gcc -O lcd.c -o lcdtest
+```
 
-
+```sh
+root@edison:~/.../I2CDL# 
+                                                                                           
+DONE! 
+```
 
 Now lets write some methods to drive the LCD controller, first of all the JHD1313 datasheet (Grove for some reason puts a link to the datasheet of JHD1214) is not too clear, but after some tome you will realize that to init the device you can write to register 0x00 if you want to write to CGRAM AD you need to write to register 0x40 and to write information to DDRAM you need to write to register 0x80 (take a look to the [JHD1214 data sheet](http://www.seeedstudio.com/wiki/images/0/03/JHD1214Y_YG_1.0.pdf)).
 
