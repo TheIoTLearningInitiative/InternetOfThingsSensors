@@ -180,26 +180,42 @@ Note: using mraa and UPM requires to be aware of the versions installed, since t
 
 To find out know the mraa version that needs to be installed in order to use UPM, type the following in your edison terminal:
 
-    opkg info upm
+```sh
+root@edison:~# opkg info upm
+```
 
 Something like this is printed in the screen:
 
-    Package: upm
-    Version: 0.3.2
-    Depends: libmraa0 (>= 0.6.2)
-    Provides: upm-dev, upm-dbg, upm-doc
-    Replaces: upm-dev, upm-dbg, upm-doc
-    Conflicts: upm-dev, upm-dbg, upm-doc
-    Status: install user installed
-    Section: libs
-    Architecture: i586
-    Maintainer: Intel IoT-Devkit
-    MD5Sum: 7cdf6f1fbe1f19131c5b6715cdb62c5f
-    Size: 6700570
-    Filename: upm_0.3.2_i586.ipk
-    Source: https://github.com/intel-iot-devkit/upm
-    Description: upm built using CMake
-    Installed-Time: 1445619290
+```sh
+Package: upm                                                                    
+Version: 0.5.1-r0                                                               
+Depends: libgcc1 (>= 4.9.1), libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.20), pyth)
+Status: unknown ok not-installed                                                
+Section: libs                                                                   
+Architecture: core2-32                                                          
+Maintainer: Poky <poky@yoctoproject.org>                                        
+MD5Sum: eb8bbbf6d30c35a79864955914029134                                        
+Size: 25851484                                                                  
+Filename: upm_0.5.1-r0_core2-32.ipk                                             
+Source: git://github.com/intel-iot-devkit/upm.git;protocol=git;tag=v0.5.1       
+Description: Sensor/Actuator repository for Mraa  Sensor/Actuator repository fo.
+                                                                                
+Package: upm                                                                    
+Version: 0.7.0-r0                                                               
+Depends: libgcc1 (>= 4.9.1), libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.20), pyth)
+Status: install ok installed                                                    
+Section: libs                                                                   
+Architecture: core2-32                                                          
+Maintainer: Poky <poky@yoctoproject.org>                                        
+MD5Sum: d50038c9eb7d197267a2aa9c4531ad20                                        
+Size: 33113334                                                                  
+Filename: upm_0.7.0-r0_core2-32.ipk                                             
+Source: git://github.com/intel-iot-devkit/upm.git;protocol=git;tag=v0.7.0       
+Description: Sensor/Actuator repository for Mraa  Sensor/Actuator repository fo.
+Installed-Time: 1465260692                                                      
+                   
+root@edison:~# 
+```
 
 from there you can see that we need to installed at least version 0.6.2 of mraa. In the same fashion you can check the version of the installed libmraa0 library.
 
