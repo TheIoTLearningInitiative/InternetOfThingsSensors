@@ -433,8 +433,7 @@ void writeToLCD(I2CCONTEXT *lcd, char *c)
 }
 ```
 
-
-alright now what we have left is to update our main method:
+Alright! now what we have left is to update our main method:
 
 ```
     //Grove LCD has two devices one that drives LCD
