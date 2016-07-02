@@ -118,11 +118,13 @@ Alright! so if you inspect the datasheets ( go figure! :P) you will notice that 
 ```
 i2c_smbus_write_byte_data(int file, __u8 command, __u8 value);
 ```
+
 and to read a register we can use:
 
 ```
 i2c_smbus_read_word_data(int file, __u8 register, __u8 value);
 ```
+
 lets create two methods so we can handle any errors and return the error code in case something goes wrong.
 
 ```
@@ -153,6 +155,7 @@ __s32 readRegister(int register_, int file)
 	return res;
 }
 ```
+
 Now lets  test if we can get the I2C context of our RGB controller for that, add this to the  main():
 
 ```
