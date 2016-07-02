@@ -188,8 +188,13 @@ You should see this:
 ### For Edison using Arduino Breakout Board
 
 ```sh
-root@edison:~# i2cget -y 6 0x62 0x04
-0xff
+root@edison:~# i2cget -y 6 0x62 0x04                                                       
+0xff                                                                                       
+root@edison:~# i2cget -y 6 0x62 0x03                                                       
+0xff                                                                                       
+root@edison:~# i2cget -y 6 0x62 0x02                                                       
+0xff                                                                                       
+root@edison:~# 
 ```
 
 ### For Edison using the Sparkfun Base Block
