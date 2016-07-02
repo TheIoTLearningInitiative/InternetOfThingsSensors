@@ -129,6 +129,8 @@ These guys are used to set or retrieve the value of a specific register in our i
 
 Well in your Edison's command-line type each command and hit enter :)
 
+### For Edison using Arduino Breakout Board
+
 ```
 i2cset -y 1 0x62 0x00 0x00
 i2cset -y 1 0x62 0x08 0xFF
@@ -137,6 +139,18 @@ i2cset -y 1 0x62 0x04 0xFF
 i2cset -y 1 0x62 0x03 0xFF
 i2cset -y 1 0x62 0x02 0xFF
 ```
+
+### For Edison using the Sparkfun Base Block
+
+```
+i2cset -y 1 0x62 0x00 0x00
+i2cset -y 1 0x62 0x08 0xFF
+i2cset -y 1 0x62 0x01 0x20
+i2cset -y 1 0x62 0x04 0xFF
+i2cset -y 1 0x62 0x03 0xFF
+i2cset -y 1 0x62 0x02 0xFF
+```
+
 What about that!, you just tapped into your i2c device, init the RGB controller and set the color to white, without any program!...
 
 now take a look to lets say the register in charge of setting the red color(0x04) using **i2cget**. type this:<font color='blue'> i2cget -y 1 0x62 0x04</font>.
