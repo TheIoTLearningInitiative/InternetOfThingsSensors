@@ -200,10 +200,20 @@ See?, 0x04, 0x03, 0x02 now have 0xFF as their value, try setting the color to a 
 
 **Answer**: you don't need to re initiate the RGB controller, just set the RGB registers to the correct values, to set the color to Green, we need R=0, G=255, B=0. so we only need to do:
 
+### For Edison using Arduino Breakout Board
+
 ```
-i2cset -y 1 0x62 0x04 0x00
-i2cset -y 1 0x62 0x03 0xFF
-i2cset -y 1 0x62 0x02 0x00
+root@edison:~# i2cset -y 6 0x62 0x04 0x00
+root@edison:~# i2cset -y 6 0x62 0x03 0xFF
+root@edison:~# i2cset -y 6 0x62 0x02 0x00
+```
+
+### For Edison using the Sparkfun Base Block
+
+```
+root@edison:~# i2cset -y 1 0x62 0x04 0x00
+root@edison:~# i2cset -y 1 0x62 0x03 0xFF
+root@edison:~# i2cset -y 1 0x62 0x02 0x00
 ```
 
 and BUM!... Yoda green it is!...
