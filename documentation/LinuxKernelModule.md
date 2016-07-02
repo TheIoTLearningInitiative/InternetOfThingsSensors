@@ -23,15 +23,15 @@ root@edison:~/TheIoTLearningInitiative/Sensors/LKM#
 ```
 
 ```sh
-root@edison:~/.../LKM# wget https://github.com/SourceCodeCat/IoTCodeExamples/blob/master/I2C/JHD1313M2.c
+root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.c
 ```
 
 ```sh
-root@edison:~/.../LKM# wget https://github.com/SourceCodeCat/IoTCodeExamples/blob/master/I2C/JHD1313M2.h
+root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.h
 ```
 
 ```sh
-root@edison:~/.../LKM# wget https://github.com/SourceCodeCat/IoTCodeExamples/blob/master/I2C/Makefile
+root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/Makefile
 ```
 
 ```sh
