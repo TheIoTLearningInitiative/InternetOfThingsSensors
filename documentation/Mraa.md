@@ -2,7 +2,9 @@
 
 > Low Level Skeleton Library for IO Communication on GNU/Linux platforms
 
-> C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms. With board detection done at runtime, you can create portable code that works across multiple platforms.
+> C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms with a structured and sane API where port names/numbering matches the board that you are on. With board detection done at runtime, you can create portable code that works across multiple platforms.
+
+> Use of MRAA does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms.
 
 - [MRAA Github](https://github.com/intel-iot-devkit/mraa)
 
@@ -76,7 +78,7 @@ root@edison:~#
 
 # MRAA Labs
 
-> Libmraa is a C/C++ library with bindings to javascript & python to interface with the IO on Galileo, Edison & other platforms, with a structured and sane API where port names/numbering matches the board that you are on. Use of libmraa does not tie you to specific hardware with board detection done at runtime you can create portable code that will work across the supported platforms.
+
 
 The intent is to make it easier for developers and sensor manufacturers to map their sensors & actuators on top of supported hardware and to allow control of low level communication protocol by high level languages & constructs.
 
