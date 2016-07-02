@@ -15,7 +15,7 @@
    * [UPM](documentation/Upm.md)
    * [Labs](documentation/LibrariesLabs.md)
    * [Contributions](documentation/LibrariesContributions.md)
-* [I2C Dev Libraries](I2CDevLibraries.md)
+* [I2C Dev Libraries](documentation/I2CDevLibraries.md)
 * [Linux Kernel Module](documentation/LinuxKernelModule.md)
 * [References](documentation/REFERENCES.md)
 * [Sandbox](documentation/Sandbox.md)
