@@ -168,5 +168,5 @@ root@edison:~#
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors# cd
-root@edison:~# cd
+root@edison:~# 
 ```
