@@ -18,7 +18,7 @@
 * [I2C Dev Libraries](documentation/I2CDevLibraries.md)
    * [Display Color](documentation/DisplayColor.md)
    * [Text](documentation/Text.md)
-   * LCD Off
+   * [LCD Off](documentation/LcdOff.md)
 * [Linux Kernel Module](documentation/LinuxKernelModule.md)
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
