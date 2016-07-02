@@ -43,8 +43,7 @@ int main()
 }
 ```
 
-
-now lets do some defines so we can have the registers we need at hand, lets start with those registers needed by the RGB controller of our Display.
+Now lets do some defines so we can have the registers we need at hand, lets start with those registers needed by the RGB controller of our Display.
 
 ```
 #define RGB_SLAVE       0x62
@@ -79,7 +78,8 @@ I2CCONTEXT lcd; //will store the lcd controller context
 I2CCONTEXT rgb; //will store the rgb controller context
 ```
 
-Now lets create a function where we are going to create the context, this function will receive the reference to an **I2CCONTEXT** variable, the **address** of the device and the **bus** where it is laying. as a return value we can send the errno value:
+Now lets create a function where we are going to create the context, this function will receive the reference to an **I2CCONTEXT** variable, the **address** of the device and the **bus** where it is laying. as a return value we can send the errno value:ç
+
 ```
 int initContext(I2CCONTEXT *ctx, int addr_,int bus)
 {
