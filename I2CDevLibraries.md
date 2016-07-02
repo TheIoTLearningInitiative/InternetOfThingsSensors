@@ -119,13 +119,13 @@ Alright! so if you inspect the datasheets ( go figure! :P) you will notice that 
 i2c_smbus_write_byte_data(int file, __u8 command, __u8 value);
 ```
 
-and to read a register we can use:
+And to read a register we can use:
 
 ```c
 i2c_smbus_read_word_data(int file, __u8 register, __u8 value);
 ```
 
-lets create two methods so we can handle any errors and return the error code in case something goes wrong.
+Lets create two methods so we can handle any errors and return the error code in case something goes wrong.
 
 ```c
 __s32 writeByteRegister(int file, __u8 register_, __u8 value)
@@ -168,8 +168,7 @@ initContext(&rgb, RGB_SLAVE , BUS);
 printf("\nDONE!\n");
 ```
 
-
-so far your **lcd.c** sourcecode should look like this:
+So far your **lcd.c** sourcecode should look like this:
 
 ```sh
 root@edison:~/.../I2CDL# nano lcd.c
