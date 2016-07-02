@@ -4,6 +4,8 @@
 
 > C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms. With board detection done at runtime, you can create portable code that works across multiple platforms.
 
+- [MRAA Github](https://github.com/intel-iot-devkit/mraa)
+
 - AIO Sensors requiring an ADC value to be read
 - I2C Modules using the i2c bus
 - SPI Modules using the SPI bus
@@ -11,7 +13,6 @@
 - PWM Modules using a PWM capable GPIO pin
 - UART Modules using a serial connection (RX/TX)
 
-- [MRAA Github](https://github.com/intel-iot-devkit/mraa)
 
 # Manual Installation, Latest Github Code Version
 
