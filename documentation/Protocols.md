@@ -15,10 +15,13 @@ Here we show the most common ones:
 > Creating, debugging and operating a custom I2C peripheral... [I2C Hacking Demystified](http://events.linuxfoundation.org/sites/events/files/slides/ELC%202016%20-%20I2C%20hacking%20demystified_0.pdf)
 
 # Serial Communication
+
+> A universal asynchronous receiver/transmitter, abbreviated UART, is a computer hardware device that translates data between characters (usually bytes) in a computer and an asynchronous serial communication format that encapsulates those characters between start bits and stop bits. UARTs are commonly used in conjunction with communication standards such as TIA (formerly EIA) RS-232, RS-422 or RS-485. [Wikipedia](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter)
+
 > Embedded electronics is all about interlinking circuits (processors or other integrated circuits) to create a symbiotic system. In order for those individual circuits to swap their information, they must share a common communication protocol. Hundreds of communication protocols have been defined to achieve this data exchange, and, in general, each can be separated into one of two categories: parallel or serial. [Sparkfun Learn about Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication) 
 
 # Universal Asynchronous Receiver/Transmitter
-> A universal asynchronous receiver/transmitter, abbreviated UART, is a computer hardware device that translates data between characters (usually bytes) in a computer and an asynchronous serial communication format that encapsulates those characters between start bits and stop bits. UARTs are commonly used in conjunction with communication standards such as TIA (formerly EIA) RS-232, RS-422 or RS-485. [Wikipedia](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter)
+
 
 # IR
 
