@@ -5,7 +5,7 @@
 * [Introduction](documentation/Introduction.md)
 * [Sensor Protocols](documentation/Protocols.md)
 * [Libraries](Libraries.md)
-* [References](REFERENCES.md)
+* [References](documentation/REFERENCES.md)
 * [Hands-On](HANDSON.md)
 * [Sandbox](documentation/Sandbox.md)
 
