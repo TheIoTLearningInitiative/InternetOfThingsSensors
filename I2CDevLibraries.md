@@ -484,6 +484,9 @@ Alright! now what we have left is to update our main method:
 ```sh
 root@edison:~/.../I2CDL# make clean
 rm lcd
+```
+
+```sh
 root@edison:~/.../I2CDL# make
 gcc -O lcd.c -o lcdtest
 ```
