@@ -5,6 +5,7 @@
 > C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms with a structured and sane API where port names/numbering matches the board that you are on. Use of MRAA does not tie you to specific hardware, with board detection done at runtime, you can create portable code that works across multiple platforms.
 
 - [MRAA Github](https://github.com/intel-iot-devkit/mraa)
+- [MRAA Documentation](http://iotdk.intel.com/docs/master/mraa/index.html)
 
 - AIO Sensors requiring an ADC value to be read
 - I2C Modules using the i2c bus
