@@ -35,7 +35,7 @@ root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL#
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# nano lcd.cpp
+root@edison:~/.../IoTDKL# nano lcd.cpp
 ```
 
 ```c
@@ -88,7 +88,7 @@ Answer: lupm-i2clcd and lupm-mpl3115a2
 Our Makefile should look like this:
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# nano Makefile
+root@edison:~/.../IoTDKL# nano Makefile
 ```
 
 ```c
@@ -103,24 +103,24 @@ clean:
 now you can type **make**, to trigger the compilation of our program, after that type **./lcd** to run the program, to stop it just press **CTRL+c** 
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# make
+root@edison:~/.../IoTDKL# make
 g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd.cpp -o lcd
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL#  
+root@edison:~/.../IoTDKL#  
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# ./lcd 
+root@edison:~/.../IoTDKL# ./lcd 
 ^C
 Ctrl-C received.
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL#  
+root@edison:~/.../IoTDKL#   
 ```
 
 If you do some changes you can recompile using **make**, sometimes when you do some changes and recompile, it will tell you that there are no changes, on those occassions you can do **make clean** and then **make**  that will erase the tempfiles created by vim when editing as well as the executable binary.
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL# make clean
+root@edison:~/.../IoTDKL# make clean
 rm lcd                                                                
-root@edison:~/TheIoTLearningInitiative/Sensors/IoTDKL#  
+root@edison:~/.../IoTDKL#   
 ```
 
 ## 4. Writing some code with UPM/MRAA, Temperature
@@ -187,9 +187,9 @@ int main(int argc, char **argv)
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors# make
+root@edison:~/.../IoTDKL# make
 g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
-root@edison:~/TheIoTLearningInitiative/Sensors#  
+root@edison:~/.../IoTDKL#   
 ```
 
 ```sh
