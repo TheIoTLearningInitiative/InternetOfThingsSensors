@@ -280,6 +280,10 @@ int main()
 
 Now lets create a **Makefile**  with the following content:
 
+```sh
+root@edison:~/.../I2CDL# nano Makefile
+```
+
 ```
 all: lcdtest
 
