@@ -7,6 +7,7 @@
    * [Prerequisites](documentation/Prerequisites.md)
 * [Introduction](documentation/Introduction.md)
 * [Communication Protocols](documentation/Protocols.md)
+   * I2C
 * [Sensors](documentation/Sensors.md)
    * [Customization](documentation/Customization.md)
 * [Libraries](Libraries.md)
