@@ -48,7 +48,7 @@ Now lets do some defines so we can have the registers we need at hand, lets star
 ```c
 #define RGB_SLAVE       0x62
 #define LCD_SLAVE       0x3E
-#define BUS             0x01
+#define BUS             0x06
 #define REG_RED         0x04        // PWM2
 #define REG_GREEN       0x03        // PWM1
 #define REG_BLUE        0x02        // PWM0
@@ -534,7 +534,7 @@ By now the whole code should look like this...
 
 #define RGB_SLAVE       0x62
 #define LCD_SLAVE       0x3E
-#define BUS             0x01
+#define BUS             0x06
 #define REG_RED         0x04        // pwm2
 #define REG_GREEN       0x03        // pwm1
 #define REG_BLUE        0x02        // pwm0
@@ -768,7 +768,7 @@ int main()
 
 ---
 
-There are things missing like, specify the column and row where we want ot start writing text so it will be left to you to investigicate how to add that functionality.
+There are things missing like, specify the column and row where we want to start writing text so it will be left to you to investigicate how to add that functionality.
 
 The final challenge, so you choose to accept it, is to integrate the code that gets the temperature using the i2c barometric sensor.. are you up to the challenge?
 
@@ -790,7 +790,7 @@ The final challenge, so you choose to accept it, is to integrate the code that g
 
 #define RGB_SLAVE       0x62
 #define LCD_SLAVE       0x3E
-#define BUS             0x01
+#define BUS             0x06
 #define REG_RED         0x04        // pwm2
 #define REG_GREEN       0x03        // pwm1
 #define REG_BLUE        0x02        // pwm0
