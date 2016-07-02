@@ -45,13 +45,13 @@ clean:
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls                                     
+root@edison:~/.../LKM# ls                                     
 JHD1313M2.c  JHD1313M2.h  Makefile                                                         
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
+root@edison:~/.../LKM#  
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# make
+root@edison:~/.../LKM# make
 make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/TheIoTLearningInitiative/Senss
 make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
   CC [M]  /home/root/TheIoTLearningInitiative/Sensors/LKM/JHD1313M2.o
@@ -60,18 +60,18 @@ make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-ediso
   CC      /home/root/TheIoTLearningInitiative/Sensors/LKM/JHD1313M2.mod.o
   LD [M]  /home/root/TheIoTLearningInitiative/Sensors/LKM/JHD1313M2.ko
 make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
+root@edison:~/.../LKM#  
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls  
+root@edison:~/.../LKM# ls  
 JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
 JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
+root@edison:~/.../LKM# 
 ```
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# sudo insmod JHD1313M2.ko
+root@edison:~/.../LKM# sudo insmod JHD1313M2.ko
 ```
 
 ```sh
