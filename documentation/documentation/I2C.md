@@ -121,12 +121,9 @@ Now for the question about what these registers represent, if you read datasheet
 
 To see the other available registers take a look to page 11 of the [PC9633](https://github.com/TheIoTLearningInitiative/InternetOfThingsSensors/blob/master/documentation/PCA9633.pdf) RGB controller that has the Grove display.
 
+## 12cset & i2cget
 
----
-
-
-
-**12cset & i2cget**: these guys are used to set or retrieve the value of a specific register in our i2c device, so lets go and initiate the RGB controller of our Display and set the color to white :), you already know to what registers we should write (you found them in your datasheet) to set the color.
+These guys are used to set or retrieve the value of a specific register in our i2c device, so lets go and initiate the RGB controller of our Display and set the color to white :), you already know to what registers we should write (you found them in your datasheet) to set the color.
 
 <font color='blue'></font>
 
