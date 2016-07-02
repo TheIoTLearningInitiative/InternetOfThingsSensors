@@ -3,7 +3,7 @@
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
-* [Sensor Protocols](documentation/Protocols.md)
+* [Protocols](documentation/Protocols.md)
 * [Libraries](Libraries.md)
 * [References](documentation/REFERENCES.md)
 * [Hands-On](HANDSON.md)
