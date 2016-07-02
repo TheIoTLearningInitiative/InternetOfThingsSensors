@@ -32,9 +32,9 @@ root@edison:~#
  
      ![](http://www.seeedstudio.com/wiki/images/thumb/e/e7/Grove-Barometer.jpg/300px-Grove-Barometer.jpg)
 
-## Kernel Development Environment: Module Native Compilation
+# Kernel Development Environment: Module Native Compilation
 
-### Kernel Headers Setup
+## Kernel Headers Setup
 
 Under the host...
 
