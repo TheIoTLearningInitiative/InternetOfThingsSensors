@@ -5,3 +5,8 @@
 > Creating, debugging and operating a custom I2C peripheral... [I2C Hacking Demystified](http://events.linuxfoundation.org/sites/events/files/slides/ELC%202016%20-%20I2C%20hacking%20demystified_0.pdf)
 
 - [Linux Kernel I2C Documentation](https://www.kernel.org/doc/Documentation/i2c/)
+
+```sh
+root@edison:~# ls /sys/class/i2c-dev/
+i2c-1  i2c-2  i2c-3  i2c-4  i2c-5  i2c-6  i2c-7
+```
