@@ -25,5 +25,19 @@ root@edison:~/TheIoTLearningInitiative/Sensors/LKM#
 ```
 
 ```sh
-root@edison:~/.../LKM# nano lcd.c
+root@edison:~/.../LKM# wget https://github.com/SourceCodeCat/IoTCodeExamples/blob/master/I2C/JHD1313M2.c
+```
+
+```sh
+root@edison:~/.../LKM# wget https://github.com/SourceCodeCat/IoTCodeExamples/blob/master/I2C/JHD1313M2.h
+```
+
+```sh
+root@edison:~/.../LKM# wget https://github.com/SourceCodeCat/IoTCodeExamples/blob/master/I2C/Makefile
+```
+
+```sh
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls                                     
+JHD1313M2.c  JHD1313M2.h  Makefile                                                         
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
