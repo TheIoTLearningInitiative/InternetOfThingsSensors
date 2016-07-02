@@ -94,7 +94,7 @@ clean:
 	rm lcd
 ```
 
-now you can type **make**, to trigger the compilation of our program, after that type **./lcd** to run the program, to stop it just press **CTRL+c** 
+Now you can type **make**, to trigger the compilation of our program, after that type **./lcd** to run the program, to stop it just press **CTRL+c** 
 
 ```sh
 root@edison:~/.../IoTDKL# make
