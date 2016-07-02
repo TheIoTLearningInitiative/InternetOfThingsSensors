@@ -50,29 +50,29 @@ root@edison:~#
 Under your linux host...
 
 ```sh
-    user@host:~$ wget https://github.com/SourceCodeCat/IoTDownloads/blob/master/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
+user@host:~$ wget https://github.com/SourceCodeCat/IoTDownloads/blob/master/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 ```
 
 Under Intel Edison
 
 ```sh
-    root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
+root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 ```
 
 ```sh
-    root@edison:~# ls data.tar.gz 
-    data.tar.gz
+root@edison:~# ls data.tar.gz 
+data.tar.gz
 ```
 
 ```sh
-    root@edison:~# tar -xvf data.tar.gz
-    ...
-    ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Makefile
-    ./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Kconfig
-    ./lib/
-    ./lib/modules/
-    ./lib/modules/3.10.17-poky-edison/
-    ./lib/modules/3.10.17-poky-edison/build
+root@edison:~# tar -xvf data.tar.gz
+...
+./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Makefile
+./usr/src/linux-headers-3.10.17-poky-edison/drivers/iio/frequency/Kconfig
+./lib/
+./lib/modules/
+./lib/modules/3.10.17-poky-edison/
+./lib/modules/3.10.17-poky-edison/build
 ```
 
 ```sh
