@@ -13,9 +13,9 @@
 * IoT Developer Kit Libraries
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
+   * [Labs](documentation/LibrariesLabs.md)
    * Tbd
 * [Libraries](Libraries.md)
-   * [Labs](documentation/LibrariesLabs.md)
    * [Contributions](documentation/LibrariesContributions.md)
 * [Hands-On](HANDSON.md)
 * [References](documentation/REFERENCES.md)
