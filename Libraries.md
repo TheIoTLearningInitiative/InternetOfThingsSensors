@@ -7,9 +7,6 @@
 
 > High-level repository for sensors and actuators that use libmraa. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time. 
 
-> UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
-
-
 - [UPM Documentation](http://iotdk.intel.com/docs/master/upm/index.html)
 - [UPM Github](https://github.com/intel-iot-devkit/upm)
 - [UPM Libraries Grouped By Category](http://iotdk.intel.com/docs/master/upm/modules.html)
@@ -17,6 +14,12 @@
 - [UPM Java Documentation](http://iotdk.intel.com/docs/master/upm/java/)
 - [UPM Python Documentation](http://iotdk.intel.com/docs/master/upm/python/)
 - [UPM Node.js Documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
+
+UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
+
+The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
+
+Typically an update() function will be called in order to get new data from the sensor in order to reduce load when doing multiple reads to sensor data.
 
 ## UPM Updates
 
@@ -27,11 +30,6 @@
 - LoRa—the SX1276 chip
 - ZWave—USB Controllers
 - ISM (Industrial, Scientific & Medical) Frequency Shift Keying (FSK) at 434 and 915 MHz
-
-
-The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
-
-Typically an update() function will be called in order to get new data from the sensor in order to reduce load when doing multiple reads to sensor data.
 
 ## Where are the UPM includes in Edison?
 
