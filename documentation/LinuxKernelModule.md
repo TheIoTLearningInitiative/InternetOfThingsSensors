@@ -51,6 +51,8 @@ JHD1313M2.c  JHD1313M2.h  Makefile
 root@edison:~/.../LKM#  
 ```
 
+## Compilation
+
 ```sh
 root@edison:~/.../LKM# make
 make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/TheIoTLearningInitiative/Senss
