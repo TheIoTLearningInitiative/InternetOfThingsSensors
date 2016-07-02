@@ -61,4 +61,3 @@
 - [Top DIY Electroni-cs Stores Suppliers](http://www.instructables.com/id/Top-DIY-Electronics-Stores-Suppliers/)
 - [Audio Block for Intel Edison](http://www.malinov.com/Home/sergeys-projects/audio-block-for-intel-edison)
 
-![](https://78462f86-a-cd92480b-s-sites.googlegroups.com/a/malinov.com/www/Home/sergeys-projects/audio-block-for-intel-edison/Edison_Audio_Block.jpg?attachauth=ANoY7cq1ROkLPabNeOEvk0kbxYO4UhmwzR-9GqQw_eGntHNNDCcDXIJsuXhFvAZ0Ht-yvXUxcMeV0HhMdHmzgwpQ2GnXujxEopLtIAKs0gPcBXdsJhGyFr63cnvh-MIb1YD67DEA_M-K5U_1mjNcFnTCx6rSQosnigXZMsZRLXIpbng2zOcdinbPhU5_QQjJj0nQZNyArly20LjXNChOftAd7aYuVphJSj-zb4ymvjlq6eHGTZJEEyAqyWkdyChHZOr2tsLlUeC3Se5MsgPl2CP6JppsfZNu_g%3D%3D&attredirects=0)
