@@ -7,7 +7,7 @@
 * [Sensors](documentation/Sensors.md)
    * [Customization](documentation/Customization.md)
 * [Libraries](Libraries.md)
-   * UPM
+   * [UPM](documentation/Upm.md)
    * [MRAA](documentation/Mraa.md)
 * [Hands-On](HANDSON.md)
 * [References](documentation/REFERENCES.md)
