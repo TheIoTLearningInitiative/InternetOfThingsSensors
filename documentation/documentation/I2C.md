@@ -276,7 +276,7 @@ python-smbus-dev - 3.1.1-r0 - Set of i2c tools for linux - Python module - Devel
  i2c tools for linux - Python module.  This package contains   symbolic
 ```
 
-Now from the list in my Edison we can see i have the option to install **i2c-tools-dev - 3.1.1-r0** if it doesn't show in your Edison then you will have to configure some repositories to have access to them since the i2c-dev libraries are not available by default, so use **vim/nano** to review **/etc/opkg/base-feeds.conf** where you should have something like this:
+Now from the list in my Edison we can see we have the option to install **i2c-tools-dev - 3.1.1-r0** if it doesn't show in your Edison then you will have to configure some repositories to have access to them since the i2c-dev libraries are not available by default, so use **vim/nano** to review **/etc/opkg/base-feeds.conf** where you should have something like this:
 
 ```sh
 root@edison:~# nano /etc/opkg/base-feeds.conf
