@@ -4,6 +4,7 @@
 
 I'm a pro! (turning our sensor code into a module). The full code for our LCD driver is here:
 
+From [SourceCodeCat Github](https://github.com/SourceCodeCat/IoTCodeExamples/)
 Implementation File
 https://github.com/SourceCodeCat/IoTCodeExamples/blob/master/I2C/JHD1313M2.c
 Header
