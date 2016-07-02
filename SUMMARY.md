@@ -4,6 +4,7 @@
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
 * Hardware
+   * Tbd
 * [Protocols](documentation/Protocols.md)
 * [Libraries](Libraries.md)
 * [References](documentation/REFERENCES.md)
