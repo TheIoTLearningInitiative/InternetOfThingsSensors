@@ -4,10 +4,10 @@
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
 * [Communication Protocols](documentation/Protocols.md)
+* Sensors
 * Hardware
 * [Libraries](Libraries.md)
 * [References](documentation/REFERENCES.md)
 * [Hands-On](HANDSON.md)
 * [Sandbox](documentation/Sandbox.md)
-* Sensors
 
