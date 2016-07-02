@@ -189,7 +189,7 @@ root@edison:~/.../I2CDL# nano lcd.c
 
 #define RGB_SLAVE       0x62
 #define LCD_SLAVE       0x3E
-#define BUS             0x01
+#define BUS             0x06
 #define REG_RED         0x04        // pwm2
 #define REG_GREEN       0x03        // pwm1
 #define REG_BLUE        0x02        // pwm0
