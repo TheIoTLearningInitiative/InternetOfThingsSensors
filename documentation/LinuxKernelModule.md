@@ -31,11 +31,24 @@ root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTC
 ```
 
 ```sh
-root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/Makefile
+root@edison:~/.../LKM# nano Makefile
 ```
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# ls                                     
 JHD1313M2.c  JHD1313M2.h  Makefile                                                         
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
+```
+
+```sh
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# make
+make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/TheIoTLearningInitiative/Senss
+make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+  CC [M]  /home/root/TheIoTLearningInitiative/Sensors/LKM/JHD1313M2.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/root/TheIoTLearningInitiative/Sensors/LKM/JHD1313M2.mod.o
+  LD [M]  /home/root/TheIoTLearningInitiative/Sensors/LKM/JHD1313M2.ko
+make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
