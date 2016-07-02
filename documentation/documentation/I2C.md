@@ -8,6 +8,9 @@
 
 # Hardware
 
+
+https://www.sparkfun.com/datasheets/LCD/ADM1602K-NSA-FBS-3.3v.pdf
+
 ## Intel® Edison kit for Arduino expansion board.
 
 ![](http://shop-media.intel.com/api/v2/helperservice/getimage?url=http://images.icecat.biz/img/gallery/25435695_7315.jpg&height=550&width=550)
