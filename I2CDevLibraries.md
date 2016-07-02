@@ -338,6 +338,7 @@ void turnOffRGB(I2CCONTEXT *rgb)
 ```
 
 Now lets call init RGB from our main() by passing the reference to our RGB context wait about 5 seconds and then exit turning off the color leds:
+
 ```
 /*turn on RGB LEDS*/
 initRGB(&rgb);
