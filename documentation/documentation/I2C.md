@@ -255,7 +255,7 @@ Talking to our I2C devices using I2CTools is cool, and makes you look interestin
 
 First lets see if we have what we need in our Edison and equip it if not. So type <font color="blue">opkg list | grep i2c</font> and lets find out if you have something similar to this:
 
-```
+```sh
 root@edison:~# opkg list |grep i2c
 i2c-tools - 3.1.1-r0 - Set of i2c tools for linux  Set of i2c tools for linux.
 i2c-tools-dbg - 3.1.1-r0 - Set of i2c tools for linux - Debugging files  Set of i2c tools for linux.
@@ -266,7 +266,6 @@ python-smbus - 3.1.1-r0 - Set of i2c tools for linux - Python module  Set of i2c
 python-smbus-dbg - 3.1.1-r0 - Set of i2c tools for linux - Python module - Debugging files  Set of i2c
 python-smbus-dev - 3.1.1-r0 - Set of i2c tools for linux - Python module - Development files  Set of
  i2c tools for linux - Python module.  This package contains   symbolic
-
 ```
 
 Now from the list in my Edison I can see i have the option to install **i2c-tools-dev - 3.1.1-r0** if it doesn't show in your Edison then you will have to configure some repositories to have access to them since the i2c-dev libraries are not available by default, so use **vim/nano** to review **/etc/opkg/base-feeds.conf** where you should have something like this:
