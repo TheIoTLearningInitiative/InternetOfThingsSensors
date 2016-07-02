@@ -1,6 +1,6 @@
 # Linux Kernel Module
 
-# I'm a Pro!
+# I'm a Pro! Yes You Are!
 
 I'm a pro! (turning our sensor code into a module). The full code for our LCD driver is here:
 
