@@ -2,8 +2,6 @@
 
 The final challenge, so you choose to accept it, is to integrate the code that gets the temperature using the i2c barometric sensor.. are you up to the challenge?
 
----
-
 ```sh
 root@edison:~/.../I2CDL# nano lcd_temp.c
 ```
