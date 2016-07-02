@@ -18,4 +18,4 @@
 
 ## Documentation
 
-> It is highly encouraged to provide at least some basic documentation for the sensors that you want to add to UPM: [Writing sensor documentation](https://github.com/intel-iot-devkit/upm/blob/master/docs/documentation.md)
+> It is highly encouraged to provide at least some basic documentation for the sensors that you want to add to UPM... [Writing sensor documentation](https://github.com/intel-iot-devkit/upm/blob/master/docs/documentation.md)
