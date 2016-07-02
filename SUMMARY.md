@@ -1,7 +1,7 @@
 # Summary
 
 * [Cover](README.md)
-* Summary
+* [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
 * [Libraries](Libraries.md)
 * [Sensor Protocols](documentation/Protocols.md)
