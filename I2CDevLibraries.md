@@ -773,7 +773,13 @@ There are things missing like, specify the column and row where we want to start
 The final challenge, so you choose to accept it, is to integrate the code that gets the temperature using the i2c barometric sensor.. are you up to the challenge?
 
 ---
-**Answer (full code)**:
+
+```sh
+root@edison:~/.../I2CDL# nano lcd_temp.c
+```
+
+**Answer (full code)**
+
 ```
 #include <errno.h>
 #include <string.h>
