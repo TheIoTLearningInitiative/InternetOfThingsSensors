@@ -4,7 +4,7 @@
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
 * [Communication Protocols](documentation/Protocols.md)
-* Sensors
+* [Sensors](documentation/Sensors.md)
 * Hardware
 * [Libraries](Libraries.md)
 * [References](documentation/REFERENCES.md)
