@@ -195,7 +195,7 @@ root@edison:~/TheIoTLearningInitiative/Sensors#
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors# cd
-root@edison:~#  
+root@edison:~# 
 ```
 
 Want to learn more about the [Makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html) system? click [Here: GCC and Make
