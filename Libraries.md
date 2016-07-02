@@ -149,20 +149,13 @@ If installed them though **OPKG**, then they should be here: <font color="green"
 
 ####LINKS
 
-* [UPM libraries grouped by category](http://iotdk.intel.com/docs/master/upm/modules.html)
-* [UPM c++ documentation](http://iotdk.intel.com/docs/master/upm/)
-* [UPM java documentation](http://iotdk.intel.com/docs/master/upm/java/)
-* [UPM python documentation](http://iotdk.intel.com/docs/master/upm/python/)
-* [UPM Node.JS documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
-
-
-
-
-
+* [UPM Libraries Grouped By Category](http://iotdk.intel.com/docs/master/upm/modules.html)
+* [UPM C++ Documentation](http://iotdk.intel.com/docs/master/upm/)
+* [UPM Java Documentation](http://iotdk.intel.com/docs/master/upm/java/)
+* [UPM Python Documentation](http://iotdk.intel.com/docs/master/upm/python/)
+* [UPM Node.js Documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
 
 ---
-
-
 
 ##libmraa - Low Level Skeleton Library for Communication on GNU/Linux platforms
 
