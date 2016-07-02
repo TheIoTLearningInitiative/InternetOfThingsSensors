@@ -1,6 +1,7 @@
 # Hands-On
 
-####Look Ma! without Handles! 
+####Look Ma! without Handles!
+
 In the earlier section we saw how to communicate with the sensors using high level libraries, but imagine we are in the scenario where we are creating our own hardware, during the earlier stages of fine tuning our hardware it is very useful and easier to communicate using the linux low level tools and libraries :), libraries that even MRAA and almost all linux drivers relies on. 
 
 You will need to get acquainted with a set of tools called I2C Tools, for our purpouses the most common tools we are going to use are:
