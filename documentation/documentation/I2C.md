@@ -83,7 +83,6 @@ root@edison:~# i2cdetect -y -r 1
 
 In the case of the Edison+ Sparkfun Base block we are able to see the i2c addresses from the LCD Display (where RGB controller is 0x62 and LCD controller is 0x70) and the ADC block (address 0x48). For this reason from now on we will use Edison with the [Sparkfun Base Block](https://www.sparkfun.com/products/13045) or the MiniBreakout Board, since they interface directly with the  Edison's I2C pins, but this doesn't mean it is not possible to use the arduino breakout board as we will see next, so keep reading!.
 
-
 ## i2cdump
 
 It will show us the content of a specific register in our device, the syntax is:<font color='blue'>i2cdump -y BUS ADDRESS b</font> so go to your Edison and try to dump the registers from the RGB device of the Display. the command should be <font color='blue'>i2cdump -y 1 0x62 b</font>  and the result should look something like this:
