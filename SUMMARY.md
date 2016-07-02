@@ -3,6 +3,7 @@
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
 * About This Training
+   * Objectives
 * [Introduction](documentation/Introduction.md)
 * [Communication Protocols](documentation/Protocols.md)
 * [Sensors](documentation/Sensors.md)
