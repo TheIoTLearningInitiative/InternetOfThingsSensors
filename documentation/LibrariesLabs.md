@@ -57,7 +57,7 @@ int main(int argc, char **argv)
         upm::Jhd1313m1 *lcd = new upm::Jhd1313m1(0, 0x3E, 0x62);                
         lcd->setCursor(0,0);                                                    
         lcd->setColor(127, 255, 127);                                           
-        lcd->write("Hello LCD");                                                                              
+        lcd->write("Hello LCD");
         while (!doWork)                                                         
         {                                                                       
                 usleep (500000);                                                
