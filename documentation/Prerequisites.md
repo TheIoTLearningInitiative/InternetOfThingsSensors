@@ -38,6 +38,8 @@ root@edison:~#
     Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
     
     edison login: root
+    root@edison:~# configure_edison --wifi
+    ...
     root@edison:~# 
 ```
 
