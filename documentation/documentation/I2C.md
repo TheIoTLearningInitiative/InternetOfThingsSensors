@@ -19,7 +19,7 @@
 ![](https://cdn.sparkfun.com//assets/parts/1/0/0/3/5/13034-01_1.jpg)
 # I2C Tools
 
-> I2C device detection and register dump tools. These tools rely on the "i2c-dev" kernel driver. They are installed by default.
+> I2C device detection and register dump tools. These tools rely on the "i2c-dev" kernel driver.
 
 You will need to get acquainted with a set of tools called I2C Tools, for our purposes the most common tools we are going to use are:
 
