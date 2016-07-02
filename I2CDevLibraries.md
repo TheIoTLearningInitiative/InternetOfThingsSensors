@@ -1,6 +1,6 @@
 # I2C Dev Libraries
 
-####Look Ma! without Handles!
+# Look Ma! without Handles!
 
 In the earlier section we saw how to communicate with the sensors using high level libraries, but imagine we are in the scenario where we are creating our own hardware, during the earlier stages of fine tuning our hardware it is very useful and easier to communicate using the linux low level tools and libraries :), libraries that even MRAA and almost all Linux drivers relies on. 
 
@@ -337,6 +337,7 @@ void turnOffRGB(I2CCONTEXT *rgb)
 	setRGBColor(rgb, 0x00, 0x00, 0x00);	
 }
 ```
+
 now lets call init RGB from our main() by passing the reference to our RGB context wait about 5 seconds and then exit turning off the color leds:
 ```
 /*turn on RGB LEDS*/
