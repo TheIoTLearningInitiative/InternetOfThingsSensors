@@ -351,6 +351,11 @@ turnOffRGB(&rgb);
 run **make clean** then **make** and execute by typing **./lcdtest**
 
 ```sh
+root@edison:~/.../I2CDL# make clean
+rm lcd
+```
+
+```sh
 root@edison:~/.../I2CDL# make
 gcc -O lcd.c -o lcdtest
 ```
