@@ -89,8 +89,11 @@ Answer: lupm-i2clcd and lupm-mpl3115a2
 
 Our Makefile should look like this:
 
+```sh
+root@edison:~# nano Makefile
 ```
 
+```c
 all: lcd_temp
 
 lcd_temp:
