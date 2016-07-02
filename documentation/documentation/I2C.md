@@ -135,7 +135,7 @@ Remember i told you it is not quite impossible to do this on the Edison + Arduin
 * SCL (Clock Line) 
 
 Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
-](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005583.html) page 7, we know that the Arduino SDA and SCL pins are connected to bus 1, and whne you connect a device it doesn't show when you try to do an i2cdetect so what are alternatives do we have?
+](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005583.html) page 7, we know that the Arduino SDA and SCL pins are connected to bus 1, and when you connect a device it doesn't show when you try to do an i2cdetect so what are alternatives do we have?
 
 ---
 
