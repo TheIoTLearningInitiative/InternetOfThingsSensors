@@ -69,7 +69,7 @@ Package upm (0.7.0-r0) installed in root is up to date.
 root@edison:~# 
 ```
 
-# Where are the UPM includes in Edison?
+# Where are the UPM included in Edison?
 
 If installed them though **OPKG**, then they should be here: <font color="green">/usr/include/upm</font>. If you want to see the full list of headers supported by your installed upm, type this:  <font color="green">ls -l /usr/include/upm</font>, which lists all the headers, i.e the following header are the ones supported in **Version: 0.3.2**:
 
