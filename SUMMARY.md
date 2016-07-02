@@ -4,6 +4,7 @@
 * [Summary](SUMMARY.md)
 * About This Training
    * Objectives
+   * Prerequisites
 * [Introduction](documentation/Introduction.md)
 * [Communication Protocols](documentation/Protocols.md)
 * [Sensors](documentation/Sensors.md)
