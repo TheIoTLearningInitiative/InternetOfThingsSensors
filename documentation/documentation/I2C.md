@@ -154,7 +154,7 @@ Now go and check the [Intel® Edison Kit for Arduino* Hardware Guide
 |A4 | SDA |
 |A5 | SCL |
 
-Well in your Edison's command-line type each command and hit enter :)
+Well in your Edison's command-line type each command and hit Enter :)
 
 ### For Edison using Arduino Breakout Board
 
