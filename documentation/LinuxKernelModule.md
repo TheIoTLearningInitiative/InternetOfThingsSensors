@@ -107,7 +107,7 @@ root@edison:~/TheIoTLearningInitiative/Sensors/LKM#
 ### SysFs RGB Color
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo 255 > /sys/kernel/JHD1313M2/rgb_b
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo 255 > /sys/kernel/JHD1313M2/rgb_g
-root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo 255 > /sys/kernel/JHD1313M2/rgb_r
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo 0 > /sys/kernel/JHD1313M2/rgb_b
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo 0 > /sys/kernel/JHD1313M2/rgb_g
+root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo 0 > /sys/kernel/JHD1313M2/rgb_r
 ```
