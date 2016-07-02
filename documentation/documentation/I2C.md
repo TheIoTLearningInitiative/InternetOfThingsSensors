@@ -153,7 +153,7 @@ root@edison:~# i2cset -y 6 0x62 0x02 0xFF
 
 What about that!, you just tapped into your i2c device, init the RGB controller and set the color to white, without any program!...
 
-now take a look to lets say the register in charge of setting the red color(0x04) using **i2cget**. type this:<font color='blue'> i2cget -y <Bus> 0x62 0x04</font>
+now take a look to lets say the register in charge of setting the red color(0x04) using **i2cget**. type this: <font color='blue'> i2cget -y Bus 0x62 0x04</font>
 
 You should see this:
 
