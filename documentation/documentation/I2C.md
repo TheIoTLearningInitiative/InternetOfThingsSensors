@@ -127,7 +127,14 @@ These guys are used to set or retrieve the value of a specific register in our i
 
 <font color='blue'></font>
 
-Remember i told you it is not quite impossible to do this on the Edison + Arduino Breakout Board?; well before I tell you how we can do a workaround let's remember... what are the lines needed by a device so I2C protocol can do its job?
+Remember i told you it is not quite impossible to do this on the Edison + Arduino Breakout Board?; 
+
+```
+root@edison:~# i2cset -y 1 0x62 0x00 0x00                                                  
+Error: Write failed                                                                       
+```
+
+Well before I tell you how we can do a workaround let's remember... what are the lines needed by a device so I2C protocol can do its job?
 
 * Vdd (Power)
 * GND (Ground)
@@ -165,12 +172,12 @@ root@edison:~# i2cset -y 6 0x62 0x02 0xFF
 ### For Edison using the Sparkfun Base Block
 
 ```
-root@edison:~# i2cset -y 6 0x62 0x00 0x00
-root@edison:~# i2cset -y 6 0x62 0x08 0xFF
-root@edison:~# i2cset -y 6 0x62 0x01 0x20
-root@edison:~# i2cset -y 6 0x62 0x04 0xFF
-root@edison:~# i2cset -y 6 0x62 0x03 0xFF
-root@edison:~# i2cset -y 6 0x62 0x02 0xFF
+root@edison:~# i2cset -y 1 0x62 0x00 0x00
+root@edison:~# i2cset -y 1 0x62 0x08 0xFF
+root@edison:~# i2cset -y 1 0x62 0x01 0x20
+root@edison:~# i2cset -y 1 0x62 0x04 0xFF
+root@edison:~# i2cset -y 1 0x62 0x03 0xFF
+root@edison:~# i2cset -y 1 0x62 0x02 0xFF
 ```
 
 What about that!, you just tapped into your i2c device, init the RGB controller and set the color to white, without any program!...
