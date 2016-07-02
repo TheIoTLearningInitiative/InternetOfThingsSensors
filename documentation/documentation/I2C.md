@@ -15,7 +15,7 @@ You will need to get acquainted with a set of tools called I2C Tools, for our pu
 
 **i2cdetect** : will help us list the i2c buses we have in our system and also show the addresses of the slaves connected to certain bus. Now go to your Edison and type <font color='blue'>i2cdetect -l</font> , you should get an output similar to this:
 
-```
+```sh
 root@edison:~# i2cdetect -l
 i2c-1	i2c       	i2c-designware-1                	I2C adapter
 i2c-2	i2c       	i2c-designware-2                	I2C adapter
