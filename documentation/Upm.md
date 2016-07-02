@@ -2,7 +2,7 @@
 
 > Sensor/Actuator repository for libmraa
 
-> High-level repository for sensors and actuators that use libmraa. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time. 
+> High-level repository for sensors and actuators that use MRAA. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time. 
 
 - [UPM Documentation](http://iotdk.intel.com/docs/master/upm/index.html)
 - [UPM Github](https://github.com/intel-iot-devkit/upm)
@@ -12,7 +12,7 @@
 - [UPM Python Documentation](http://iotdk.intel.com/docs/master/upm/python/)
 - [UPM Node.js Documentation](http://iotdk.intel.com/docs/master/upm/Node.JS/)
 
-UPM is a high level repository for sensors that use MRAA. Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
+Each sensor links to MRAA and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
 
 The constructor is expected to initialise the sensor and parameters may be used to provide identification/pin location on the board.
 
