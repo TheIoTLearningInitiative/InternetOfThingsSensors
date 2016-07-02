@@ -311,6 +311,7 @@ root@edison:~#
 ```
 
 For those that already added the repo and want to check if it is already installed you can type <font color="blue">opkg list-installed | grep i2c</font> and should see something like this:
+
 ```
 root@edison:~# opkg list-installed | grep i2c
 i2c-tools - 3.1.1-r0
