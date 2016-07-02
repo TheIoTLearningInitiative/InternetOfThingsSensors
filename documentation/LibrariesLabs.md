@@ -193,6 +193,8 @@ Ctrl-C received.
 root@edison:~/TheIoTLearningInitiative/Sensors#  
 ```
 
+
+
 Want to learn more about the [Makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html) system? click [Here: GCC and Make
 Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
