@@ -63,6 +63,36 @@ int main(int argc, char **argv)
 }
 ```
 
+
+now lets create a <font color="blue">Makefile</font> with **vim/nano** to compile easily compile the program every time we do a change.
+
+Quick question!, can you identify the upm libs needed to compile our program?
+
+```
+Answer: lupm-i2clcd and lupm-mpl3115a2
+   the name of the lib needed can be infered visually from the upm  page of the sensor (URLS at the beginning of this capter), take a look in the upper left corner ;)
+```
+
+Our Makefile should look like this:
+
+```sh
+root@edison:~# nano Makefile
+```
+
+```c
+all: lcd_temp
+
+lcd_temp:
+	g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
+clean:
+	rm lcd_temp
+```
+
+now you can type **make**, to trigger the compilation of our program, after that type **./lcd_temp** to run the program, to stop it just press **CTRL+c** 
+
+If you do some changes you can recompile using **make**, sometimes when you do some changes and recompile, it will tell you that there are no changes, on those occassions you can do **make clean** and then **make**  that will erase the tempfiles created by vim when editing as well as the executable binary.
+
+
 ## 3. Writing some code with UPM/MRAA, Temperature
 
 Now lets read the temperature from the Barometric sensor and display it in our RGB LCD.
@@ -126,33 +156,6 @@ int main(int argc, char **argv)
 }
 ```
 
-now lets create a <font color="blue">Makefile</font> with **vim/nano** to compile easily compile the program every time we do a change.
-
-Quick question!, can you identify the upm libs needed to compile our program?
-
-```
-Answer: lupm-i2clcd and lupm-mpl3115a2
-   the name of the lib needed can be infered visually from the upm  page of the sensor (URLS at the beginning of this capter), take a look in the upper left corner ;)
-```
-
-Our Makefile should look like this:
-
-```sh
-root@edison:~# nano Makefile
-```
-
-```c
-all: lcd_temp
-
-lcd_temp:
-	g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
-clean:
-	rm lcd_temp
-```
-
-now you can type **make**, to trigger the compilation of our program, after that type **./lcd_temp** to run the program, to stop it just press **CTRL+c** 
-
-If you do some changes you can recompile using **make**, sometimes when you do some changes and recompile, it will tell you that there are no changes, on those occassions you can do **make clean** and then **make**  that will erase the tempfiles created by vim when editing as well as the executable binary.
 want to learn more about the [Makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html) system? click [here](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
 Using UPM/MRAA wasn't hard ins't it?, and it speed-up things if your sensor is already supported, but if not, you can write your own code and share it with he community, later  we will explore  how to add our not supported sensor to UPM.
