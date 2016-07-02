@@ -61,7 +61,7 @@ int main(int argc, char **argv)
 }
 ```
 
-## 3. Writing some code with UPM/MRAA
+## 3. Writing some code with UPM/MRAA, Temperature
 
 Lets write a program that reads the temperature from the Barometric sensor and display it in our RGB LCD.
 
