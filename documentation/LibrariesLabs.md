@@ -99,7 +99,10 @@ root@edison:~#
 ```
 
 ```sh
-
+root@edison:~# ./lcd_temp 
+^C
+Ctrl-C received.
+root@edison:~# 
 ```
 
 If you do some changes you can recompile using **make**, sometimes when you do some changes and recompile, it will tell you that there are no changes, on those occassions you can do **make clean** and then **make**  that will erase the tempfiles created by vim when editing as well as the executable binary.
