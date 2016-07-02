@@ -202,7 +202,6 @@ root@edison:~# reboot
 ...
 ...
 root@edison:~# sh setup_i2c6.sh
-
 ```
 
 ```
