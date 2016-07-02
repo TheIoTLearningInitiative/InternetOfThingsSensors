@@ -481,7 +481,20 @@ Alright! now what we have left is to update our main method:
 
 **clean** , **compile** and run **./lcdtest**
 
-when the programs exits, notice that the LCD still display the blinking cursor as  well the message..  as a challenge write a method that turns off the  LCD.
+```sh
+root@edison:~/.../I2CDL# make clean
+rm lcd
+root@edison:~/.../I2CDL# make
+gcc -O lcd.c -o lcdtest
+```
+
+```sh
+root@edison:~/.../I2CDL# 
+                                                                                           
+DONE! 
+```
+
+When the programs exits, notice that the LCD still display the blinking cursor as  well the message..  as a challenge write a method that turns off the  LCD.
 
 ---
 
