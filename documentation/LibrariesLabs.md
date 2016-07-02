@@ -91,7 +91,6 @@ clean:
 
 now you can type **make**, to trigger the compilation of our program, after that type **./lcd_temp** to run the program, to stop it just press **CTRL+c** 
 
-
 ```sh
 root@edison:~# make
 g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
@@ -174,6 +173,19 @@ int main(int argc, char **argv)
     delete barometer;
     return 0;     
 }
+```
+
+```sh
+root@edison:~# make
+g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
+root@edison:~# 
+```
+
+```sh
+root@edison:~# ./lcd_temp 
+^C
+Ctrl-C received.
+root@edison:~# 
 ```
 
 want to learn more about the [Makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html) system? click [here](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
