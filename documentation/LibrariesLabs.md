@@ -37,6 +37,7 @@ root@edison:~# nano lcd_temp.cpp
 #include "mpl3115a2.hpp"
 
 volatile int doWork = 0;
+
 void sig_handler(int signo)
 {
     if (signo == SIGINT) {
@@ -44,6 +45,7 @@ void sig_handler(int signo)
         doWork = 1;
     }
 }
+
 int main(int argc, char **argv)
 {
 	signal(SIGINT, sig_handler);
