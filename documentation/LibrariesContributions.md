@@ -15,3 +15,7 @@
 ## Contributions
 
 > Here are the rules of contribution... [Contributing a module](https://github.com/intel-iot-devkit/upm/blob/master/docs/contributions.md)
+
+## Documentation
+
+> It is highly encouraged to provide at least some basic documentation for the sensors that you want to add to UPM: [Writing sensor documentation](https://github.com/intel-iot-devkit/upm/blob/master/docs/documentation.md)
