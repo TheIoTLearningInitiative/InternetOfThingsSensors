@@ -95,6 +95,8 @@ If you do some changes you can recompile using **make**, sometimes when you do s
 
 ```sh
 root@edison:~# make clean
+rm lcd_temp                                                                     
+root@edison:~# 
 ```
 
 ## 3. Writing some code with UPM/MRAA, Temperature
