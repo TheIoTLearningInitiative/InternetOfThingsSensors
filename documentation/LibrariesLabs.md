@@ -1,11 +1,11 @@
 # Labs
 
-###Using libraries (UPM & MRAA)
+# Using libraries (UPM & MRAA)
 Do not misunderstand me , UPM and MRAA are great libraries, they really make things easier, specially when you are starting and you would like to get a prototype up and running fast, instead of struggling in how to get the values from your sensors and devices.
 
 So first let's recap. MRAA is used to communicate to the device through I2C, PWM,SPI, etc.. on top of that UPM is used so at the end you just have to instantiate an object of the class of your device or sensor. lets see how we can do that:
 
-####1. Check if the sensors are supported by MRAA
+## 1. Check if the sensors are supported by MRAA
 At the beginning we stated that we are going use the LCD RGB  Backlight Display and the Barometric sensor, please go to http://iotdk.intel.com/docs/master/upm/modules.html and find out either using the search on the top right corner or manually browse the sensor list to see if our sensors are supported by MRAA. 
 
 So far you should have found the following info about our sensor and display:
