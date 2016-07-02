@@ -97,10 +97,14 @@ lcd_text  rgb_b  rgb_g  rgb_r
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
 
+### SysFs Text
+
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo "from here now" > /sys/kernel/JHD1313M2/lcd_text
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# 
 ```
+
+### SysFs RGB Color
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors/LKM# echo 255 > /sys/kernel/JHD1313M2/rgb_b
