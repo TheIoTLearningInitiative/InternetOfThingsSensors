@@ -8,8 +8,9 @@
 
 # Hardware
 
-
-https://www.sparkfun.com/datasheets/LCD/ADM1602K-NSA-FBS-3.3v.pdf
+- [Grove - LCD RGB Backlight (I2C Communication Protocol Device)](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
+- [Datasheet?](https://www.sparkfun.com/datasheets/LCD/ADM1602K-NSA-FBS-3.3v.pdf)
+    ![](http://www.seeedstudio.com/wiki/images/thumb/0/03/Serial_LEC_RGB_Backlight_Lcd.jpg/500px-Serial_LEC_RGB_Backlight_Lcd.jpg)
 
 ## Intel® Edison kit for Arduino expansion board.
 
