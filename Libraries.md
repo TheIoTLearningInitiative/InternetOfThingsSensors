@@ -11,7 +11,6 @@
 
 
 - [UPM Documentation](http://iotdk.intel.com/docs/master/upm/index.html)
-- [UPM Sensor Categories](http://iotdk.intel.com/docs/master/upm/modules.html)
 - [UPM Github](https://github.com/intel-iot-devkit/upm)
 - [UPM Libraries Grouped By Category](http://iotdk.intel.com/docs/master/upm/modules.html)
 - [UPM C++ Documentation](http://iotdk.intel.com/docs/master/upm/)
