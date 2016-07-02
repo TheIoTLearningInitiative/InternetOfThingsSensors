@@ -86,15 +86,15 @@ root@edison:~/TheIoTLearningInitiative/Sensors# nano Makefile
 ```
 
 ```c
-all: lcd_temp
+all: lcd
 
-lcd_temp:
+lcd:
 	g++ -lmraa -lupm-i2clcd -lupm-mpl3115a2 -I/usr/include/upm/ lcd_temp.cpp -o lcd_temp
 clean:
-	rm lcd_temp
+	rm lcd
 ```
 
-now you can type **make**, to trigger the compilation of our program, after that type **./lcd_temp** to run the program, to stop it just press **CTRL+c** 
+now you can type **make**, to trigger the compilation of our program, after that type **./lcd** to run the program, to stop it just press **CTRL+c** 
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/Sensors# make
