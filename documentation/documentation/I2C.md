@@ -28,14 +28,7 @@ i2c-6	i2c       	i2c-designware-6                	I2C adapter
 i2c-7	i2c       	i2c-designware-7                	I2C adapter
 ```
 
-On the first Column we can see the **i2c-1** the leading number  indicates the number of the bus, in this case the bus is 1; 
-
-```sh
-root@edison:~# ls /sys/class/i2c-dev/
-i2c-1  i2c-2  i2c-3  i2c-4  i2c-5  i2c-6  i2c-7
-```
-
-Remember **Edison uses bus 0 and 6 if you are using the Edison Arduino Breakout Board**,  but if you are using Edison  Breakout board or the **Sparkfun Base Block the Bus 0 will be 1** and here comes the tricky part, because when using Edison in the Arduino Breakout Board a module will be loaded,preventing us to see the slaves addresses in the bus, for example run this command: <font color='blue'>i2cdetect -y -r 1</font>  we will get:
+On the first Column we can see the **i2c-1** the leading number  indicates the number of the bus, in this case the bus is 1; Remember **Edison uses bus 0 and 6 if you are using the Edison Arduino Breakout Board**,  but if you are using Edison  Breakout board or the **Sparkfun Base Block the Bus 0 will be 1** and here comes the tricky part, because when using Edison in the Arduino Breakout Board a module will be loaded,preventing us to see the slaves addresses in the bus, for example run this command: <font color='blue'>i2cdetect -y -r 1</font>  we will get:
 
 **For Edison using Arduino Breakout Board**
 ```
