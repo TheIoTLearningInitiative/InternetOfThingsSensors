@@ -483,10 +483,7 @@ Alright! now what we have left is to update our main method:
 
 when the programs exits, notice that the LCD still display the blinking cursor as  well the message..  as a challenge write a method that turns off the  LCD.
 
-
-
 ---
-
 
 **Answer:**
 ```
@@ -746,11 +743,10 @@ int main()
 ```
 
 ---
-there are things missing like, specify the column and row where we want ot start writing text so it will be left to you to investigicate how to add that functionality.
+
+There are things missing like, specify the column and row where we want ot start writing text so it will be left to you to investigicate how to add that functionality.
 
 The final challenge, so you choose to accept it, is to integrate the code that gets the temperature using the i2c barometric sensor.. are you up to the challenge?
-
-
 
 ---
 **Answer (full code)**:
