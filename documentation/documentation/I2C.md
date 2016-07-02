@@ -157,7 +157,7 @@ now take a look to lets say the register in charge of setting the red color(0x04
 
 You should see this:
 
-### For Edison using the Sparkfun Base Block
+### For Edison using Arduino Breakout Board
 
 ```sh
 root@edison:~# i2cget -y 1 0x62 0x04
