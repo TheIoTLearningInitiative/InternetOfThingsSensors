@@ -9,7 +9,7 @@
 # Hardware
 
 - [Grove - LCD RGB Backlight (I2C Communication Protocol Device)](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
-- [PC9633 RGB Controller](https://github.com/TheIoTLearningInitiative/InternetOfThingsSensors/blob/master/documentation/PCA9633.pdf)
+- [PC9633 RGB Controller Datasheet](https://github.com/TheIoTLearningInitiative/InternetOfThingsSensors/blob/master/documentation/PCA9633.pdf)
     ![](http://www.seeedstudio.com/wiki/images/thumb/0/03/Serial_LEC_RGB_Backlight_Lcd.jpg/500px-Serial_LEC_RGB_Backlight_Lcd.jpg)
 
 ## Intel® Edison kit for Arduino expansion board.
