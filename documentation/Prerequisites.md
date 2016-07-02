@@ -32,6 +32,10 @@ root@edison:~#
  
      ![](http://www.seeedstudio.com/wiki/images/thumb/e/e7/Grove-Barometer.jpg/300px-Grove-Barometer.jpg)
 
+# Intel Edison Boot Up
+
+
+
 # Kernel Development Environment: Module Native Compilation
 
 ## Kernel Headers Setup
