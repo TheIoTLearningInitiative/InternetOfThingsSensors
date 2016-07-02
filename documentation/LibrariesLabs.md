@@ -17,6 +17,49 @@ So far you should have found the following info about our sensor and display:
 * LCD Display: Jhd1313m2
   * http://iotdk.intel.com/docs/master/upm/classupm_1_1_jhd1313m1.html
 
+
+```c
+#include <unistd.h>                                                             
+#include <iostream>                                                             
+#include <signal.h>                                                             
+#include <string>                                                               
+#include <sstream>                                                              
+#include "jhd1313m1.hpp"                                                        
+                                                                                
+volatile int doWork = 0;                                                        
+                                                                                
+void sig_handler(int signo)                                                     
+{                                                                               
+    if (signo == SIGINT) {                                                      
+        printf("\nCtrl-C received.\n");                                         
+        doWork = 1;                                                             
+    }                                                                           
+}                                                                               
+                                                                                
+int main(int argc, char **argv)                                                 
+{                                                                               
+        signal(SIGINT, sig_handler);                                            
+                                                                                
+        upm::Jhd1313m1 *lcd = new upm::Jhd1313m1(0, 0x3E, 0x62);                
+        lcd->setCursor(0,0);                                                    
+        lcd->setColor(127, 255, 127);                                           
+        lcd->write("Temperature:");                                             
+        std::stringstream ss;                                                   
+                                                                                
+        while (!doWork)                                                         
+        {                                                                       
+                ss.str(std::string());                                          
+                ss<<"Hello LCD";                                                
+                lcd->setCursor(1,2);                                            
+                lcd->write(ss.str());                                           
+                usleep (500000);                                                
+        }                                                                       
+                                                                                
+        delete lcd;                                                             
+        return 0;                                                               
+}
+```
+
 ## 2. Writing some code with UPM/MRAA
 
 Lets write a program that reads the temperature from the Barometric sensor and display it in our RGB LCD.
