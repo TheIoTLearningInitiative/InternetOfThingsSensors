@@ -45,14 +45,9 @@ int main(int argc, char **argv)
         lcd->setCursor(0,0);                                                    
         lcd->setColor(127, 255, 127);                                           
         lcd->write("Temperature:");                                             
-        std::stringstream ss;                                                   
-                                                                                
+                                                                              
         while (!doWork)                                                         
         {                                                                       
-                ss.str(std::string());                                          
-                ss<<"Hello LCD";                                                
-                lcd->setCursor(1,2);                                            
-                lcd->write(ss.str());                                           
                 usleep (500000);                                                
         }                                                                       
                                                                                 
