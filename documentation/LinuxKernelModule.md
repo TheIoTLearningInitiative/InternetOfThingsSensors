@@ -73,6 +73,8 @@ JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers
 root@edison:~/.../LKM# 
 ```
 
+## Execution
+
 ```sh
 root@edison:~/.../LKM# sudo insmod JHD1313M2.ko
 ```
