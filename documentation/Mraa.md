@@ -120,6 +120,40 @@ Installed-Time: 1465260692
 root@edison:~# 
 ```
 
+```sh
+root@edison:~# opkg info mraa                                                              
+Package: mraa                                                                              
+Version: 0.9.5-r0                                                                          
+Depends: libgcc1 (>= 4.9.1), libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.20), libft4222 (>= 1)
+Status: unknown ok not-installed                                                           
+Section: libs                                                                              
+Architecture: core2-32                                                                     
+Maintainer: Poky <poky@yoctoproject.org>                                                   
+MD5Sum: 6eab34356ab6b7561a7221b7bf9ce3c1                                                   
+Size: 597286                                                                               
+Filename: mraa_0.9.5-r0_core2-32.ipk                                                       
+Source: git://github.com/intel-iot-devkit/mraa.git;protocol=git;tag=v0.9.5                 
+Description: Low Level Skeleton Library for Communication on Intel platforms  Low          
+ Level Skeleton Library for Communication on Intel platforms.                              
+                                                                                           
+Package: mraa                                                                              
+Version: 1.0.0-r0                                                                          
+Depends: libgcc1 (>= 4.9.1), python-core, libpython2.7-1.0 (>= 2.7.3), libstdc++6 (>= 4.9.)
+Status: install ok installed                                                               
+Section: libs                                                                              
+Architecture: core2-32                                                                     
+Maintainer: Poky <poky@yoctoproject.org>                                                   
+MD5Sum: 67acedaafba1fc6bb51def2aa3fb6a67                                                   
+Size: 434934                                                                               
+Filename: mraa_1.0.0-r0_core2-32.ipk                                                       
+Source: git://github.com/intel-iot-devkit/mraa.git;protocol=git;tag=v1.0.0                 
+Description: Low Level Skeleton Library for Communication on Intel platforms  Low          
+ Level Skeleton Library for Communication on Intel platforms.                              
+Installed-Time: 1465260638                                                                 
+                                                                                           
+root@edison:~# 
+```
+
 From there you can see that we need to installed at least version 0.7.0 of MRAA. In the same fashion you can check the version of the installed MRAA library.
 
 This basic MRAA example, can be used to verify it is correctly installed and found by the compiler
