@@ -8,7 +8,7 @@
 
 > Data Register (DR) - the DR temporarily stores data to be written into DDRAM or CGRAM and temporarily stores data to be read from DDRAM or CGRAM. The DR is also used for data storage when reading data from DDRAM or CGRAM.
 
-> Register Selector (RS) selects wither the IR or DR
+> Register Selector (RS) selects wither the Instruction Register (IR) and Data Register (DR)
 
 # Serial Peripheral Communication
 
