@@ -11,7 +11,7 @@
    * [I2C](documentation/documentation/I2C.md)
 * [Sensors](documentation/Sensors.md)
    * [Customization](documentation/Customization.md)
-* Actuators
+* [Actuators](documentation/Actuators.md)
 * IoT Developer Kit Libraries
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
