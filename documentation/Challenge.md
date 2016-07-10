@@ -8,7 +8,7 @@ With this step by step challenge you will enhance maximize the capacity of your 
 4. Implement functionality to display data to LCD RGB under
   https://github.com/xe1gyq/TheIoTLearningInitiative/blob/master/InternetOfThings101/main.py
   to make of our LCD RGB Kernel Driver from Marquito 
-5.  Look if Linux Kernel has mainline support for this LCD and enable
+5. Look if Linux Kernel has mainline support for this LCD and enable
 
 # Title
 
