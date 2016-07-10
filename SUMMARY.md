@@ -11,7 +11,6 @@
 * Microsystems Technology
    * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
-       * [Customization](documentation/Customization.md)
    * Tbd
 * IoT Developer Kit Libraries
    * [MRAA](documentation/Mraa.md)
