@@ -10,10 +10,6 @@
 
 > Register Selector (RS) selects the Instruction Register (IR) or Data Register (DR)
 
-# Serial Peripheral Communication
-
-> Serial Peripheral Interface (SPI) is an interface bus commonly used to send data between microcontrollers and small peripherals such as shift registers, sensors, and SD cards. It uses separate clock and data lines, along with a select line to choose the device you wish to talk to.  [Sparkfun Learn about Serial Peripheral Interface (SPI)](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi)
-
 # Serial Communication / Universal Asynchronous Receiver/Transmitter
 
 > A universal asynchronous receiver/transmitter, abbreviated UART, is a computer hardware device that translates data between characters (usually bytes) in a computer and an asynchronous serial communication format that encapsulates those characters between start bits and stop bits. UARTs are commonly used in conjunction with communication standards such as TIA (formerly EIA) RS-232, RS-422 or RS-485. [Wikipedia](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter)
