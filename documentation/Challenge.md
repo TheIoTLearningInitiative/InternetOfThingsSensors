@@ -18,7 +18,9 @@ Section [Link](url)
 
 __Instruction__ 
 
-> Tbd
+> 
+> 1. Display On/Off Control
+> 
 
 
 # Title
