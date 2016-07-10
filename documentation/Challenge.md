@@ -21,7 +21,7 @@ __Instruction__
 > 
 > 1. Display On/Off Control
 > 2. Display Lines, 2 Line Support
-> 3. Shifting (Banner, Marquesina) of Text
+> 3. Cursor Display Shift (Banner, Marquesina)
 
 
 # Title
