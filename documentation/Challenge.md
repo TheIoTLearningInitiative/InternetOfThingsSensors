@@ -9,7 +9,7 @@ With this step by step challenge you will enhance maximize the capacity of your 
   https://github.com/xe1gyq/TheIoTLearningInitiative/blob/master/InternetOfThings101/main.py
   to make of our LCD RGB Kernel Driver from Marquito 
 5. Look if Linux Kernel has mainline support for this LCD and enable
-6. Enable Serial Communication between Linux LCD
+6. Enable Serial Communication between Intel Edison and Arduino 101 / Genuino 101
 6. Push your code
 
 # Title
