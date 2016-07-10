@@ -1,6 +1,6 @@
 # Internet Of Things Sensors
 
-> Sensors surround you in daily life. The world is full of them: from passive infrared sensors in motion detectors, to CO2 detectors in air conditioning systems, and even tiny accelerometers, GPS modules, and cameras inside your smartphone and tablet—sensors are everywhere! The variety of sensor applications is remarkable.
+> Sensors surround you in daily life. The world is full of them: from passive infrared sensors in motion detectors, to CO2 detectors in air conditioning systems, and even tiny accelerometers, GPS modules, and cameras inside your smartphone and tablet—sensors are everywhere! The variety of sensor applications is remarkable. [Getting Started with Sensors by Tero Karvinen, Kimmo Karvinen](https://www.safaribooksonline.com/library/view/getting-started-with/9781449367077/)
 
 > It’s safe to assume that if an electronic device is considered “smart,” it’s full of sensors. In fact, thanks to the proliferation of smart devices, especially phones, the price of sensors has been driven to affordability. Not only is it economically viable to add advanced sensors to your projects, but they vastly expand the kinds of projects you can make. 
 
