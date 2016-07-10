@@ -10,7 +10,7 @@
    * [I2C](documentation/documentation/I2C.md)
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
    * [Serial Communication](documentation/SerialCommunication.md)
-   * Infrared
+   * [Infrared](documentation/Infrared.md)
 * [Microsystems Technology](documentation/MicrosystemsTechnology.md)
    * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
