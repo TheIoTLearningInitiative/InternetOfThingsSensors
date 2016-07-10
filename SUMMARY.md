@@ -8,6 +8,7 @@
 * [Introduction](documentation/Introduction.md)
 * [Communication Protocols](documentation/Protocols.md)
    * [I2C](documentation/documentation/I2C.md)
+   * Serial Peripheral Interface
 * [Microsystems Technology](documentation/MicrosystemsTechnology.md)
    * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
