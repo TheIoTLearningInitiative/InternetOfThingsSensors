@@ -1,13 +1,12 @@
 # Challenge
 
-With this step by step challenge you will have a parallel learning experience of Embedded Systems Programming and maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
+With this step by step challenge you will enhance maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
 
 - Implement the Shifting (Banner, Marquesina) of Text in one line + 2 Line Support
 - Write a driver in User Space (MRAA) and Kernel Space (.ko) for your Analog Temperature Sensor from Grove Kit
 - Implement functionality to display data to LCD RGB under
   https://github.com/xe1gyq/TheIoTLearningInitiative/blob/master/InternetOfThings101/main.py
   to make of our LCD RGB Kernel Driver from Marquito 
-
 
 1. Online Training, Summer Short Course on Embedded Systems Programming
 2. Build Systems, Yocto Board Support Package, Compilation, Make
