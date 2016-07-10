@@ -26,7 +26,7 @@ __Instruction__
 > 4. Display Clear
 
 
-# Linux Kernel Module Temperatura MRAA
+# Linux Driver Temperature MRAA
 
 Section [Link](url)
 
@@ -34,7 +34,7 @@ __Instruction__
 
 > Write a driver in User Space (MRAA) for your Analog Temperature Sensor from Grove Kit4. Write a driver in Kernel Space (.ko) for your Analog Temperature Sensor from Grove Kit
 
-# Linux Kernel Module Temperatura MRAA
+# Linux Driver Temperature Kernel Module
 
 Section [Link](url)
 
