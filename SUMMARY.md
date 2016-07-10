@@ -9,10 +9,10 @@
 * [Communication Protocols](documentation/Protocols.md)
    * [I2C](documentation/documentation/I2C.md)
 * Microsystems Technology
+   * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
        * [Customization](documentation/Customization.md)
    * Tbd
-* [Actuators](documentation/Actuators.md)
 * IoT Developer Kit Libraries
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
