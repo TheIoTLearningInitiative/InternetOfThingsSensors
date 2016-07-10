@@ -2,8 +2,9 @@
 
 > A protocol defines how a sensor talks to the microcontroller board, such as Arduino, Raspberry Pi, Edison or Galileo (just to name few). The protocol defines how the wires should be connected and how your code should ask for measurements. Even though there is a staggering amount of different sensors, there is a limited number of popular protocols. [References](References.md)
 
+# General Concepts
 
-Instruction Register (IR) - the IR stores instruction codes, such as display clear and cursor shift, and address information for display data RAM (DDRAM) and character generator RAM (CGRAM).
+> Instruction Register (IR) - the IR stores instruction codes, such as display clear and cursor shift, and address information for display data RAM (DDRAM) and character generator RAM (CGRAM).
 
 Data Register (DR) - the DR temporarily stores data to be written into DDRAM or CGRAM and temporarily stores data to be read from DDRAM or CGRAM. The DR is also used for data storage when reading data from DDRAM or CGRAM.
 
