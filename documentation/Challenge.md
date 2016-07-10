@@ -22,6 +22,7 @@ __Instruction__
 > 1. Display On/Off Control
 > 2. Display Lines, 2 Line Support
 > 3. Cursor Display Shift (Banner, Marquesina), Text string longer than number of characters
+> 4. Display Clear
 
 
 # Title
