@@ -12,7 +12,7 @@
    * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
    * Tbd
-* Layers of Abstraction
+* [Layers of Abstraction](documentation/LayersOfAbstraction.md)
 * IoT Developer Kit Libraries
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
