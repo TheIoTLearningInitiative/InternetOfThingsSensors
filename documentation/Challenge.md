@@ -20,6 +20,7 @@ __Instruction__
 
 > 
 > 1. Display On/Off Control
+> 2. Display Lines, 2 Line Support
 > 
 
 
