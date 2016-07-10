@@ -6,9 +6,9 @@
 
 > Instruction Register (IR) - the IR stores instruction codes
 
-Data Register (DR) - the DR temporarily stores data to be written into DDRAM or CGRAM and temporarily stores data to be read from DDRAM or CGRAM. The DR is also used for data storage when reading data from DDRAM or CGRAM.
+> Data Register (DR) - the DR temporarily stores data to be written into DDRAM or CGRAM and temporarily stores data to be read from DDRAM or CGRAM. The DR is also used for data storage when reading data from DDRAM or CGRAM.
 
-Register Selector (RS) selects wither the DR or IR
+> Register Selector (RS) selects wither the DR or IR
 
 # Serial Peripheral Communication
 
