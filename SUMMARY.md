@@ -12,6 +12,7 @@
    * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
    * Tbd
+* Layers of Abstraction
 * IoT Developer Kit Libraries
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
@@ -26,5 +27,4 @@
 * [Challenge](documentation/Challenge.md)
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
-* Layers of Abstraction
 
