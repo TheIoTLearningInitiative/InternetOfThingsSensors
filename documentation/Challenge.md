@@ -25,7 +25,6 @@ With this step by step challenge you will enhance maximize the capacity of your 
 12. Application Development, Bots, Telegram Bot
 13. Application Development, Artificial Intelligence, Wit.Ai
 
-
 # Title
 
 Section [Link](url)
@@ -35,3 +34,34 @@ __Instruction__
 > Tbd
 
 
+# Title
+
+Section [Link](url)
+
+__Instruction__ 
+
+> Tbd
+
+# Title
+
+Section [Link](url)
+
+__Instruction__ 
+
+> Tbd
+
+# Title
+
+Section [Link](url)
+
+__Instruction__ 
+
+> Tbd
+
+# Title
+
+Section [Link](url)
+
+__Instruction__ 
+
+> Tbd
