@@ -4,7 +4,7 @@
 
 # General Concepts
 
-> Instruction Register (IR) - the IR stores instruction codes, such as display clear and cursor shift, and address information for display data RAM (DDRAM) and character generator RAM (CGRAM).
+> Instruction Register (IR) - the IR stores instruction codes
 
 Data Register (DR) - the DR temporarily stores data to be written into DDRAM or CGRAM and temporarily stores data to be read from DDRAM or CGRAM. The DR is also used for data storage when reading data from DDRAM or CGRAM.
 
