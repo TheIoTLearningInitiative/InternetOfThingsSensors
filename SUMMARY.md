@@ -11,6 +11,7 @@
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
    * [Serial Communication](documentation/SerialCommunication.md)
    * [Infrared](documentation/Infrared.md)
+   * Pulse Width Modulation
 * [Microsystems Technology](documentation/MicrosystemsTechnology.md)
    * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
