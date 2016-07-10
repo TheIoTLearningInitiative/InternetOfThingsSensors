@@ -8,6 +8,7 @@
 * [Introduction](documentation/Introduction.md)
 * [Communication Protocols](documentation/Protocols.md)
    * [I2C](documentation/documentation/I2C.md)
+* Microsystems Technology
 * [Sensors](documentation/Sensors.md)
    * [Customization](documentation/Customization.md)
 * [Actuators](documentation/Actuators.md)
@@ -25,5 +26,4 @@
 * [Challenge](documentation/Challenge.md)
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
-* Microsystems Technology
 
