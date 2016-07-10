@@ -32,6 +32,6 @@ Section [Link](url)
 
 __Instruction__ 
 
-> Under your Linux Host Development, install the required dependencies, download and decompress the Intel Edison Linux Sources and compile your own Intel Edison Board Support Package
+> Tbd
 
 
