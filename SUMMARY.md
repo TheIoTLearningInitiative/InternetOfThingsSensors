@@ -13,12 +13,12 @@
    * [Sensors](documentation/Sensors.md)
    * Tbd
 * [Layers of Abstraction](documentation/LayersOfAbstraction.md)
+   * IoT Developer Kit Libraries
+       * [MRAA](documentation/Mraa.md)
+       * [UPM](documentation/Upm.md)
+       * [Labs](documentation/LibrariesLabs.md)
+       * [Contributions](documentation/LibrariesContributions.md)
    * Tbd
-* IoT Developer Kit Libraries
-   * [MRAA](documentation/Mraa.md)
-   * [UPM](documentation/Upm.md)
-   * [Labs](documentation/LibrariesLabs.md)
-   * [Contributions](documentation/LibrariesContributions.md)
 * [I2C Dev Libraries](documentation/I2CDevLibraries.md)
    * [LCD RGB Color Display](documentation/DisplayColor.md)
    * [LCD RGB Text](documentation/Text.md)
