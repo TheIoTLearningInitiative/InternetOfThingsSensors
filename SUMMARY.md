@@ -16,7 +16,6 @@
    * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
    * [Transducers](documentation/Transducers.md)
-   * Tbd
 * [Layers of Abstraction](documentation/LayersOfAbstraction.md)
    * IoT Developer Kit Libraries
        * [MRAA](documentation/Mraa.md)
