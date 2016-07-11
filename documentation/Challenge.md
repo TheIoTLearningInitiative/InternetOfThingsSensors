@@ -6,12 +6,9 @@ With this step by step challenge you will enhance maximize the capacity of your 
 2. Linux Driver Kernel Module LCD Display Main
 3. Linux Driver Userspace Module Temperature
 4. Linux Driver Kernel Module Temperature
-5. Implement functionality to display data to LCD RGB under
-  https://github.com/xe1gyq/TheIoTLearningInitiative/blob/master/InternetOfThings101/main.py
-  to make of our LCD RGB Kernel Driver from Marquito 
 5. Look if Linux Kernel has mainline support for this LCD and enable
 6. Enable Serial Communication between Intel Edison and Arduino 101 / Genuino 101
-6. Push your code
+7. Push your code
 
 # Linux Driver Kernel Module LCD Display Features
 
@@ -31,7 +28,7 @@ Section [Link](url)
 
 __Instruction__ 
 
-> 
+> Implement a Python script to handle MQTT subscribe topic, once a  message is received then display it under the LCD via the Linux Driver Kernel Module
 
 # Linux Driver Userspace Module Temperature
 
@@ -55,7 +52,7 @@ Section [Link](url)
 
 __Instruction__ 
 
-> Tbd
+> Look if Linux Kernel has mainline support for this LCD and enable
 
 # Title
 
