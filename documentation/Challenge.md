@@ -69,7 +69,7 @@ Section [Link](url)
 
 __Instruction__ 
 
-> Tbd
+> Make a basic serial communication between Intel Edison and Arduino 101 / Genuino 101
 
 # Title
 
