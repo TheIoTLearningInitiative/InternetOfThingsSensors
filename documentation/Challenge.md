@@ -46,13 +46,13 @@ __Instruction__
 
 > Write a driver in Kernel Space (.ko) for your Analog Temperature Sensor from Grove Kit
 
-# Title
+# Linux Kernel Mainline Support
 
 Section [Link](url)
 
 __Instruction__ 
 
-> Look if Intel Edison Linux Kernel version has mainline support for this LCD and enable it, in case support is not available then 
+> Look if both Linux Kernel Intel Edison and Linux Kernel Mainline versions have support for the LCD and Temperature  and enable it, in case support is not available then 
 
 # Title
 
