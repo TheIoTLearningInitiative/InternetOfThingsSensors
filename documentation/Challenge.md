@@ -3,10 +3,10 @@
 With this step by step challenge you will enhance maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
 
 1. Linux Driver Kernel Module LCD Display Features
-1. Linux Driver Kernel Module LCD Display 
+2. Linux Driver Kernel Module LCD Display 
 3. 2. Linux Driver Userspace Module Temperature
-3. Linux Driver Kernel Module Temperature
-4. Implement functionality to display data to LCD RGB under
+4. Linux Driver Kernel Module Temperature
+5. Implement functionality to display data to LCD RGB under
   https://github.com/xe1gyq/TheIoTLearningInitiative/blob/master/InternetOfThings101/main.py
   to make of our LCD RGB Kernel Driver from Marquito 
 5. Look if Linux Kernel has mainline support for this LCD and enable
