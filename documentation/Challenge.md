@@ -52,11 +52,12 @@ Section [Link](url)
 
 __Instruction__ 
 
-> Look if both Linux Kernel Intel Edison and Linux Kernel Mainline versions have support for the LCD and Temperature modules and enable them, in case support is not available enable both drivers in your Yocto Board Support Package Compilation
+> Look if both Linux Kernel Intel Edison and Linux Kernel Mainline versions (under Drivers/Misc) have support for the LCD and Temperature modules and enable them, in case support is not available enable both drivers in your Yocto Board Support Package Compilation
 
 Mainline
 
 - [Linux Kernel Mainline](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/)
+- [Linux Kernel Mainline Device Drivers Misc](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/misc)
 
 
 # Title
