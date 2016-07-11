@@ -4,7 +4,7 @@ With this step by step challenge you will enhance maximize the capacity of your 
 
 1. Linux Driver Kernel Module LCD Display Features
 2. Linux Driver Kernel Module LCD Display 
-3. 2. Linux Driver Userspace Module Temperature
+3. Linux Driver Userspace Module Temperature
 4. Linux Driver Kernel Module Temperature
 5. Implement functionality to display data to LCD RGB under
   https://github.com/xe1gyq/TheIoTLearningInitiative/blob/master/InternetOfThings101/main.py
