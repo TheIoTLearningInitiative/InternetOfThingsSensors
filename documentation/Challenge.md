@@ -25,7 +25,6 @@ __Instruction__
 > 3. Display Shift (Banner, Marquesina), Text string longer than number of characters
 > 4. Display Clear
 
-
 # Linux Driver Userspace Module Temperature
 
 Section [Link](url)
