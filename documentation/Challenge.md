@@ -31,11 +31,7 @@ Section [Link](url)
 
 __Instruction__ 
 
-> Enable support for the following Display features:
-> 1. Display On/Off Control
-> 2. Display Lines, 2 Line Support
-> 3. Display Shift (Banner, Marquesina), Text string longer than number of characters
-> 4. Display Clear
+> 
 
 # Linux Driver Userspace Module Temperature
 
