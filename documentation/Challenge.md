@@ -48,7 +48,6 @@ __Instruction__
 
 # Linux Kernel Mainline Support LCD and Temperature
 
-
 Section [Link](url)
 
 __Instruction__ 
