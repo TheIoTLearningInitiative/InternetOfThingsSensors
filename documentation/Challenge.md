@@ -12,7 +12,7 @@ With this step by step challenge you will enhance maximize the capacity of your 
 6. Enable Serial Communication between Intel Edison and Arduino 101 / Genuino 101
 6. Push your code
 
-# Linux Kernel Module LCD v2.0
+# Linux Driver Kernel Module LCD v2.0
 
 Section [Link](url)
 
