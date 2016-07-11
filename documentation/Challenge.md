@@ -52,7 +52,7 @@ Section [Link](url)
 
 __Instruction__ 
 
-> Look if both Linux Kernel Intel Edison and Linux Kernel Mainline versions have support for the LCD and Temperature modules and enable them, in case support is not available then 
+> Look if both Linux Kernel Intel Edison and Linux Kernel Mainline versions have support for the LCD and Temperature modules and enable them, in case support is not available enable both drivers 
 
 # Title
 
