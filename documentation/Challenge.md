@@ -13,7 +13,19 @@ With this step by step challenge you will enhance maximize the capacity of your 
 6. Enable Serial Communication between Intel Edison and Arduino 101 / Genuino 101
 6. Push your code
 
-# Linux Driver Kernel Module LCD v2.0
+# Linux Driver Kernel Module LCD Display Features
+
+Section [Link](url)
+
+__Instruction__ 
+
+> Enable support for the following Display features:
+> 1. Display On/Off Control
+> 2. Display Lines, 2 Line Support
+> 3. Display Shift (Banner, Marquesina), Text string longer than number of characters
+> 4. Display Clear
+
+# Linux Driver Kernel Module LCD Display Main
 
 Section [Link](url)
 
