@@ -1,4 +1,4 @@
-# Challenge
+your # Challenge
 
 With this step by step challenge you will enhance maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
 
@@ -52,7 +52,7 @@ Section [Link](url)
 
 __Instruction__ 
 
-> Look if both Linux Kernel Intel Edison and Linux Kernel Mainline versions have support for the LCD and Temperature modules and enable them, in case support is not available enable both drivers 
+> Look if both Linux Kernel Intel Edison and Linux Kernel Mainline versions have support for the LCD and Temperature modules and enable them, in case support is not available enable both drivers in your Yocto Board Support Package Compilation
 
 # Title
 
