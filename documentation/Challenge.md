@@ -63,6 +63,14 @@ Mainline
 7. Push your code
 
 
+# Serial Communication between Intel Edison and Arduino 101 / Genuino 101
+
+Section [Link](url)
+
+__Instruction__ 
+
+> Tbd
+
 # Title
 
 Section [Link](url)
