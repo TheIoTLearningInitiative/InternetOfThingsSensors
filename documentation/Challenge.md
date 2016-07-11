@@ -71,10 +71,10 @@ __Instruction__
 
 > Make a basic serial communication between Intel Edison and Arduino 101 / Genuino 101
 
-# Title
+# Software Version Control System Pushing Code 
 
-Section [Link](url)
+Section [Link]()
 
 __Instruction__ 
 
-> Tbd
+> Confirm every code under your local "TheIoTLearningInitiative" git repository, "InternetOfThings101" directory is uploaded to your remote "TheIoTLearningInitiative" github repository
