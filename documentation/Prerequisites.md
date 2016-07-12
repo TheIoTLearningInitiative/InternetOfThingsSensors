@@ -1,5 +1,6 @@
 # Prerequisites
 
+
 # Pre-Work
 
 ```sh
@@ -19,6 +20,7 @@ root@edison:~/TheIoTLearningInitiative# mkdir Sensors
 root@edison:~/TheIoTLearningInitiative# cd
 root@edison:~# 
 ```
+
 
 # Equipment
 
