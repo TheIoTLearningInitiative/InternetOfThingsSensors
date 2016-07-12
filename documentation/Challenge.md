@@ -1,4 +1,4 @@
-your # Challenge
+# Challenge
 
 With this step by step challenge you will enhance maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
 
