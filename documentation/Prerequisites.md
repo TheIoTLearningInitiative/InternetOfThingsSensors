@@ -21,7 +21,6 @@ root@edison:~/TheIoTLearningInitiative# cd
 root@edison:~# 
 ```
 
-
 # Equipment
 
 - Laptop
