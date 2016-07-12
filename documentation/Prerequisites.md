@@ -22,9 +22,10 @@ root@edison:~#
 
 # Equipment
 
-- Laptop
+- Laptop (Linux or Windows)
 - Internet Connection
-- Intel Edison
+- Micro USB Cable
+- Linux Based Board Development (Intel Edison, Intel Galileo)
 - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427) 
   - [Grove - LCD RGB Backlight (I2C Communication Protocol Device)](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
     ![](http://www.seeedstudio.com/wiki/images/thumb/0/03/Serial_LEC_RGB_Backlight_Lcd.jpg/500px-Serial_LEC_RGB_Backlight_Lcd.jpg)
