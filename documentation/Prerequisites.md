@@ -1,6 +1,5 @@
 # Prerequisites
 
-
 # Pre-Work
 
 ```sh
