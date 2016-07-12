@@ -3,7 +3,7 @@
 # Pre-Work
 
 ```sh
-root@edison:~# git clone https://github.com/UserName/TheIoTLearningInitiative.git
+root@edison:~# git clone https://github.com/YourUserName/TheIoTLearningInitiative.git
 Cloning into 'TheIoTLearningInitiative'...
 remote: Counting objects: 4, done.
 remote: Compressing objects: 100% (4/4), done.
