@@ -7,8 +7,7 @@ With this step by step challenge you will enhance maximize the capacity of your 
 3. Linux Driver Userspace Module Temperature
 4. Linux Driver Kernel Module Temperature
 5. Linux Kernel Mainline Support LCD and Temperature
-6. Enable Serial Communication between Intel Edison and Arduino 101 / Genuino 101
-7. Push your code
+6. Push your code
 
 # Linux Driver Kernel Module LCD Display Features
 
