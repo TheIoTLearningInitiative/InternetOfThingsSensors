@@ -9,5 +9,10 @@ By Kate Hartman](https://books.google.com.mx/books?id=Yt5DBAAAQBAJ)
 
 ## On Board IO Subsystems
 
+- General Purpose IO
+- Analog Digital / Digital Analog
+- Interrupts
+- Clock / Timers
+- Buses
 
 ## Bus Protocols
