@@ -7,7 +7,7 @@
 > Simply stated, a sensor is an electronic component that measures some aspect of the physical world and converts that measurement into varying electrical characteristics, namely voltage or resistance. Sensors can sense things like light, movement, temperature, and touch. They are exciting because they make the physical world perceivable by computers—even tiny computers like microcontrollers. [Make: Wearable Electronics: Design, prototype, and wear your own interactive ...
 By Kate Hartman](https://books.google.com.mx/books?id=Yt5DBAAAQBAJ)
 
-# On Board IO Subsystems
+## On Board IO Subsystems
 
 
-# Bus Protocols
+## Bus Protocols
