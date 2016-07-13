@@ -59,18 +59,6 @@ Mainline
 - [Linux Kernel Mainline](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/)
 - [Linux Kernel Mainline Device Drivers Misc](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/misc)
 
-7. 6. Enable Serial Communication between Intel Edison and Arduino 101 / Genuino 101
-7. Push your code
-
-
-# Serial Communication between Intel Edison and Arduino 101 / Genuino 101
-
-Section [Link](url)
-
-__Instruction__ 
-
-> Make a basic serial communication between Intel Edison and Arduino 101 / Genuino 101
-
 # Software Version Control System Pushing Code 
 
 Section [Link]()
