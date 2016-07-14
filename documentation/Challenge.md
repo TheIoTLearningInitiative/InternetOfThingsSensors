@@ -66,3 +66,4 @@ __Instruction__
 
 > Confirm every code under your local "TheIoTLearningInitiative" git repository, "InternetOfThings101" directory is uploaded to your remote "TheIoTLearningInitiative" github repository
 
+ToDo Diretory Structure
