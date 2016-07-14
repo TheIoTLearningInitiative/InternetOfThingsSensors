@@ -28,8 +28,8 @@
        * [LCD RGB Display Off](documentation/LcdOff.md)
        * [Temperature](documentation/Temperature.md)
    * [Linux Kernel Module](documentation/LinuxKernelModule.md)
+* Wrap-Up
 * [Challenge](documentation/Challenge.md)
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
-* Wrap-Up
 
