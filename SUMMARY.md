@@ -6,6 +6,7 @@
    * [Objectives](documentation/Objectives.md)
    * [Prerequisites](documentation/Prerequisites.md)
 * [Introduction](documentation/Introduction.md)
+   * Topologies
 * [Communication Protocols](documentation/Protocols.md)
    * [I2C](documentation/documentation/I2C.md)
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
