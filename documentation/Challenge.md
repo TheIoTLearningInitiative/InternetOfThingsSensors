@@ -2,12 +2,12 @@
 
 With this step by step challenge you will enhance maximize the capacity of your Development Board by writing functionality both in User Space and Kernel Space from the topics you have learned during the workshop.
 
-1. Linux Driver Kernel Module LCD Display Features
-2. Linux Driver Kernel Module LCD Display Main
-3. Linux Driver Userspace Module Temperature
-4. Linux Driver Kernel Module Temperature
-5. Linux Kernel Mainline Support LCD and Temperature
-6. Push your code
+01. Linux Driver Kernel Module LCD Display Features
+02. Linux Driver Kernel Module LCD Display Main
+03. Linux Driver Userspace Module Temperature
+04. Linux Driver Kernel Module Temperature
+05. Linux Kernel Mainline Support LCD and Temperature
+06. Push your code
 
 # Linux Driver Kernel Module LCD Display Features
 
