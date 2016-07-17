@@ -369,3 +369,7 @@ i2c-tools - 3.1.1-r0
 i2c-tools-dev - 3.1.1-r0
 i2c-tools-misc - 3.1.1-r0
 ```
+
+# Arduino 101
+
+https://github.com/01org/corelibs-arduino101/issues/112
