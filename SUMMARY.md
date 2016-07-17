@@ -11,6 +11,7 @@
    * [I2C](documentation/documentation/I2C.md)
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
    * [Serial Communication](documentation/SerialCommunication.md)
+       * Laboratory
    * [Infrared](documentation/Infrared.md)
    * [Pulse Width Modulation](documentation/PulseWidthModulation.md)
 * [Microsystems Technology](documentation/MicrosystemsTechnology.md)
