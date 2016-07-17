@@ -1,5 +1,7 @@
 # Linux
 
+- [](http://www.i-programmer.info/programming/hardware/9124-exploring-edison-i2c-bus.html)
+
 # Hardware
 
 - [Grove - LCD RGB Backlight (I2C Communication Protocol Device)](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
