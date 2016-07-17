@@ -12,6 +12,7 @@
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
    * [Serial Communication](documentation/SerialCommunication.md)
        * Laboratory
+           * Arduino and Linux
    * [Infrared](documentation/Infrared.md)
    * [Pulse Width Modulation](documentation/PulseWidthModulation.md)
 * [Microsystems Technology](documentation/MicrosystemsTechnology.md)
