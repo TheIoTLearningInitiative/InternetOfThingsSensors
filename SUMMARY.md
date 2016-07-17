@@ -9,6 +9,7 @@
    * Topologies
 * [Communication Protocols](documentation/Protocols.md)
    * [I2C](documentation/documentation/I2C.md)
+       * Laboratory
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
    * [Serial Communication](documentation/SerialCommunication.md)
        * Laboratory
