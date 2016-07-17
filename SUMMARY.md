@@ -18,7 +18,7 @@
            * [Arduino and Linux](documentation/SerialCommunicationArduinoAndLinux.md)
    * [Infrared](documentation/Infrared.md)
    * [Pulse Width Modulation](documentation/PulseWidthModulation.md)
-* [Microsystems Technology](documentation/MicrosystemsTechnology.md)
+* [Microsystems Technologies](documentation/MicrosystemsTechnology.md)
    * [Actuators](documentation/Actuators.md)
    * [Sensors](documentation/Sensors.md)
    * [Transducers](documentation/Transducers.md)
