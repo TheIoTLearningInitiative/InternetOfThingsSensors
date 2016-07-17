@@ -1,6 +1,6 @@
 # Linux
 
-- [](http://www.i-programmer.info/programming/hardware/9124-exploring-edison-i2c-bus.html)
+- [Exploring Edison - I2C Bus ](http://www.i-programmer.info/programming/hardware/9124-exploring-edison-i2c-bus.html)
 
 # Hardware
 
