@@ -11,7 +11,6 @@
    * [I2C](documentation/documentation/I2C.md)
        * Laboratory
            * [Linux](documentation/I2CLinux.md)
-       * Arduino
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
    * [Serial Communication](documentation/SerialCommunication.md)
        * Laboratory
