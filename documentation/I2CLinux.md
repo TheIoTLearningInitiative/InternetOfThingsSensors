@@ -363,5 +363,3 @@ i2c-tools - 3.1.1-r0
 i2c-tools-dev - 3.1.1-r0
 i2c-tools-misc - 3.1.1-r0
 ```
-
-
