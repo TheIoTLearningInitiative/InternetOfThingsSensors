@@ -7,7 +7,7 @@
    * [Prerequisites](documentation/Prerequisites.md)
 * [Introduction](documentation/Introduction.md)
    * Topologies
-   * Data Compression
+   * [Data Compression](documentation/DataCompression.md)
 * [Communication Protocols](documentation/Protocols.md)
    * [I2C](documentation/documentation/I2C.md)
        * Laboratory
