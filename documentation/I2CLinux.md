@@ -8,11 +8,11 @@
 - [PC9633 RGB Controller Datasheet](https://github.com/TheIoTLearningInitiative/InternetOfThingsSensors/blob/master/documentation/PCA9633.pdf)
     ![](http://www.seeedstudio.com/wiki/images/thumb/0/03/Serial_LEC_RGB_Backlight_Lcd.jpg/500px-Serial_LEC_RGB_Backlight_Lcd.jpg)
 
-## Intel® Edison kit for Arduino expansion board.
+# Intel® Edison kit for Arduino expansion board.
 
 ![](http://shop-media.intel.com/api/v2/helperservice/getimage?url=http://images.icecat.biz/img/gallery/25435695_7315.jpg&height=550&width=550)
 
-## SparkFun Block for Intel® Edison - I2C
+# SparkFun Block for Intel® Edison - I2C
 
 > This I2C Block simply breaks out an I2C bus on the Intel® Edison while level shifting it from 1.8V to your sensors voltage. This a simple board that can snap into your Edison and be used right away. [SparkFun Block for Intel® Edison - I2C](https://www.sparkfun.com/products/13034)
 
