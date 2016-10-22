@@ -35,10 +35,10 @@
        * [LCD RGB Display Off](documentation/LcdOff.md)
        * [Temperature](documentation/Temperature.md)
    * [Linux Kernel Module](documentation/LinuxKernelModule.md)
+* Data Engines
 * Wrap-Up
    * [Challenge](documentation/Challenge.md)
    * Tbd
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
-* Data Engines
 
