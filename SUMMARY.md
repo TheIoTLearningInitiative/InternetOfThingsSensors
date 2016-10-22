@@ -36,7 +36,7 @@
        * [Temperature](documentation/Temperature.md)
    * [Linux Kernel Module](documentation/LinuxKernelModule.md)
 * Data Engines
-   * [Sparkfun](Sparkfun.md)
+   * [Sparkfun](documentation/Sparkfun.md)
 * Wrap-Up
    * [Challenge](documentation/Challenge.md)
    * Tbd
