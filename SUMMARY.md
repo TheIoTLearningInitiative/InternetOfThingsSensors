@@ -12,7 +12,7 @@
    * [I2C](documentation/documentation/I2C.md)
        * Laboratory
            * [Linux](documentation/I2CLinux.md)
-           * [Arduino](I2CArduino.md)
+           * [Arduino](documentation/I2CArduino.md)
    * [Serial Peripheral Interface](documentation/SerialPeripheralInterface.md)
    * [Serial Communication](documentation/SerialCommunication.md)
        * Laboratory
