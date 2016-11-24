@@ -5,7 +5,7 @@
 * About This Training
    * [Objectives](documentation/Objectives.md)
    * [Prerequisites](documentation/Prerequisites.md)
-* [Introduction](documentation/Introduction.md)
+* [Introduction](documentation/SensorsActuators.md)
    * Topologies
    * [Data Compression](documentation/DataCompression.md)
 * [Communication Protocols](documentation/Protocols.md)
