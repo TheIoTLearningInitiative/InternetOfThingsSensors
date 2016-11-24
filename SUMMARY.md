@@ -38,7 +38,7 @@
    * [Linux Kernel Module](documentation/LinuxKernelModule.md)
 * Data Engines
    * [Sparkfun](documentation/SparkfunData.md)
-* Wrap-Up
+* [Wrap-Up](documentation/WrapUp.md)
    * [Challenge](documentation/Challenge.md)
    * Tbd
 * [References](documentation/References.md)
