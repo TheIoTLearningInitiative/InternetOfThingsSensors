@@ -1,8 +1,3 @@
 # I2C
 
-> The Inter-integrated Circuit (I2C) Protocol is a protocol intended to allow multiple “slave” digital integrated circuits (“chips”) to communicate with one or more “master” chips. Like the Serial Peripheral Interface (SPI), it is only intended for short distance communications within a single device. Like Asynchronous Serial Interfaces (such as RS-232 or UARTs), it only requires two signal wires to exchange information. [Sparkfun Learn about I2C](https://learn.sparkfun.com/tutorials/i2c)
-
-> Creating, debugging and operating a custom I2C peripheral... [I2C Hacking Demystified](http://events.linuxfoundation.org/sites/events/files/slides/ELC%202016%20-%20I2C%20hacking%20demystified_0.pdf)
-
-- [Linux Kernel I2C Documentation](https://www.kernel.org/doc/Documentation/i2c/)
-
+> I²C (Inter-Integrated Circuit), pronounced I-squared-C, is a multi-master, multi-slave, single-ended, serial computer bus invented by Philips Semiconductor (now NXP Semiconductors). It is typically used for attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance, intra-board communication. Alternatively I²C is spelled I2C (pronounced I-two-C) or IIC (pronounced I-I-C). [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)
