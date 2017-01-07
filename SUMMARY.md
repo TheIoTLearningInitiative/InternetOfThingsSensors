@@ -4,6 +4,7 @@
 * [Summary](SUMMARY.md)
 * [About This Training](documentation/AboutThisTraining.md)
     * [Objectives](documentation/Objectives.md)
+    * Skills
     * [Prerequisites](documentation/Prerequisites.md)
 * [Once Upon a Time ...](documentation/OnceUponATime.md)
 * [Introduction](documentation/SensorsActuators.md)
