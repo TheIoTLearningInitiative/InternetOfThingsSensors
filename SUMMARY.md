@@ -25,7 +25,7 @@
     * [Sensors](documentation/Sensors.md)
     * [Transducers](documentation/Transducers.md)
 * [Layers of Abstraction](documentation/LayersOfAbstraction.md)
-    * [Intel® IoT Developer Kit Libraries](documentation/IoTDeveloperKitLibraries.md)
+    * [Intel® IoT Developer Kit Libraries](documentation/IntelIoTDeveloperKitLibraries.md)
         * [MRAA](documentation/Mraa.md)
         * [UPM](documentation/Upm.md)
         * [Labs](documentation/LibrariesLabs.md)
