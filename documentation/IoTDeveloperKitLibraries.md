@@ -36,4 +36,8 @@
 # Education and Support
 
 > The developer kit also includes:
-> > 
+> > Documentation
+> >  Validated Code Samples
+> >  Developer Support
+> >  Product Design and Help
+
