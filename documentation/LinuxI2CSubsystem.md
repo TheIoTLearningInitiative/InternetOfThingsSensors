@@ -1,4 +1,4 @@
-# Linux Kernel Module
+# Linux I2C Subsystem
 
 # I'm a Pro! Yes You Are!
 
