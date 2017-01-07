@@ -39,7 +39,9 @@
 * Data Engines
     * [Sparkfun](documentation/SparkfunData.md)
 * [Wrap-Up](documentation/WrapUp.md)
-    * [Challenge](documentation/Challenge.md)
+    * [Online Training](documentation/OnlineTraining.md)
+    * Challenge
+* [Challenge](documentation/Challenge.md)
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
 
