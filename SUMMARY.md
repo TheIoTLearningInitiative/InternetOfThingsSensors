@@ -40,7 +40,6 @@
     * [Sparkfun](documentation/SparkfunData.md)
 * [Wrap-Up](documentation/WrapUp.md)
     * [Challenge](documentation/Challenge.md)
-    * Tbd
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
 
