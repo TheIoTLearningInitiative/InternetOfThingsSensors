@@ -40,8 +40,7 @@
     * [Sparkfun](documentation/SparkfunData.md)
 * [Wrap-Up](documentation/WrapUp.md)
     * [Online Training](documentation/OnlineTraining.md)
-    * Challenge
-* [Challenge](documentation/Challenge.md)
+    * [Challenge](documentation/Challenge.md)
 * [References](documentation/References.md)
 * [Sandbox](documentation/Sandbox.md)
 
