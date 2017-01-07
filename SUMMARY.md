@@ -11,7 +11,7 @@
     * Topologies
     * [Data Compression](documentation/DataCompression.md)
 * [Communication Protocols](documentation/Protocols.md)
-    * [I2C](documentation/documentation/I2C.md)
+    * [I2C](documentation/I2C.md)
         * [Laboratory](documentation/documentation/laboratory.md)
             * [Linux](documentation/I2CLinux.md)
             * [Arduino](documentation/I2CArduino.md)
