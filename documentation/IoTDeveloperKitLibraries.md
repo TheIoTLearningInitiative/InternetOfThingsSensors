@@ -10,4 +10,6 @@
 
 > Each board supports one or more of the following IDEs:
 > > Intel® XDK (Node.js*)
-> > 
+> > Intel® System Studio IoT Edition (C/C++, Java*)
+> > Intel® System Studio for Microcontrollers (C/C++)
+
