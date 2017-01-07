@@ -2,10 +2,10 @@
 
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
-* [Once Upon a Time ...](documentation/OnceUponATime.md)
 * [About This Training](documentation/AboutThisTraining.md)
     * [Objectives](documentation/Objectives.md)
     * [Prerequisites](documentation/Prerequisites.md)
+* [Once Upon a Time ...](documentation/OnceUponATime.md)
 * [Introduction](documentation/SensorsActuators.md)
     * Topologies
     * [Data Compression](documentation/DataCompression.md)
