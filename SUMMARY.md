@@ -30,7 +30,7 @@
         * [UPM](documentation/IidklUpm.md)
         * [Laboratory](documentation/IidklLabs.md)
         * [Contributions](documentation/IidklContributions.md)
-    * [Linux I2C Device Interface](documentation/I2CDevLibraries.md)
+    * [Linux I2C Device Interface](documentation/LinuxI2CDeviceInterface.md)
         * [LCD RGB Color Display](documentation/DisplayColor.md)
         * [LCD RGB Text](documentation/Text.md)
         * [LCD RGB Display Off](documentation/LcdOff.md)
