@@ -13,3 +13,17 @@
 > > Intel® System Studio IoT Edition (C/C++, Java*)
 > > Intel® System Studio for Microcontrollers (C/C++)
 
+# Sensors
+
+> Choose from a wide range of sensors and actuators to help your prototype interact with your environment.
+
+# Middleware Libraries
+
+## MRAA
+
+> Interface with the I/O on your board using this C/C++ library that has bindings to Javascript* and Python*.
+
+## UPM
+
+> Create easy function calls to your sensors for reading, setting, and displaying values with this high-level repository for sensors and actuators that use MRAA.
+
