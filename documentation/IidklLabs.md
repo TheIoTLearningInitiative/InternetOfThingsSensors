@@ -1,4 +1,4 @@
-# Labs
+# Laboratory
 
 # Using libraries (UPM & MRAA)
 
