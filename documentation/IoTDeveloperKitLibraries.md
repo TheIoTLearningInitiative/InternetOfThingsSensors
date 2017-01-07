@@ -33,3 +33,7 @@
 
 > The MRAA implementation for Zephyr provides a way to use the MRAA C API on Zephyr enabled devices, such as the Arduino 101 (branded Genuino 101* outside the U.S.) and the Intel® Quark™ Microcontroller Developer Kit D2000
 
+# Education and Support
+
+> The developer kit also includes:
+> > 
