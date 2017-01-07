@@ -28,7 +28,7 @@
     * [Intel® IoT Developer Kit Libraries](documentation/IntelIoTDeveloperKitLibraries.md)
         * [MRAA](documentation/IidklMraa.md)
         * [UPM](documentation/IidklUpm.md)
-        * [Labs](documentation/LibrariesLabs.md)
+        * [Labs](documentation/IidklLabs.md)
         * [Contributions](documentation/LibrariesContributions.md)
     * [I2C Dev Libraries](documentation/I2CDevLibraries.md)
         * [LCD RGB Color Display](documentation/DisplayColor.md)
