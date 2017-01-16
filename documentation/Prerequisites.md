@@ -1,6 +1,6 @@
 # Prerequisites
 
-# Training
+# Trainings
 
 - [Wind River IoT](https://theiotlearninginitiative.gitbooks.io/windriveriot/content/)
 
