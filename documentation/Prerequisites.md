@@ -4,7 +4,7 @@
 
 - [Wind River IoT](https://theiotlearninginitiative.gitbooks.io/windriveriot/content/)
 
-# Pre-Work
+# Source Code
 
 ```sh
 root@edison:~# git clone https://github.com/YourUserName/TheIoTLearningInitiative.git
@@ -24,7 +24,9 @@ root@edison:~/TheIoTLearningInitiative# cd
 root@edison:~#
 ```
 
-# Intel Edison Boot Up
+# Kernel Development Environment: Module Native Compilation
+
+## Intel Edison Boot Up
 
 ```sh
 Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
@@ -34,8 +36,6 @@ Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
     ...
     root@edison:~#
 ```
-
-# Kernel Development Environment: Module Native Compilation
 
 ## Kernel Headers Setup
 
