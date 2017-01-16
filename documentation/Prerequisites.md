@@ -110,6 +110,3 @@ root@edison:/lib/modules/3.10.98-poky-edison+# ln -s /home/root/usr/src/linux-he
 root@edison:/lib/modules/3.10.98-poky-edison+# cd
     root@edison:~#
 ```
-
-
-
