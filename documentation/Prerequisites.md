@@ -1,5 +1,9 @@
 # Prerequisites
 
+# Training
+
+- [Wind River IoT](https://theiotlearninginitiative.gitbooks.io/windriveriot/content/)
+
 # Pre-Work
 
 ```sh
